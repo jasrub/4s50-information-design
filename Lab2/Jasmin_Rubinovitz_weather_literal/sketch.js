@@ -21,7 +21,10 @@ function setup() {
 
 function draw() {    
   background(255);
-  stroke(80)
+  stroke(80);
+  push();
+  scale(0.9);
+  translate(width*0.05, height*0.05);
   
   var temp = forecastData.currently.temperature
 
@@ -332,6 +335,7 @@ function draw() {
   
 
   
+  pop();
   pop();
   
   
