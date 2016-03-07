@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>citysdk-sandbox</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    
+    <script src="libraries/jquery-1.12.1.min.js" type="text/javascript"></script>
+    
+    <script src="libraries/citysdk-master/js/citysdk.js" type="text/javascript"></script>
+    <script src="libraries/citysdk-master/js/citysdk.census_nocache.js" type="text/javascript"></script>
+    
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <script type="text/javascript" src="us-states.js"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+  <body>
+    <div id="map" class="leaflet-container"></div>
+    <script>
+      var mapboxAccessToken = 'pk.eyJ1IjoiamFzcnViIiwiYSI6ImNpbGhjd29sYjJkZzJ2Zm1jcHNkd2kzcTcifQ.pN5WAe4HlacZu6ZutZ5VXQ';
+      var map = L.map('map').setView([37.8, -96], 4);
+
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mapboxAccessToken, {
+    id: 'mapbox.light',
+    attribution: '',
+			id: 'mapbox.light'
+    }).addTo(map);
+
+    L.geoJson(statesData).addTo(map);
+    </script>
+  </body>
+</html>
