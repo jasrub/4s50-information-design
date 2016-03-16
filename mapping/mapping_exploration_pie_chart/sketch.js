@@ -253,6 +253,8 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(11)
     text (state, 0, -pieHeight/3+8)
+    fill(0)
+    ellipse(0,0,r/2,r/2)
     pop();
     w++
     if (w%10==0) {
@@ -284,6 +286,8 @@ function draw() {
       }
     }
     pop();
+    fill(0)
+    ellipse(0,0,r/2,r/2)
     pop();
     w++
     if (w%10==0) {

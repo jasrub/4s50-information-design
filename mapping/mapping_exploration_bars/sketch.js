@@ -141,9 +141,11 @@ var c5 = "#9900ff" //puerple
 var c6 = "#3399ff"
 
 var responseData = {};
-var rateKey = "employment_employed"// "population" // "employment_employed"
+var rateKey = "employment_employed"// "population"
 var maxRate = 0;
 var re = "[a-zA-Z]*_[a-zA-Z]*_(.*)"
+var loadFemale = false;
+var loadMale = false;
 
 function preload() {
   var sdk = new CitySDK(); //Create the CitySDK Instance
@@ -174,6 +176,7 @@ function preload() {
       }
     }
   }
+  loadFemale = true;
   })
   
   census.APIRequest(request_male, function(response) {
@@ -200,12 +203,13 @@ function preload() {
     }
   }
   print (maxRate)
+  loadMale = true;
   })
 }
 
 function setup() {
 
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1100, 4000);
 }
 
 function stateName (xPos, name) {
@@ -225,6 +229,7 @@ function draw() {
   numKeys = Object.keys(maxRates).length;
   barHeight = ((height-padding-padding)/numKeys);
   x=0;
+  if (loadFemale && loadMale){
   for (state in responseData.female) {
     xPos = map(x, 0, 51, padding, width-padding);
     stateName(xPos, state[0]+state[1])
@@ -235,14 +240,15 @@ function draw() {
       fill(color("#ff80df"));
       rectMode(CORNERS);
       noStroke();
-      y = map (responseData.female[state]["employment_female_"+key]/responseData.female[state][rateKey], 0, maxRate, barHeight-20, 0)
+      y = map (responseData.female[state]["employment_female_"+key]/responseData.female[state][rateKey], 0, maxRates[key], barHeight-20, 0)
       rect(xPos-7,h*barHeight+padding+y+20 ,xPos, (h+1)*barHeight+padding)
       fill(color("#3399ff"));
-      y = map (responseData.male[state]["employment_male_"+key]/responseData.male[state][rateKey], 0,maxRate, barHeight-20, 0)
+      y = map (responseData.male[state]["employment_male_"+key]/responseData.male[state][rateKey], 0,maxRates[key], barHeight-20, 0)
       rect(xPos,h*barHeight+padding+y+20 ,xPos+7, (h+1)*barHeight+padding)
       pop();
       h++
     }
+  }
   }
   h=0;
   for (key in maxRates) {
@@ -258,6 +264,6 @@ function draw() {
   
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+// }
