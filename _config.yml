@@ -7,7 +7,7 @@ tagline:             'MIT 4s50 - Information Design'
 description:         'MIT 4.s50 Information Design: Exploration, Navigation, and Understanding - Jasmin Rubivnotiz'
 url:                  http://jasrub.github.io
 baseurl:              /4s50-information-deisgn
-#paginate:            5
+paginate:            20
 
 # About/contact
 author:
