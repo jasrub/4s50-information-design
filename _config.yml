@@ -4,10 +4,10 @@ permalink:           none
 # Setup
 title:               Jasmin Rubinovitz
 tagline:             'MIT 4s50 - Information Design'
-description:         'MIT 4.s50 Information Design: Exploration, Navigation, and Understanding - Jasmin Rubivnotiz'
+description:         'Information Design: Exploration, Navigation, and Understanding <br/> <br/> MIT 4.s50 Spring 2016'
 url:                  http://jasrub.github.io
 baseurl:              /4s50-information-deisgn
-paginate:            20
+paginate:            5
 
 # About/contact
 author:
