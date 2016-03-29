@@ -73,7 +73,12 @@ var titlesLineHeight
 
 var donutWidth;
 
+var showTitles = false
+var showButton = "+"
+
 var loadedStates = 0
+
+var textColor = 80
 
 function getStateData(stateName) {
   state_request.state = stateName;
@@ -177,7 +182,6 @@ var bgColor
 function setup() {
   bgColor = color("#fffffd")
   
-  
   var cnv = createCanvas(windowWidth, windowHeight);
   cnv.position(0, 0);
   allStatesData["maxRate"] = {}
@@ -218,10 +222,27 @@ function setup() {
   });
 }
 
+function clickedButton() {
+  showTitles = !showTitles
+  if (showTitles) {
+    showButton = "-"
+  }
+  else {
+    showButton = "+"
+  }
+}
 
 function draw() {
   background(bgColor)
-
+  
+  push();
+  fill(textColor)
+  noStroke();
+  textAlign (CENTER, CENTER);
+  textSize(30)
+  textStyle(BOLD)
+  text(showButton, 15, 15)
+  pop();
   if (loaded) {
     drawViz()
   }
@@ -230,7 +251,7 @@ function draw() {
 
 function loadedText() {
   push();
-  fill(0)
+  fill(textColor)
   if (loadedStates<51) {
     text("loaded: "+round(map(loadedStates, 0,50, 0, 100))+"%", width/2, height-20)
   }
@@ -242,7 +263,7 @@ function drawViz() {
   r = min(width - 80, height - 80);
   noStroke()
   push();
-  translate(width * 2 / 3, height / 2);
+  translate(width/2, height / 2);
   
   var angle = 0;
   colorMode(HSL);
@@ -273,16 +294,12 @@ function drawViz() {
     if (!mouseArcs[key]) {
       startAngle = angleTotal
       endAngle = angleTotal+angle
-      // if (startAngle>PI) {
-      //   startAngle-=TWO_PI
-      // }
-      // if (endAngle>PI) {
-      //   endAngle-=TWO_PI
-      // }
       mouseArcs[key] = {startAng : startAngle, endAng : endAngle}
     }
-    occupationText(key, titlesPadding, (i * titlesLineHeight)+ titlesLineHeight/2+ titlesPadding, -angleTotal+HALF_PI, titlesLineHeight/2)
-
+    if (showTitles) {
+      occupationText(key, titlesPadding, (i * titlesLineHeight)+ titlesLineHeight/2+ titlesPadding, -angleTotal+HALF_PI, titlesLineHeight/2)
+    }
+    
     //changeColor
     currHue += step
     if (currHue > 360) {
@@ -297,7 +314,8 @@ function drawViz() {
   
   if (!isSelected){ 
     push()
-    fill(0)
+    colorMode(RGB)
+    fill(textColor)
     noStroke()
     textFont('Optima')
     textSize(round((width*2/3)/15))
@@ -317,7 +335,7 @@ function occupationText(key, x, y, rotateAngle, size) {
     push();
     string = key.replace(/_|occupations/g, ' ')
     rotate(rotateAngle);
-    translate(-width * 2 / 3, -height / 2)
+    translate(-width/2, -height / 2)
     noStroke()
     push();
     textFont(iconsFont)
@@ -345,10 +363,6 @@ function selectedOccupationTitle(r) {
     fill(30)
     translate(0, -r/2+donutWidth)
     string = selectedOccupation.replace(/_|occupations/g, ' ')
-    // if (selectedOccupation=="building_and_grounds_cleaning_and_maintenance_occupations"){
-    //   string = "building and grounds\ncleaning and maintenance"
-    //   employmentTextHeigth+=size
-    // }
     noStroke()
     push();
     textFont(iconsFont)
@@ -399,7 +413,7 @@ function setMapStyle(r) {
   
   $(mapElement).css('display', 'block');
   $(mapElement).css('top', (height *2/5)+"px");
-  $(mapElement).css('left', ((width * 2/3)-mapNewWidth/2.3+"px"));
+  $(mapElement).css('left', ((width /2)-mapNewWidth/2.3+"px"));
   
 }
 
@@ -407,7 +421,7 @@ function drawSelected() {
   var insideR = min(width - 80, height - 80) - donutWidth;
   push();
   textAlign(CENTER, CENTER)
-  translate(width * 2 / 3, height / 2);
+  translate(width/2, height / 2);
   
   textEndHeight = selectedOccupationTitle(insideR)
   drawMaleFemaleBar(textEndHeight, insideR)
@@ -436,12 +450,31 @@ function changeMapColors() {
 function mouseClicked(x, y) {
   clickY = mouseY
   clickX = mouseX
-  step = titlesLineHeight
-  currHeight = titlesPadding+step
-  i=0
-  selectedI = -1
-  gotI = false
-  if (clickX < width/3) {
+  if (clickX>0 && clickX<30 && clickY>0 && clickY<30) {
+    clickedButton()
+    return
+  }
+  selectedOccupation = isOnArc(clickX, clickY)
+  if (selectedOccupation!=""){
+    isSelected = true
+    changeMapColors()
+    i=0
+    for (key in maxRates){
+      if (key==selectedOccupation){
+        selectedI = i
+        break;
+      }
+      i++
+    }
+    return
+  }
+  else if (showTitles){
+    step = titlesLineHeight
+    currHeight = titlesPadding+step
+    i=0
+    selectedI = -1
+    gotI = false
+    if (clickX < width/3) {
     for (key in maxRates) {
       if (clickY<currHeight) {
         selectedI = i
@@ -452,23 +485,16 @@ function mouseClicked(x, y) {
       currHeight+=step
       i++
     }
-  }
-  if (!gotI) {
-      selectedOccupation = isOnArc(clickX, clickY)
-      print (selectedOccupation)
-      if (selectedOccupation!=""){
-        isSelected = true
-        changeMapColors()
-      }
-      else {
-        isSelected = false
-        $(mapElement).css('display', 'none');
-      }
-  }
-  else {
-    isSelected = true
+    }
+    if (gotI) {
+     isSelected = true
     changeMapColors()
+    return
+    }
   }
+  isSelected = false
+  $(mapElement).css('display', 'none');
+
 }
 
 function keyReleased() {
@@ -505,12 +531,12 @@ function windowResized() {
 function isOnArc(x,y) {
   var selected=""
   push();
-  translate(width*2/3, height/2);
-  clickAngle = atan2(mouseY-height/2, mouseX-width*2/3)+HALF_PI;
+  translate(width/2, height/2);
+  clickAngle = atan2(mouseY-height/2, mouseX-width/2)+HALF_PI;
   if (clickAngle<0) {
     clickAngle+=TWO_PI
   }
-  clickRadius = dist(width*2/3, height/2,x,y)
+  clickRadius = dist(width/2, height/2,x,y)
   for (key in mouseArcs) {
     if (clickAngle>mouseArcs[key].startAng && clickAngle<mouseArcs[key].endAng && clickRadius<r/2 && clickRadius>(r-donutWidth)/2) {
       selected=key
