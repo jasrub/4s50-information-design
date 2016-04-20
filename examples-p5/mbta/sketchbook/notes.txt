@@ -1,0 +1,117 @@
+mbta-example
+============
+- first stab at visualizing data from 
+https://www.dropbox.com/s/vv2l1iehhx3wkfx/StationTurnstileCountsByMinute_2014_02-01--03-02.csv.zip
+  * minute-by-minute turnstile entry and exit information for MBTA stations during February 2014
+
+Data Parsing:
+- csv file was 70MB uncompressed-- too big for loadTable()
+  * opened the file in a text editor and manually divided out the stations i was interested in
+  * each station ~1MB
+
+Data Exploring:
+- plot minute-by-minute entries (up from center) and exits (down from center) for a day for a single station (KND)
+- overlay a line with minute-by-minute diffs
+- automatically loops through the days, click to start or stop looping
+
+Open Issues:
+- map scale is hardcoded, should find that programmatically
+- data smoothing? it's a lot noisier than i would have liked (mbta-example-smooth-1)
+- data caching? it builds the array for daily entries and exits on each draw loop. i could save that information somewhere (mbta-example-smooth-2)
+- better interaction? use arrow keys to move between days
+
+
+mbta-example-smooth-1
+=====================
+- make binSize a variable so i can easily change it and find the best size for the data
+
+Open Issues:
+- the bin sizes aren't all the same! (mbta-example-smooth-2)
+
+mbta-example-smooth-2
+=====================
+traffic = [ daily: {
+	    binned: [ binnedTraffic ],
+	    binnedTraffic ] 
+
+binnedTraffic = { startTime,
+	      	  endTime,
+		  entries, 
+		  exits }
+
+- change x map and normalize values. data structure is now:
+traffic = [daily: {
+	   binned: startTime, endTime, entries, exits, entries_per_minute, exits_per_minute},
+	   entries,
+	   exits}]
+
+Open Issues/Questions:
+- i can see:
+  * rush hour
+  * weekends vs weekdays
+  * holidays
+- i want to answer the question, what does the daily inflow and outflow look like? does it always even out? (mbta-example-daily)
+
+mbta-example-daily
+==================
+- chose lines instead of closed shapes so i could see the individual days
+- there is way more inflow than outflow, and the number can vary pretty wildly-- crazy!
+- initially bars were unnormalized (kendall-unnormalized), but there was too much variability between stations and days, so i eventually made in/out flow a ratio of total traffic (in+out) for that day 
+
+
+Open Questions:
+- is it like this for every station?
+  * there is generally more in than out, but it changes a lot by station
+- is it affected by the weather?
+  * if there is a correlation, it's beyond the ability/time i have to dedicate this to figure it out. maybe i can find another interesting story
+
+where-did-everyone-go-static
+============================
+- each circle is a station along the red line
+- the bright red circle is the total entries for the month, the dark red circle is the total exits
+  * scales linearly with area
+
+- data structure is now:
+traffic = { stationName : { [daily], entries, exits} } 
+(ie added total entries and exits, and can hold multiple stations in object)
+
+Next Steps:
+- animate! (where-did-everyone-go-rough-1)
+
+where-did-everyone-go-rough-1
+=============================
+- circle should "accumulate" with people in the area (so it will get bigger when a person exits the station and enters the neighborhood, and smaller when a person enters the station and thus leaves the neighborhood)
+- data structure is now:
+traffic = { stationName : { timestamp, binned } }
+- findCumulative calculated the cumulative (exits - entries) over the course of a day, binned according to bin size
+
+Open Issues:
+- again, timestamps vary over the course of the day and from station to station, so i need to bin by time, not index (where-did-everyone-go-rough-2)
+
+where-did-everyone-go-rough-2
+=============================
+- now the bins are by minute instead of index, and all stations use the same timestamp instead of each having their own, so everything is more regular
+- data structure is:
+traffic = [ {startTime, endTime, stationName, ... }]
+  * The timestamps are calculated first, then the cumulative entries and exits are added
+
+Open Issues:
+- there seems to be a weird bug where Davis Square is shrinking after hours (where-did-everyone-go)
+- it should be prettier, get rid of the debug time
+  * i tried changing the background color to correspond with sunrise/sunset, but the change in color was just too weird, it looked like an optical illusion
+
+where-did-everyone-go
+=====================
+- all stations start as the same size and shrink when people enter the station and grow when they exit the station. so you can see how people move throughout the course of the day
+- one weird side effect is that all the stations arent the same size at the end of the day! so not everyone went back to where they came from. also, it seems like the mbta is "trapping" people inside, especially at davis, but its probably people leaving via the handicapped/emergency exits
+
+- fixed bug in previous iteration
+- added labels
+- added pause/play button
+- made looping a little more intuitive
+
+Next Steps:
+- more stations
+- more days
+- add mouseover so that you can see the actual numbers, not just the shapes
+- better animation controls (rewind, scrubber, etc)

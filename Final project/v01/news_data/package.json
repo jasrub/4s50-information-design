@@ -1,0 +1,14 @@
+{
+  "name": "news_data",
+  "version": "1.0.0",
+  "description": "mongodb and p5.js project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongodb": "~2.0"
+  },
+  "author": "jasrub",
+  "license": "ISC"
+}

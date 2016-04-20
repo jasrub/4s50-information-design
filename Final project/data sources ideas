@@ -6,10 +6,42 @@ super-glue data - meta data about news videos - duration, entities, keywords, fr
 Visualization tells a story:
 Who is interesting?  what sources are talking about who, most used words, frames?
 
+Ben:
+Looking for signals in the past for the things that are now boiling (Apple vs FBI -- companies posting at their privacy policy - google, at&t).
+The graph fot the entities has very long tail. intersting to look at the center, not top subject like trump, but the stuff in the center
+How do you navigate this huge dataset archive in a way that is not a search box
+
+For the videos, looking at the signals, looking at the steep region of the power law(Apple, Trump)  
+
+All sources have the same thing in the top news (cnn vs. npr)
+
 Recipes data - recipes, ingredients, nutrition facts, reviews
 Most used ingredients, nutrition visualization, price breakdown, recipes by category, recipes with most ingerdients, ingredients families
+
+Ben:
+Interesting to think about how you navigate between the recipes, not with a search box or by ingredient, how things relate to ech other, what is similar
+Ben: The most interesting thing to look at, given a number of recipes, how can you make something interesting instead of search buttons and etc., but you can look whether the search process can be reorganized. 
+Visualization is not a chart and a pie but how do you get from chart a and chart b.  H0w do you get from point A and point B.  How do you interact with that 
+
+James:
+Recipes - visualizing using the image, and percantege of ingredients in the recipe showing on the image
 
 MIT Data
 Who teaches what
 enrollment data
 
+Google books n-grams - hbrew - english comparison of words
+https://aws.amazon.com/datasets/google-books-ngrams/?tag=datasets%23keywords%23encyclopedic
+
+Metropolita data
+type of works - dates - artist gender  - artist origin - color histogram
+http://www.metmuseum.org/about-the-met/policies-and-documents/image-resources
+
+
+sentiment analysis
+Icons / colors - politics, internatioal, business, technology, entertainment, sports, science, health, tec.
+
+
+Algorithms:
+Running a modification of Apriori algorithm to find all sets of word in closed captions
+Running svd for Principlae Component Analysis (PCA) of the adjancy matrix to get best locations for the entities bubbles.

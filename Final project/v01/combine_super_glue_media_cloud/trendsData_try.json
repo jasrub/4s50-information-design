@@ -1,0 +1,2133 @@
+{
+  "PRESIDENT": {
+    "count": 9,
+    "frequency": [
+      {
+        "term": "obama",
+        "count": 154,
+        "stem": "obama"
+      },
+      {
+        "count": 56,
+        "term": "barack",
+        "stem": "barack"
+      },
+      {
+        "count": 53,
+        "term": "republican",
+        "stem": "republican"
+      },
+      {
+        "count": 47,
+        "term": "clinton",
+        "stem": "clinton"
+      },
+      {
+        "term": "rousseff",
+        "count": 42,
+        "stem": "rousseff"
+      },
+      {
+        "term": "democratic",
+        "count": 37,
+        "stem": "democrat"
+      },
+      {
+        "stem": "impeach",
+        "count": 35,
+        "term": "impeachment"
+      },
+      {
+        "term": "american",
+        "count": 33,
+        "stem": "american"
+      },
+      {
+        "stem": "washington",
+        "term": "washington",
+        "count": 32
+      },
+      {
+        "stem": "ryan",
+        "count": 30,
+        "term": "ryan"
+      },
+      {
+        "term": "minister",
+        "count": 28,
+        "stem": "minist"
+      },
+      {
+        "stem": "trump",
+        "count": 28,
+        "term": "trump"
+      },
+      {
+        "count": 28,
+        "term": "paul",
+        "stem": "paul"
+      },
+      {
+        "term": "supreme",
+        "count": 27,
+        "stem": "suprem"
+      },
+      {
+        "stem": "nomine",
+        "count": 26,
+        "term": "nominee"
+      },
+      {
+        "term": "brazil",
+        "count": 26,
+        "stem": "brazil"
+      },
+      {
+        "stem": "dilma",
+        "count": 25,
+        "term": "dilma"
+      },
+      {
+        "count": 23,
+        "term": "presidential",
+        "stem": "presidenti"
+      },
+      {
+        "term": "garland",
+        "count": 22,
+        "stem": "garland"
+      },
+      {
+        "term": "hillary",
+        "count": 22,
+        "stem": "hillari"
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 5284,
+      "sample_size_param": 1000,
+      "num_words_param": 500,
+      "num_words_returned": 500,
+      "num_sentences_returned": 1000
+    }
+  },
+  "Reporter": {
+    "count": 8,
+    "frequency": [
+      {
+        "count": 28,
+        "term": "washington",
+        "stem": "washington"
+      },
+      {
+        "count": 20,
+        "term": "tara",
+        "stem": "tara"
+      },
+      {
+        "term": "campaign",
+        "count": 17,
+        "stem": "campaign"
+      },
+      {
+        "count": 13,
+        "term": "trump",
+        "stem": "trump"
+      },
+      {
+        "count": 11,
+        "term": "media",
+        "stem": "media"
+      },
+      {
+        "stem": "david",
+        "count": 10,
+        "term": "david"
+      },
+      {
+        "term": "john",
+        "count": 10,
+        "stem": "john"
+      },
+      {
+        "count": 10,
+        "term": "journal",
+        "stem": "journal"
+      },
+      {
+        "term": "kidnapping",
+        "count": 9,
+        "stem": "kidnap"
+      },
+      {
+        "stem": "faulkner",
+        "term": "faulkner",
+        "count": 9
+      },
+      {
+        "stem": "abilen",
+        "count": 8,
+        "term": "abilene"
+      },
+      {
+        "stem": "alleg",
+        "count": 8,
+        "term": "alleged"
+      },
+      {
+        "stem": "sport",
+        "term": "sports",
+        "count": 8
+      },
+      {
+        "stem": "kobe",
+        "term": "kobe",
+        "count": 8
+      },
+      {
+        "stem": "ben",
+        "term": "ben",
+        "count": 7
+      },
+      {
+        "stem": "nba",
+        "term": "nba",
+        "count": 7
+      },
+      {
+        "count": 7,
+        "term": "children",
+        "stem": "children"
+      },
+      {
+        "stem": "salli",
+        "term": "sally",
+        "count": 7
+      },
+      {
+        "count": 7,
+        "term": "corey",
+        "stem": "corey"
+      },
+      {
+        "count": 7,
+        "term": "lewandowski",
+        "stem": "lewandowski"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "num_sentences_returned": 383,
+      "num_sentences_found": 383,
+      "sample_size_param": 1000,
+      "num_words_returned": 500
+    }
+  },
+  "DONALD TRUMP": {
+    "count": 8,
+    "frequency": [
+      {
+        "term": "trump",
+        "stem": "trump",
+        "count": 1015
+      },
+      {
+        "stem": "donald",
+        "count": 312,
+        "term": "donald"
+      },
+      {
+        "term": "cruz",
+        "count": 186,
+        "stem": "cruz"
+      },
+      {
+        "stem": "deleg",
+        "count": 159,
+        "term": "delegates"
+      },
+      {
+        "term": "republican",
+        "count": 136,
+        "stem": "republican"
+      },
+      {
+        "term": "clinton",
+        "stem": "clinton",
+        "count": 91
+      },
+      {
+        "count": 91,
+        "stem": "campaign",
+        "term": "campaign"
+      },
+      {
+        "count": 73,
+        "stem": "presidenti",
+        "term": "presidential"
+      },
+      {
+        "count": 64,
+        "stem": "ted",
+        "term": "ted"
+      },
+      {
+        "count": 59,
+        "stem": "kasich",
+        "term": "kasich"
+      },
+      {
+        "term": "nomination",
+        "count": 57,
+        "stem": "nomin"
+      },
+      {
+        "count": 45,
+        "stem": "gop",
+        "term": "gop"
+      },
+      {
+        "term": "poll",
+        "stem": "poll",
+        "count": 40
+      },
+      {
+        "count": 39,
+        "stem": "ralli",
+        "term": "rally"
+      },
+      {
+        "term": "colorado",
+        "count": 34,
+        "stem": "colorado"
+      },
+      {
+        "count": 32,
+        "stem": "hillari",
+        "term": "hillary"
+      },
+      {
+        "count": 31,
+        "stem": "sander",
+        "term": "sanders"
+      },
+      {
+        "term": "john",
+        "stem": "john",
+        "count": 29
+      },
+      {
+        "term": "democratic",
+        "count": 27,
+        "stem": "democrat"
+      },
+      {
+        "count": 25,
+        "stem": "runner",
+        "term": "runner"
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 6814,
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 1000,
+      "num_words_returned": 500
+    }
+  },
+  "NEW YORK": {
+    "count": 7,
+    "frequency": [
+      {
+        "stem": "trump",
+        "term": "trump",
+        "count": 49
+      },
+      {
+        "stem": "orlean",
+        "term": "orleans",
+        "count": 32
+      },
+      {
+        "stem": "clinton",
+        "term": "clinton",
+        "count": 32
+      },
+      {
+        "count": 27,
+        "term": "sanders",
+        "stem": "sander"
+      },
+      {
+        "count": 26,
+        "stem": "smith",
+        "term": "smith"
+      },
+      {
+        "count": 19,
+        "term": "photo",
+        "stem": "photo"
+      },
+      {
+        "stem": "democrat",
+        "term": "democratic",
+        "count": 19
+      },
+      {
+        "term": "campaign",
+        "stem": "campaign",
+        "count": 19
+      },
+      {
+        "term": "hillary",
+        "stem": "hillari",
+        "count": 17
+      },
+      {
+        "term": "poll",
+        "stem": "poll",
+        "count": 17
+      },
+      {
+        "term": "jersey",
+        "stem": "jersey",
+        "count": 16
+      },
+      {
+        "term": "delhi",
+        "stem": "delhi",
+        "count": 16
+      },
+      {
+        "count": 16,
+        "stem": "zealand",
+        "term": "zealand"
+      },
+      {
+        "count": 15,
+        "stem": "republican",
+        "term": "republican"
+      },
+      {
+        "stem": "saint",
+        "term": "saints",
+        "count": 15
+      },
+      {
+        "stem": "american",
+        "term": "american",
+        "count": 15
+      },
+      {
+        "count": 14,
+        "term": "donald",
+        "stem": "donald"
+      },
+      {
+        "count": 13,
+        "stem": "washington",
+        "term": "washington"
+      },
+      {
+        "count": 13,
+        "stem": "econom",
+        "term": "economic"
+      },
+      {
+        "stem": "cruz",
+        "term": "cruz",
+        "count": 13
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_found": 20875,
+      "num_sentences_returned": 1000
+    }
+  },
+  "U.S.": {
+    "count": 7,
+    "frequency": [
+      {
+        "stem": "china",
+        "term": "china",
+        "count": 44
+      },
+      {
+        "term": "washington",
+        "stem": "washington",
+        "count": 43
+      },
+      {
+        "term": "reuters",
+        "stem": "reuter",
+        "count": 30
+      },
+      {
+        "count": 29,
+        "stem": "navi",
+        "term": "navy"
+      },
+      {
+        "stem": "crude",
+        "term": "crude",
+        "count": 28
+      },
+      {
+        "count": 28,
+        "stem": "american",
+        "term": "american"
+      },
+      {
+        "stem": "global",
+        "term": "global",
+        "count": 26
+      },
+      {
+        "stem": "econom",
+        "term": "economic",
+        "count": 22
+      },
+      {
+        "stem": "john",
+        "term": "john",
+        "count": 21
+      },
+      {
+        "term": "treasury",
+        "stem": "treasuri",
+        "count": 20
+      },
+      {
+        "stem": "economi",
+        "term": "economy",
+        "count": 19
+      },
+      {
+        "term": "kerry",
+        "stem": "kerri",
+        "count": 18
+      },
+      {
+        "stem": "export",
+        "term": "export",
+        "count": 18
+      },
+      {
+        "term": "nuclear",
+        "stem": "nuclear",
+        "count": 18
+      },
+      {
+        "term": "tax",
+        "stem": "tax",
+        "count": 18
+      },
+      {
+        "count": 18,
+        "stem": "obama",
+        "term": "obama"
+      },
+      {
+        "stem": "european",
+        "term": "european",
+        "count": 18
+      },
+      {
+        "term": "investors",
+        "stem": "investor",
+        "count": 17
+      },
+      {
+        "count": 17,
+        "stem": "currenc",
+        "term": "currency"
+      },
+      {
+        "stem": "chines",
+        "term": "chinese",
+        "count": 16
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "num_sentences_found": 6869,
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 1000
+    }
+  },
+  "HILLARY CLINTON": {
+    "count": 7,
+    "frequency": [
+      {
+        "stem": "clinton",
+        "term": "clinton",
+        "count": 972
+      },
+      {
+        "term": "hillary",
+        "stem": "hillari",
+        "count": 398
+      },
+      {
+        "count": 288,
+        "term": "sanders",
+        "stem": "sander"
+      },
+      {
+        "count": 177,
+        "stem": "democrat",
+        "term": "democratic"
+      },
+      {
+        "term": "trump",
+        "stem": "trump",
+        "count": 136
+      },
+      {
+        "term": "bernie",
+        "stem": "berni",
+        "count": 110
+      },
+      {
+        "stem": "campaign",
+        "term": "campaign",
+        "count": 95
+      },
+      {
+        "stem": "presidenti",
+        "term": "presidential",
+        "count": 71
+      },
+      {
+        "count": 69,
+        "stem": "poll",
+        "term": "poll"
+      },
+      {
+        "term": "delegates",
+        "stem": "deleg",
+        "count": 58
+      },
+      {
+        "stem": "obama",
+        "term": "obama",
+        "count": 50
+      },
+      {
+        "count": 47,
+        "term": "donald",
+        "stem": "donald"
+      },
+      {
+        "count": 42,
+        "stem": "blasio",
+        "term": "blasio"
+      },
+      {
+        "stem": "republican",
+        "term": "republican",
+        "count": 36
+      },
+      {
+        "count": 34,
+        "stem": "cruz",
+        "term": "cruz"
+      },
+      {
+        "term": "mrs",
+        "stem": "mrs",
+        "count": 32
+      },
+      {
+        "count": 32,
+        "stem": "american",
+        "term": "americans"
+      },
+      {
+        "count": 31,
+        "term": "superdelegates",
+        "stem": "superdeleg"
+      },
+      {
+        "count": 31,
+        "term": "nomination",
+        "stem": "nomin"
+      },
+      {
+        "stem": "mayor",
+        "term": "mayor",
+        "count": 26
+      }
+    ],
+    "stats": {
+      "sample_size_param": 1000,
+      "num_sentences_found": 4011,
+      "num_words_returned": 500,
+      "num_words_param": 500,
+      "num_sentences_returned": 1000
+    }
+  },
+  "WASHINGTON": {
+    "count": 6,
+    "frequency": [
+      {
+        "count": 967,
+        "stem": "washington",
+        "term": "washington"
+      },
+      {
+        "term": "trump",
+        "count": 43,
+        "stem": "trump"
+      },
+      {
+        "term": "obama",
+        "count": 42,
+        "stem": "obama"
+      },
+      {
+        "term": "republican",
+        "count": 40,
+        "stem": "republican"
+      },
+      {
+        "term": "clinton",
+        "count": 29,
+        "stem": "clinton"
+      },
+      {
+        "stem": "capitol",
+        "count": 28,
+        "term": "capitol"
+      },
+      {
+        "term": "imf",
+        "count": 26,
+        "stem": "imf"
+      },
+      {
+        "term": "philadelphia",
+        "count": 24,
+        "stem": "philadelphia"
+      },
+      {
+        "term": "delegates",
+        "stem": "deleg",
+        "count": 24
+      },
+      {
+        "count": 24,
+        "stem": "reuter",
+        "term": "reuters"
+      },
+      {
+        "count": 23,
+        "stem": "gmt",
+        "term": "gmt"
+      },
+      {
+        "term": "barack",
+        "stem": "barack",
+        "count": 23
+      },
+      {
+        "term": "monetary",
+        "count": 23,
+        "stem": "monetari"
+      },
+      {
+        "term": "donald",
+        "count": 21,
+        "stem": "donald"
+      },
+      {
+        "term": "photo",
+        "count": 21,
+        "stem": "photo"
+      },
+      {
+        "count": 21,
+        "stem": "presidenti",
+        "term": "presidential"
+      },
+      {
+        "stem": "democrat",
+        "count": 20,
+        "term": "democratic"
+      },
+      {
+        "term": "campaign",
+        "stem": "campaign",
+        "count": 20
+      },
+      {
+        "term": "sanders",
+        "stem": "sander",
+        "count": 20
+      },
+      {
+        "term": "john",
+        "count": 20,
+        "stem": "john"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "num_sentences_returned": 1000,
+      "num_sentences_found": 3011,
+      "sample_size_param": 1000,
+      "num_words_returned": 500
+    }
+  },
+  "BOSTON": {
+    "count": 6,
+    "frequency": [
+      {
+        "stem": "boston",
+        "count": 832,
+        "term": "boston"
+      },
+      {
+        "count": 86,
+        "stem": "globe",
+        "term": "globe"
+      },
+      {
+        "term": "sox",
+        "count": 64,
+        "stem": "sox"
+      },
+      {
+        "term": "marathon",
+        "count": 47,
+        "stem": "marathon"
+      },
+      {
+        "count": 45,
+        "stem": "celtic",
+        "term": "celtics"
+      },
+      {
+        "count": 37,
+        "stem": "baltimor",
+        "term": "baltimore"
+      },
+      {
+        "term": "trump",
+        "stem": "trump",
+        "count": 34
+      },
+      {
+        "term": "san",
+        "count": 30,
+        "stem": "san"
+      },
+      {
+        "stem": "david",
+        "count": 27,
+        "term": "david"
+      },
+      {
+        "term": "angeles",
+        "count": 26,
+        "stem": "angel"
+      },
+      {
+        "term": "los",
+        "count": 26,
+        "stem": "los"
+      },
+      {
+        "term": "inning",
+        "count": 25,
+        "stem": "inning"
+      },
+      {
+        "count": 24,
+        "stem": "ortiz",
+        "term": "ortiz"
+      },
+      {
+        "term": "orioles",
+        "count": 22,
+        "stem": "oriol"
+      },
+      {
+        "term": "hospital",
+        "count": 21,
+        "stem": "hospit"
+      },
+      {
+        "term": "charlotte",
+        "count": 20,
+        "stem": "charlott"
+      },
+      {
+        "term": "fenway",
+        "stem": "fenway",
+        "count": 20
+      },
+      {
+        "term": "bruins",
+        "stem": "bruin",
+        "count": 19
+      },
+      {
+        "stem": "hornet",
+        "count": 18,
+        "term": "hornets"
+      },
+      {
+        "stem": "miami",
+        "count": 17,
+        "term": "miami"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "num_sentences_found": 854,
+      "num_words_param": 500,
+      "num_sentences_returned": 854,
+      "sample_size_param": 1000
+    }
+  },
+  "PAUL RYAN": {
+    "count": 6,
+    "frequency": [
+      {
+        "count": 618,
+        "stem": "paul",
+        "term": "paul"
+      },
+      {
+        "term": "ryan",
+        "count": 513,
+        "stem": "ryan"
+      },
+      {
+        "stem": "republican",
+        "count": 102,
+        "term": "republican"
+      },
+      {
+        "term": "presidential",
+        "count": 65,
+        "stem": "presidenti"
+      },
+      {
+        "term": "trump",
+        "stem": "trump",
+        "count": 56
+      },
+      {
+        "stem": "gop",
+        "count": 46,
+        "term": "gop"
+      },
+      {
+        "term": "nominee",
+        "stem": "nomine",
+        "count": 42
+      },
+      {
+        "stem": "nomin",
+        "count": 40,
+        "term": "nomination"
+      },
+      {
+        "count": 38,
+        "stem": "campaign",
+        "term": "campaign"
+      },
+      {
+        "count": 35,
+        "stem": "manafort",
+        "term": "manafort"
+      },
+      {
+        "count": 31,
+        "stem": "deleg",
+        "term": "delegates"
+      },
+      {
+        "stem": "john",
+        "count": 28,
+        "term": "john"
+      },
+      {
+        "stem": "cruz",
+        "count": 26,
+        "term": "cruz"
+      },
+      {
+        "count": 26,
+        "stem": "chris",
+        "term": "chris"
+      },
+      {
+        "term": "belmont",
+        "count": 26,
+        "stem": "belmont"
+      },
+      {
+        "count": 25,
+        "stem": "reynold",
+        "term": "reynolds"
+      },
+      {
+        "term": "washington",
+        "stem": "washington",
+        "count": 25
+      },
+      {
+        "stem": "specul",
+        "count": 23,
+        "term": "speculation"
+      },
+      {
+        "term": "george",
+        "count": 22,
+        "stem": "georg"
+      },
+      {
+        "stem": "donald",
+        "count": 21,
+        "term": "donald"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_words_param": 500,
+      "num_sentences_found": 2647,
+      "num_sentences_returned": 1000
+    }
+  },
+  "AMERICA": {
+    "count": 6,
+    "frequency": [
+      {
+        "count": 991,
+        "stem": "america",
+        "term": "america"
+      },
+      {
+        "term": "trump",
+        "stem": "trump",
+        "count": 62
+      },
+      {
+        "term": "latin",
+        "stem": "latin",
+        "count": 56
+      },
+      {
+        "term": "american",
+        "stem": "american",
+        "count": 42
+      },
+      {
+        "count": 38,
+        "term": "war",
+        "stem": "war"
+      },
+      {
+        "count": 30,
+        "term": "europe",
+        "stem": "europ"
+      },
+      {
+        "count": 25,
+        "stem": "jazeera",
+        "term": "jazeera"
+      },
+      {
+        "count": 25,
+        "stem": "donald",
+        "term": "donald"
+      },
+      {
+        "count": 24,
+        "term": "clinton",
+        "stem": "clinton"
+      },
+      {
+        "count": 22,
+        "term": "corporate",
+        "stem": "corpor"
+      },
+      {
+        "count": 21,
+        "stem": "virgin",
+        "term": "virgin"
+      },
+      {
+        "term": "chase",
+        "stem": "chase",
+        "count": 21
+      },
+      {
+        "count": 21,
+        "term": "fargo",
+        "stem": "fargo"
+      },
+      {
+        "count": 20,
+        "stem": "jpmorgan",
+        "term": "jpmorgan"
+      },
+      {
+        "count": 19,
+        "term": "morgan",
+        "stem": "morgan"
+      },
+      {
+        "count": 19,
+        "stem": "citigroup",
+        "term": "citigroup"
+      },
+      {
+        "stem": "zika",
+        "term": "zika",
+        "count": 18
+      },
+      {
+        "count": 18,
+        "stem": "campaign",
+        "term": "campaign"
+      },
+      {
+        "count": 17,
+        "stem": "corp",
+        "term": "corp"
+      },
+      {
+        "count": 17,
+        "term": "washington",
+        "stem": "washington"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_sentences_found": 2046,
+      "num_words_param": 500,
+      "num_sentences_returned": 1000
+    }
+  },
+  "YORK": {
+    "count": 6,
+    "frequency": [
+      {
+        "count": 100,
+        "stem": "trump",
+        "term": "trump"
+      },
+      {
+        "term": "clinton",
+        "stem": "clinton",
+        "count": 90
+      },
+      {
+        "stem": "sander",
+        "term": "sanders",
+        "count": 78
+      },
+      {
+        "count": 48,
+        "term": "campaign",
+        "stem": "campaign"
+      },
+      {
+        "stem": "democrat",
+        "term": "democratic",
+        "count": 46
+      },
+      {
+        "count": 45,
+        "stem": "hillari",
+        "term": "hillary"
+      },
+      {
+        "stem": "republican",
+        "term": "republican",
+        "count": 37
+      },
+      {
+        "stem": "deleg",
+        "term": "delegates",
+        "count": 31
+      },
+      {
+        "count": 30,
+        "stem": "presidenti",
+        "term": "presidential"
+      },
+      {
+        "count": 30,
+        "term": "donald",
+        "stem": "donald"
+      },
+      {
+        "count": 28,
+        "term": "cruz",
+        "stem": "cruz"
+      },
+      {
+        "count": 27,
+        "stem": "berni",
+        "term": "bernie"
+      },
+      {
+        "count": 27,
+        "term": "polls",
+        "stem": "poll"
+      },
+      {
+        "count": 26,
+        "stem": "mayor",
+        "term": "mayor"
+      },
+      {
+        "count": 20,
+        "term": "brooklyn",
+        "stem": "brooklyn"
+      },
+      {
+        "count": 19,
+        "stem": "ralli",
+        "term": "rally"
+      },
+      {
+        "count": 17,
+        "stem": "upstat",
+        "term": "upstate"
+      },
+      {
+        "stem": "los",
+        "term": "los",
+        "count": 17
+      },
+      {
+        "term": "crimes",
+        "stem": "crime",
+        "count": 17
+      },
+      {
+        "count": 17,
+        "stem": "colleg",
+        "term": "college"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_sentences_found": 5996,
+      "num_sentences_returned": 1000,
+      "num_words_param": 500
+    }
+  },
+  "TED CRUZ": {
+    "count": 5,
+    "frequency": [
+      {
+        "term": "cruz",
+        "count": 960,
+        "stem": "cruz"
+      },
+      {
+        "count": 517,
+        "term": "trump",
+        "stem": "trump"
+      },
+      {
+        "stem": "ted",
+        "count": 358,
+        "term": "ted"
+      },
+      {
+        "term": "delegates",
+        "count": 272,
+        "stem": "deleg"
+      },
+      {
+        "count": 169,
+        "term": "republican",
+        "stem": "republican"
+      },
+      {
+        "stem": "donald",
+        "term": "donald",
+        "count": 140
+      },
+      {
+        "count": 128,
+        "term": "kasich",
+        "stem": "kasich"
+      },
+      {
+        "term": "campaign",
+        "count": 120,
+        "stem": "campaign"
+      },
+      {
+        "count": 89,
+        "term": "colorado",
+        "stem": "colorado"
+      },
+      {
+        "stem": "sen",
+        "count": 86,
+        "term": "sen"
+      },
+      {
+        "stem": "texa",
+        "count": 81,
+        "term": "texas"
+      },
+      {
+        "term": "gop",
+        "count": 69,
+        "stem": "gop"
+      },
+      {
+        "stem": "nomin",
+        "term": "nomination",
+        "count": 60
+      },
+      {
+        "count": 60,
+        "term": "presidential",
+        "stem": "presidenti"
+      },
+      {
+        "stem": "clinton",
+        "term": "clinton",
+        "count": 47
+      },
+      {
+        "count": 44,
+        "term": "rival",
+        "stem": "rival"
+      },
+      {
+        "term": "john",
+        "count": 42,
+        "stem": "john"
+      },
+      {
+        "stem": "poll",
+        "term": "poll",
+        "count": 35
+      },
+      {
+        "count": 33,
+        "term": "california",
+        "stem": "california"
+      },
+      {
+        "count": 29,
+        "term": "rally",
+        "stem": "ralli"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 1000,
+      "num_sentences_found": 2422,
+      "num_words_param": 500
+    }
+  },
+  "TRUMP": {
+    "count": 5,
+    "frequency": [
+      {
+        "count": 1064,
+        "term": "trump",
+        "stem": "trump"
+      },
+      {
+        "stem": "donald",
+        "count": 259,
+        "term": "donald"
+      },
+      {
+        "stem": "cruz",
+        "count": 190,
+        "term": "cruz"
+      },
+      {
+        "term": "delegates",
+        "count": 161,
+        "stem": "deleg"
+      },
+      {
+        "stem": "republican",
+        "term": "republican",
+        "count": 137
+      },
+      {
+        "stem": "campaign",
+        "term": "campaign",
+        "count": 94
+      },
+      {
+        "stem": "clinton",
+        "count": 93,
+        "term": "clinton"
+      },
+      {
+        "count": 80,
+        "term": "presidential",
+        "stem": "presidenti"
+      },
+      {
+        "term": "ted",
+        "count": 63,
+        "stem": "ted"
+      },
+      {
+        "stem": "kasich",
+        "count": 60,
+        "term": "kasich"
+      },
+      {
+        "term": "nomination",
+        "count": 57,
+        "stem": "nomin"
+      },
+      {
+        "stem": "gop",
+        "count": 45,
+        "term": "gop"
+      },
+      {
+        "stem": "ralli",
+        "term": "rally",
+        "count": 42
+      },
+      {
+        "count": 40,
+        "term": "poll",
+        "stem": "poll"
+      },
+      {
+        "stem": "colorado",
+        "term": "colorado",
+        "count": 35
+      },
+      {
+        "stem": "sander",
+        "term": "sanders",
+        "count": 31
+      },
+      {
+        "term": "hillary",
+        "count": 31,
+        "stem": "hillari"
+      },
+      {
+        "count": 30,
+        "term": "john",
+        "stem": "john"
+      },
+      {
+        "count": 27,
+        "term": "democratic",
+        "stem": "democrat"
+      },
+      {
+        "term": "runner",
+        "count": 23,
+        "stem": "runner"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "num_sentences_found": 6352,
+      "num_sentences_returned": 1000,
+      "num_words_returned": 500,
+      "sample_size_param": 1000
+    }
+  },
+  "BERNIE SANDERS": {
+    "count": 4,
+    "frequency": [
+      {
+        "term": "sanders",
+        "stem": "sander",
+        "count": 986
+      },
+      {
+        "count": 391,
+        "stem": "berni",
+        "term": "bernie"
+      },
+      {
+        "term": "clinton",
+        "stem": "clinton",
+        "count": 369
+      },
+      {
+        "term": "democratic",
+        "stem": "democrat",
+        "count": 198
+      },
+      {
+        "stem": "hillari",
+        "term": "hillary",
+        "count": 136
+      },
+      {
+        "count": 125,
+        "term": "campaign",
+        "stem": "campaign"
+      },
+      {
+        "stem": "deleg",
+        "term": "delegates",
+        "count": 78
+      },
+      {
+        "count": 59,
+        "stem": "trump",
+        "term": "trump"
+      },
+      {
+        "count": 58,
+        "stem": "presidenti",
+        "term": "presidential"
+      },
+      {
+        "count": 54,
+        "stem": "vermont",
+        "term": "vermont"
+      },
+      {
+        "count": 54,
+        "stem": "sen",
+        "term": "sen"
+      },
+      {
+        "count": 48,
+        "stem": "superdeleg",
+        "term": "superdelegates"
+      },
+      {
+        "term": "nomination",
+        "stem": "nomin",
+        "count": 48
+      },
+      {
+        "term": "poll",
+        "stem": "poll",
+        "count": 44
+      },
+      {
+        "stem": "endors",
+        "term": "endorsement",
+        "count": 32
+      },
+      {
+        "count": 32,
+        "stem": "donald",
+        "term": "donald"
+      },
+      {
+        "count": 30,
+        "term": "rally",
+        "stem": "ralli"
+      },
+      {
+        "term": "republican",
+        "stem": "republican",
+        "count": 28
+      },
+      {
+        "stem": "trail",
+        "term": "trail",
+        "count": 27
+      },
+      {
+        "term": "pledged",
+        "stem": "pledg",
+        "count": 26
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "num_sentences_returned": 1000,
+      "num_sentences_found": 2997,
+      "num_words_param": 500,
+      "sample_size_param": 1000
+    }
+  },
+  "CALIFORNIA": {
+    "count": 4,
+    "frequency": [
+      {
+        "stem": "california",
+        "count": 984,
+        "term": "california"
+      },
+      {
+        "term": "san",
+        "stem": "san",
+        "count": 88
+      },
+      {
+        "term": "southern",
+        "stem": "southern",
+        "count": 71
+      },
+      {
+        "term": "angeles",
+        "stem": "angel",
+        "count": 57
+      },
+      {
+        "stem": "los",
+        "count": 55,
+        "term": "los"
+      },
+      {
+        "term": "cruz",
+        "count": 44,
+        "stem": "cruz"
+      },
+      {
+        "stem": "francisco",
+        "count": 38,
+        "term": "francisco"
+      },
+      {
+        "term": "trump",
+        "count": 33,
+        "stem": "trump"
+      },
+      {
+        "count": 31,
+        "stem": "burbank",
+        "term": "burbank"
+      },
+      {
+        "count": 31,
+        "stem": "mtv",
+        "term": "mtv"
+      },
+      {
+        "term": "campaign",
+        "count": 31,
+        "stem": "campaign"
+      },
+      {
+        "term": "warner",
+        "count": 30,
+        "stem": "warner"
+      },
+      {
+        "count": 28,
+        "stem": "diego",
+        "term": "diego"
+      },
+      {
+        "stem": "studi",
+        "count": 27,
+        "term": "study"
+      },
+      {
+        "stem": "deleg",
+        "count": 27,
+        "term": "delegates"
+      },
+      {
+        "term": "students",
+        "stem": "student",
+        "count": 26
+      },
+      {
+        "term": "berkeley",
+        "stem": "berkeley",
+        "count": 26
+      },
+      {
+        "term": "bros",
+        "count": 25,
+        "stem": "bros"
+      },
+      {
+        "term": "sanders",
+        "stem": "sander",
+        "count": 24
+      },
+      {
+        "term": "family",
+        "stem": "famili",
+        "count": 24
+      }
+    ],
+    "stats": {
+      "sample_size_param": 1000,
+      "num_sentences_returned": 1000,
+      "num_sentences_found": 1794,
+      "num_words_param": 500,
+      "num_words_returned": 500
+    }
+  },
+  "RUSSIA": {
+    "count": 4,
+    "frequency": [
+      {
+        "stem": "russia",
+        "term": "russia",
+        "count": 799
+      },
+      {
+        "stem": "saudi",
+        "term": "saudi",
+        "count": 79
+      },
+      {
+        "stem": "arabia",
+        "count": 77,
+        "term": "arabia"
+      },
+      {
+        "count": 72,
+        "term": "syria",
+        "stem": "syria"
+      },
+      {
+        "stem": "iran",
+        "count": 68,
+        "term": "iran"
+      },
+      {
+        "stem": "china",
+        "term": "china",
+        "count": 63
+      },
+      {
+        "count": 52,
+        "term": "russian",
+        "stem": "russian"
+      },
+      {
+        "term": "moscow",
+        "count": 44,
+        "stem": "moscow"
+      },
+      {
+        "count": 42,
+        "term": "freeze",
+        "stem": "freez"
+      },
+      {
+        "stem": "ukrain",
+        "count": 38,
+        "term": "ukraine"
+      },
+      {
+        "stem": "syrian",
+        "term": "syrian",
+        "count": 36
+      },
+      {
+        "term": "assad",
+        "count": 33,
+        "stem": "assad"
+      },
+      {
+        "stem": "reuter",
+        "count": 32,
+        "term": "reuters"
+      },
+      {
+        "stem": "nato",
+        "count": 30,
+        "term": "nato"
+      },
+      {
+        "stem": "europ",
+        "count": 30,
+        "term": "europe"
+      },
+      {
+        "term": "global",
+        "count": 26,
+        "stem": "global"
+      },
+      {
+        "term": "putin",
+        "count": 26,
+        "stem": "putin"
+      },
+      {
+        "count": 25,
+        "term": "qatar",
+        "stem": "qatar"
+      },
+      {
+        "stem": "war",
+        "count": 25,
+        "term": "war"
+      },
+      {
+        "stem": "crude",
+        "count": 24,
+        "term": "crude"
+      }
+    ],
+    "stats": {
+      "num_sentences_returned": 944,
+      "num_words_returned": 500,
+      "num_sentences_found": 944,
+      "num_words_param": 500,
+      "sample_size_param": 1000
+    }
+  },
+  "REPUBLICAN NATIONAL COMMITTEE": {
+    "count": 4
+  },
+  "COLORADO": {
+    "count": 4,
+    "frequency": [
+      {
+        "stem": "colorado",
+        "count": 853,
+        "term": "colorado"
+      },
+      {
+        "stem": "deleg",
+        "count": 212,
+        "term": "delegates"
+      },
+      {
+        "stem": "trump",
+        "term": "trump",
+        "count": 189
+      },
+      {
+        "count": 157,
+        "term": "cruz",
+        "stem": "cruz"
+      },
+      {
+        "count": 111,
+        "term": "republican",
+        "stem": "republican"
+      },
+      {
+        "term": "parenthood",
+        "count": 64,
+        "stem": "parenthood"
+      },
+      {
+        "stem": "ted",
+        "count": 61,
+        "term": "ted"
+      },
+      {
+        "stem": "gop",
+        "term": "gop",
+        "count": 61
+      },
+      {
+        "term": "donald",
+        "count": 42,
+        "stem": "donald"
+      },
+      {
+        "count": 39,
+        "term": "abortion",
+        "stem": "abort"
+      },
+      {
+        "stem": "campaign",
+        "term": "campaign",
+        "count": 39
+      },
+      {
+        "stem": "denver",
+        "count": 38,
+        "term": "denver"
+      },
+      {
+        "term": "san",
+        "count": 38,
+        "stem": "san"
+      },
+      {
+        "stem": "rocki",
+        "count": 34,
+        "term": "rockies"
+      },
+      {
+        "count": 30,
+        "term": "presidential",
+        "stem": "presidenti"
+      },
+      {
+        "stem": "caucus",
+        "count": 30,
+        "term": "caucus"
+      },
+      {
+        "term": "francisco",
+        "count": 25,
+        "stem": "francisco"
+      },
+      {
+        "count": 24,
+        "term": "texas",
+        "stem": "texa"
+      },
+      {
+        "stem": "robert",
+        "term": "robert",
+        "count": 23
+      },
+      {
+        "count": 21,
+        "term": "rigged",
+        "stem": "rig"
+      }
+    ],
+    "stats": {
+      "num_sentences_returned": 882,
+      "num_words_param": 500,
+      "num_sentences_found": 882,
+      "sample_size_param": 1000,
+      "num_words_returned": 500
+    }
+  },
+  "MASSACHUSETTS": {
+    "count": 4,
+    "frequency": [
+      {
+        "count": 323,
+        "term": "massachusetts",
+        "stem": "massachusett"
+      },
+      {
+        "stem": "boston",
+        "count": 22,
+        "term": "boston"
+      },
+      {
+        "stem": "republican",
+        "term": "republican",
+        "count": 17
+      },
+      {
+        "stem": "virginia",
+        "term": "virginia",
+        "count": 15
+      },
+      {
+        "count": 15,
+        "term": "professor",
+        "stem": "professor"
+      },
+      {
+        "count": 14,
+        "term": "connecticut",
+        "stem": "connecticut"
+      },
+      {
+        "term": "amherst",
+        "count": 12,
+        "stem": "amherst"
+      },
+      {
+        "count": 12,
+        "term": "rhode",
+        "stem": "rhode"
+      },
+      {
+        "stem": "trump",
+        "term": "trump",
+        "count": 12
+      },
+      {
+        "term": "verizon",
+        "count": 11,
+        "stem": "verizon"
+      },
+      {
+        "count": 11,
+        "term": "cosby",
+        "stem": "cosbi"
+      },
+      {
+        "stem": "student",
+        "count": 11,
+        "term": "students"
+      },
+      {
+        "count": 11,
+        "term": "study",
+        "stem": "studi"
+      },
+      {
+        "stem": "tewksburi",
+        "count": 11,
+        "term": "tewksbury"
+      },
+      {
+        "stem": "hospit",
+        "term": "hospital",
+        "count": 10
+      },
+      {
+        "stem": "poll",
+        "count": 9,
+        "term": "poll"
+      },
+      {
+        "count": 8,
+        "term": "jersey",
+        "stem": "jersey"
+      },
+      {
+        "term": "pennsylvania",
+        "count": 8,
+        "stem": "pennsylvania"
+      },
+      {
+        "count": 7,
+        "term": "northeast",
+        "stem": "northeast"
+      },
+      {
+        "stem": "gov",
+        "term": "gov",
+        "count": 7
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 362,
+      "num_sentences_found": 362,
+      "num_words_param": 500
+    }
+  },
+  "JOHN KASICH": {
+    "count": 4,
+    "frequency": [
+      {
+        "term": "john",
+        "stem": "john",
+        "count": 770
+      },
+      {
+        "count": 327,
+        "stem": "kasich",
+        "term": "kasich"
+      },
+      {
+        "count": 112,
+        "stem": "trump",
+        "term": "trump"
+      },
+      {
+        "count": 92,
+        "stem": "cruz",
+        "term": "cruz"
+      },
+      {
+        "term": "republican",
+        "count": 60,
+        "stem": "republican"
+      },
+      {
+        "term": "ohio",
+        "count": 51,
+        "stem": "ohio"
+      },
+      {
+        "stem": "kerri",
+        "count": 50,
+        "term": "kerry"
+      },
+      {
+        "count": 45,
+        "stem": "deleg",
+        "term": "delegates"
+      },
+      {
+        "count": 37,
+        "stem": "gov",
+        "term": "gov"
+      },
+      {
+        "count": 30,
+        "stem": "hiroshima",
+        "term": "hiroshima"
+      },
+      {
+        "term": "campaign",
+        "stem": "campaign",
+        "count": 28
+      },
+      {
+        "stem": "donald",
+        "count": 28,
+        "term": "donald"
+      },
+      {
+        "term": "presidential",
+        "stem": "presidenti",
+        "count": 25
+      },
+      {
+        "term": "nomination",
+        "stem": "nomin",
+        "count": 24
+      },
+      {
+        "term": "ted",
+        "count": 23,
+        "stem": "ted"
+      },
+      {
+        "term": "dickerson",
+        "count": 23,
+        "stem": "dickerson"
+      },
+      {
+        "count": 20,
+        "stem": "washington",
+        "term": "washington"
+      },
+      {
+        "stem": "japan",
+        "count": 18,
+        "term": "japan"
+      },
+      {
+        "term": "michael",
+        "count": 17,
+        "stem": "michael"
+      },
+      {
+        "term": "minister",
+        "count": 17,
+        "stem": "minist"
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 3782,
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_words_param": 500,
+      "num_sentences_returned": 1000
+    }
+  }
+}

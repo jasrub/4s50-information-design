@@ -1,0 +1,8167 @@
+{
+  "BOSTON": {
+    "count": 30.779337000000005,
+    "frequency": [
+      {
+        "count": 609,
+        "stem": "boston",
+        "term": "boston"
+      },
+      {
+        "term": "marathon",
+        "count": 134,
+        "stem": "marathon"
+      },
+      {
+        "count": 31,
+        "stem": "atlanta",
+        "term": "atlanta"
+      },
+      {
+        "term": "massachusetts",
+        "stem": "massachusett",
+        "count": 28
+      },
+      {
+        "count": 28,
+        "stem": "celtic",
+        "term": "celtics"
+      },
+      {
+        "count": 26,
+        "stem": "famili",
+        "term": "family"
+      },
+      {
+        "term": "mayor",
+        "stem": "mayor",
+        "count": 26
+      },
+      {
+        "term": "sox",
+        "count": 24,
+        "stem": "sox"
+      },
+      {
+        "term": "globe",
+        "count": 24,
+        "stem": "globe"
+      },
+      {
+        "count": 22,
+        "stem": "walsh",
+        "term": "walsh"
+      },
+      {
+        "stem": "leagu",
+        "count": 17,
+        "term": "league"
+      },
+      {
+        "term": "victims",
+        "count": 16,
+        "stem": "victim"
+      },
+      {
+        "term": "baker",
+        "count": 15,
+        "stem": "baker"
+      },
+      {
+        "stem": "sandov",
+        "count": 14,
+        "term": "sandoval"
+      },
+      {
+        "term": "miami",
+        "stem": "miami",
+        "count": 14
+      },
+      {
+        "count": 13,
+        "stem": "hospit",
+        "term": "hospital"
+      },
+      {
+        "term": "hawks",
+        "stem": "hawk",
+        "count": 13
+      },
+      {
+        "stem": "victori",
+        "count": 12,
+        "term": "victory"
+      },
+      {
+        "term": "celebrate",
+        "stem": "celebr",
+        "count": 12
+      },
+      {
+        "count": 11,
+        "stem": "colleg",
+        "term": "college"
+      },
+      {
+        "term": "american",
+        "stem": "american",
+        "count": 11
+      },
+      {
+        "term": "marty",
+        "stem": "marti",
+        "count": 10
+      },
+      {
+        "count": 10,
+        "stem": "wreath",
+        "term": "wreath"
+      },
+      {
+        "stem": "william",
+        "count": 10,
+        "term": "william"
+      },
+      {
+        "stem": "charli",
+        "count": 10,
+        "term": "charlie"
+      },
+      {
+        "stem": "nba",
+        "count": 10,
+        "term": "nba"
+      },
+      {
+        "term": "toronto",
+        "count": 9,
+        "stem": "toronto"
+      },
+      {
+        "stem": "clr",
+        "count": 9,
+        "term": "clr"
+      },
+      {
+        "term": "herald",
+        "count": 9,
+        "stem": "herald"
+      },
+      {
+        "count": 9,
+        "stem": "runner",
+        "term": "runners"
+      },
+      {
+        "term": "innings",
+        "count": 9,
+        "stem": "inning"
+      },
+      {
+        "term": "richard",
+        "count": 9,
+        "stem": "richard"
+      },
+      {
+        "term": "gov",
+        "count": 8,
+        "stem": "gov"
+      },
+      {
+        "term": "angeles",
+        "stem": "angel",
+        "count": 8
+      },
+      {
+        "term": "martin",
+        "stem": "martin",
+        "count": 8
+      },
+      {
+        "term": "kraft",
+        "count": 8,
+        "stem": "kraft"
+      },
+      {
+        "term": "children",
+        "stem": "children",
+        "count": 8
+      },
+      {
+        "count": 8,
+        "stem": "debt",
+        "term": "debt"
+      },
+      {
+        "stem": "yanke",
+        "count": 8,
+        "term": "yankees"
+      },
+      {
+        "term": "chicago",
+        "count": 7,
+        "stem": "chicago"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_found": 577,
+      "num_words_returned": 500,
+      "num_sentences_returned": 577
+    }
+  },
+  "THREE YEARS": {
+    "count": 6.405425,
+    "frequency": [
+      {
+        "term": "league",
+        "stem": "leagu",
+        "count": 16
+      },
+      {
+        "term": "children",
+        "stem": "children",
+        "count": 16
+      },
+      {
+        "count": 16,
+        "stem": "victori",
+        "term": "victory"
+      },
+      {
+        "stem": "economi",
+        "count": 14,
+        "term": "economy"
+      },
+      {
+        "term": "family",
+        "count": 13,
+        "stem": "famili"
+      },
+      {
+        "count": 11,
+        "stem": "american",
+        "term": "american"
+      },
+      {
+        "term": "san",
+        "count": 11,
+        "stem": "san"
+      },
+      {
+        "stem": "global",
+        "count": 10,
+        "term": "global"
+      },
+      {
+        "term": "tax",
+        "stem": "tax",
+        "count": 10
+      },
+      {
+        "count": 10,
+        "stem": "inning",
+        "term": "innings"
+      },
+      {
+        "term": "british",
+        "stem": "british",
+        "count": 9
+      },
+      {
+        "term": "clinton",
+        "count": 9,
+        "stem": "clinton"
+      },
+      {
+        "stem": "consecut",
+        "count": 9,
+        "term": "consecutive"
+      },
+      {
+        "term": "china",
+        "count": 9,
+        "stem": "china"
+      },
+      {
+        "stem": "educ",
+        "count": 9,
+        "term": "educated"
+      },
+      {
+        "term": "poland",
+        "count": 9,
+        "stem": "poland"
+      },
+      {
+        "term": "campaign",
+        "stem": "campaign",
+        "count": 8
+      },
+      {
+        "stem": "love",
+        "count": 8,
+        "term": "love"
+      },
+      {
+        "term": "john",
+        "count": 8,
+        "stem": "john"
+      },
+      {
+        "count": 8,
+        "stem": "free",
+        "term": "free"
+      },
+      {
+        "term": "los",
+        "stem": "los",
+        "count": 8
+      },
+      {
+        "term": "angeles",
+        "count": 8,
+        "stem": "angel"
+      },
+      {
+        "stem": "rescu",
+        "count": 8,
+        "term": "rescue"
+      },
+      {
+        "count": 8,
+        "stem": "francisco",
+        "term": "francisco"
+      },
+      {
+        "term": "media",
+        "count": 8,
+        "stem": "media"
+      },
+      {
+        "term": "boston",
+        "stem": "boston",
+        "count": 7
+      },
+      {
+        "count": 7,
+        "stem": "pro",
+        "term": "pro"
+      },
+      {
+        "count": 7,
+        "stem": "victim",
+        "term": "victims"
+      },
+      {
+        "count": 7,
+        "stem": "armi",
+        "term": "army"
+      },
+      {
+        "term": "war",
+        "stem": "war",
+        "count": 7
+      },
+      {
+        "term": "california",
+        "count": 7,
+        "stem": "california"
+      },
+      {
+        "term": "trump",
+        "count": 7,
+        "stem": "trump"
+      },
+      {
+        "stem": "washington",
+        "count": 7,
+        "term": "washington"
+      },
+      {
+        "stem": "cup",
+        "count": 7,
+        "term": "cup"
+      },
+      {
+        "count": 7,
+        "stem": "slowest",
+        "term": "slowest"
+      },
+      {
+        "term": "playoff",
+        "stem": "playoff",
+        "count": 7
+      },
+      {
+        "count": 7,
+        "stem": "england",
+        "term": "england"
+      },
+      {
+        "term": "space",
+        "count": 6,
+        "stem": "space"
+      },
+      {
+        "count": 6,
+        "stem": "detect",
+        "term": "detectives"
+      },
+      {
+        "term": "james",
+        "count": 6,
+        "stem": "jame"
+      }
+    ],
+    "stats": {
+      "num_sentences_returned": 1000,
+      "num_words_param": 500,
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_sentences_found": 9265
+    }
+  },
+  "US": {
+    "count": 5.472136999999999,
+    "frequency": [
+      {
+        "stem": "china",
+        "count": 23,
+        "term": "china"
+      },
+      {
+        "term": "american",
+        "count": 22,
+        "stem": "american"
+      },
+      {
+        "term": "family",
+        "count": 19,
+        "stem": "famili"
+      },
+      {
+        "count": 18,
+        "stem": "tax",
+        "term": "tax"
+      },
+      {
+        "term": "trump",
+        "count": 15,
+        "stem": "trump"
+      },
+      {
+        "term": "love",
+        "stem": "love",
+        "count": 15
+      },
+      {
+        "term": "sanders",
+        "count": 14,
+        "stem": "sander"
+      },
+      {
+        "term": "clinton",
+        "stem": "clinton",
+        "count": 13
+      },
+      {
+        "term": "war",
+        "count": 13,
+        "stem": "war"
+      },
+      {
+        "stem": "presidenti",
+        "count": 12,
+        "term": "presidential"
+      },
+      {
+        "count": 12,
+        "stem": "global",
+        "term": "global"
+      },
+      {
+        "term": "free",
+        "stem": "free",
+        "count": 11
+      },
+      {
+        "count": 10,
+        "stem": "european",
+        "term": "european"
+      },
+      {
+        "term": "economy",
+        "stem": "economi",
+        "count": 10
+      },
+      {
+        "term": "economic",
+        "stem": "econom",
+        "count": 10
+      },
+      {
+        "count": 10,
+        "stem": "pope",
+        "term": "pope"
+      },
+      {
+        "stem": "campaign",
+        "count": 9,
+        "term": "campaign"
+      },
+      {
+        "count": 9,
+        "stem": "british",
+        "term": "british"
+      },
+      {
+        "term": "children",
+        "count": 9,
+        "stem": "children"
+      },
+      {
+        "stem": "saudi",
+        "count": 9,
+        "term": "saudi"
+      },
+      {
+        "term": "carter",
+        "count": 9,
+        "stem": "carter"
+      },
+      {
+        "term": "polls",
+        "stem": "poll",
+        "count": 8
+      },
+      {
+        "term": "debt",
+        "count": 8,
+        "stem": "debt"
+      },
+      {
+        "count": 8,
+        "stem": "democrat",
+        "term": "democrats"
+      },
+      {
+        "count": 8,
+        "stem": "fact",
+        "term": "fact"
+      },
+      {
+        "count": 8,
+        "stem": "syria",
+        "term": "syria"
+      },
+      {
+        "stem": "wealth",
+        "count": 8,
+        "term": "wealth"
+      },
+      {
+        "stem": "berni",
+        "count": 8,
+        "term": "bernie"
+      },
+      {
+        "count": 7,
+        "stem": "leagu",
+        "term": "league"
+      },
+      {
+        "count": 7,
+        "stem": "independ",
+        "term": "independence"
+      },
+      {
+        "stem": "obama",
+        "count": 7,
+        "term": "obama"
+      },
+      {
+        "term": "paul",
+        "count": 7,
+        "stem": "paul"
+      },
+      {
+        "term": "john",
+        "count": 7,
+        "stem": "john"
+      },
+      {
+        "term": "britain",
+        "stem": "britain",
+        "count": 7
+      },
+      {
+        "term": "media",
+        "stem": "media",
+        "count": 7
+      },
+      {
+        "term": "america",
+        "stem": "america",
+        "count": 6
+      },
+      {
+        "count": 6,
+        "stem": "internet",
+        "term": "internet"
+      },
+      {
+        "stem": "canada",
+        "count": 6,
+        "term": "canada"
+      },
+      {
+        "term": "deploying",
+        "stem": "deploy",
+        "count": 6
+      },
+      {
+        "term": "afp",
+        "count": 6,
+        "stem": "afp"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 1000,
+      "num_sentences_found": 3056
+    }
+  },
+  "COPLEY SQUARE": {
+    "count": 1.4338920000000002,
+    "frequency": [
+      {
+        "count": 34,
+        "stem": "washington",
+        "term": "washington"
+      },
+      {
+        "term": "sanders",
+        "count": 28,
+        "stem": "sander"
+      },
+      {
+        "count": 26,
+        "stem": "ralli",
+        "term": "rally"
+      },
+      {
+        "count": 22,
+        "stem": "space",
+        "term": "space"
+      },
+      {
+        "count": 18,
+        "stem": "bathroom",
+        "term": "bathrooms"
+      },
+      {
+        "count": 16,
+        "stem": "campaign",
+        "term": "campaign"
+      },
+      {
+        "count": 14,
+        "stem": "museum",
+        "term": "museum"
+      },
+      {
+        "count": 14,
+        "stem": "madison",
+        "term": "madison"
+      },
+      {
+        "stem": "famili",
+        "count": 13,
+        "term": "family"
+      },
+      {
+        "term": "bernie",
+        "count": 13,
+        "stem": "berni"
+      },
+      {
+        "term": "martin",
+        "stem": "martin",
+        "count": 11
+      },
+      {
+        "stem": "meter",
+        "count": 10,
+        "term": "meter"
+      },
+      {
+        "count": 10,
+        "stem": "democrat",
+        "term": "democratic"
+      },
+      {
+        "term": "footage",
+        "count": 10,
+        "stem": "footag"
+      },
+      {
+        "stem": "tiananmen",
+        "count": 10,
+        "term": "tiananmen"
+      },
+      {
+        "stem": "metr",
+        "count": 10,
+        "term": "metre"
+      },
+      {
+        "stem": "trafalgar",
+        "count": 9,
+        "term": "trafalgar"
+      },
+      {
+        "count": 9,
+        "stem": "chines",
+        "term": "chinese"
+      },
+      {
+        "term": "clinton",
+        "count": 9,
+        "stem": "clinton"
+      },
+      {
+        "stem": "manhattan",
+        "count": 9,
+        "term": "manhattan"
+      },
+      {
+        "count": 8,
+        "stem": "richard",
+        "term": "richard"
+      },
+      {
+        "stem": "tahrir",
+        "count": 7,
+        "term": "tahrir"
+      },
+      {
+        "term": "dorchester",
+        "stem": "dorchest",
+        "count": 6
+      },
+      {
+        "term": "cairo",
+        "stem": "cairo",
+        "count": 6
+      },
+      {
+        "term": "hong",
+        "stem": "hong",
+        "count": 6
+      },
+      {
+        "term": "student",
+        "count": 6,
+        "stem": "student"
+      },
+      {
+        "count": 6,
+        "stem": "london",
+        "term": "london"
+      },
+      {
+        "term": "john",
+        "stem": "john",
+        "count": 6
+      },
+      {
+        "count": 6,
+        "stem": "angel",
+        "term": "angeles"
+      },
+      {
+        "stem": "victim",
+        "count": 6,
+        "term": "victims"
+      },
+      {
+        "stem": "kong",
+        "count": 5,
+        "term": "kong"
+      },
+      {
+        "term": "presidential",
+        "stem": "presidenti",
+        "count": 5
+      },
+      {
+        "term": "riot",
+        "stem": "riot",
+        "count": 5
+      },
+      {
+        "count": 5,
+        "stem": "twitter",
+        "term": "twitter"
+      },
+      {
+        "count": 5,
+        "stem": "copley",
+        "term": "copley"
+      },
+      {
+        "term": "beijing",
+        "stem": "beij",
+        "count": 5
+      },
+      {
+        "stem": "fireplac",
+        "count": 5,
+        "term": "fireplace"
+      },
+      {
+        "term": "caption",
+        "count": 5,
+        "stem": "caption"
+      },
+      {
+        "term": "mall",
+        "count": 5,
+        "stem": "mall"
+      },
+      {
+        "stem": "elland",
+        "count": 5,
+        "term": "elland"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 410,
+      "num_sentences_found": 410,
+      "num_words_param": 500
+    }
+  },
+  "EUROPE": {
+    "count": 2.906405,
+    "frequency": [
+      {
+        "count": 654,
+        "stem": "europ",
+        "term": "europe"
+      },
+      {
+        "stem": "refuge",
+        "count": 77,
+        "term": "refugees"
+      },
+      {
+        "term": "migrants",
+        "stem": "migrant",
+        "count": 61
+      },
+      {
+        "term": "pope",
+        "stem": "pope",
+        "count": 53
+      },
+      {
+        "term": "francis",
+        "stem": "franci",
+        "count": 51
+      },
+      {
+        "stem": "lesbo",
+        "count": 43,
+        "term": "lesbos"
+      },
+      {
+        "term": "european",
+        "stem": "european",
+        "count": 43
+      },
+      {
+        "stem": "turkey",
+        "count": 42,
+        "term": "turkey"
+      },
+      {
+        "stem": "greec",
+        "count": 36,
+        "term": "greece"
+      },
+      {
+        "term": "greek",
+        "count": 29,
+        "stem": "greek"
+      },
+      {
+        "count": 26,
+        "stem": "britain",
+        "term": "britain"
+      },
+      {
+        "stem": "russia",
+        "count": 26,
+        "term": "russia"
+      },
+      {
+        "count": 24,
+        "stem": "eastern",
+        "term": "eastern"
+      },
+      {
+        "count": 23,
+        "stem": "terror",
+        "term": "terrorism"
+      },
+      {
+        "count": 22,
+        "stem": "crisi",
+        "term": "crisis"
+      },
+      {
+        "term": "war",
+        "count": 21,
+        "stem": "war"
+      },
+      {
+        "stem": "midland",
+        "count": 21,
+        "term": "midlands"
+      },
+      {
+        "term": "minister",
+        "count": 20,
+        "stem": "minist"
+      },
+      {
+        "stem": "america",
+        "count": 18,
+        "term": "america"
+      },
+      {
+        "stem": "flee",
+        "count": 17,
+        "term": "fleeing"
+      },
+      {
+        "count": 17,
+        "stem": "econom",
+        "term": "economic"
+      },
+      {
+        "term": "belgian",
+        "count": 16,
+        "stem": "belgian"
+      },
+      {
+        "term": "french",
+        "count": 15,
+        "stem": "french"
+      },
+      {
+        "term": "syrian",
+        "count": 15,
+        "stem": "syrian"
+      },
+      {
+        "term": "paris",
+        "count": 14,
+        "stem": "pari"
+      },
+      {
+        "term": "british",
+        "count": 14,
+        "stem": "british"
+      },
+      {
+        "stem": "western",
+        "count": 14,
+        "term": "western"
+      },
+      {
+        "term": "highlight",
+        "count": 14,
+        "stem": "highlight"
+      },
+      {
+        "count": 14,
+        "stem": "franc",
+        "term": "france"
+      },
+      {
+        "term": "africa",
+        "count": 14,
+        "stem": "africa"
+      },
+      {
+        "count": 13,
+        "stem": "london",
+        "term": "london"
+      },
+      {
+        "stem": "campaign",
+        "count": 13,
+        "term": "campaign"
+      },
+      {
+        "count": 13,
+        "stem": "ukrain",
+        "term": "ukraine"
+      },
+      {
+        "stem": "asia",
+        "count": 13,
+        "term": "asia"
+      },
+      {
+        "stem": "leagu",
+        "count": 13,
+        "term": "league"
+      },
+      {
+        "count": 13,
+        "stem": "germani",
+        "term": "germany"
+      },
+      {
+        "term": "catholic",
+        "stem": "cathol",
+        "count": 12
+      },
+      {
+        "term": "free",
+        "count": 11,
+        "stem": "free"
+      },
+      {
+        "count": 11,
+        "stem": "merkel",
+        "term": "merkel"
+      },
+      {
+        "stem": "northern",
+        "count": 11,
+        "term": "northern"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_found": 809,
+      "num_sentences_returned": 809,
+      "num_words_returned": 500
+    }
+  },
+  "NANTUCKET": {
+    "count": 2.9622159999999997,
+    "frequency": [
+      {
+        "count": 2,
+        "stem": "ohio",
+        "term": "ohio"
+      },
+      {
+        "term": "salvador",
+        "count": 2,
+        "stem": "salvador"
+      },
+      {
+        "stem": "cambridg",
+        "count": 1,
+        "term": "cambridge"
+      },
+      {
+        "term": "philadelphia",
+        "count": 1,
+        "stem": "philadelphia"
+      },
+      {
+        "term": "ariz",
+        "stem": "ariz",
+        "count": 1
+      },
+      {
+        "term": "dayton",
+        "count": 1,
+        "stem": "dayton"
+      },
+      {
+        "stem": "denver",
+        "count": 1,
+        "term": "denver"
+      },
+      {
+        "term": "norfolk",
+        "count": 1,
+        "stem": "norfolk"
+      },
+      {
+        "stem": "birmingham",
+        "count": 1,
+        "term": "birmingham"
+      },
+      {
+        "term": "hare",
+        "count": 1,
+        "stem": "hare"
+      },
+      {
+        "term": "san",
+        "count": 1,
+        "stem": "san"
+      },
+      {
+        "stem": "duke",
+        "count": 1,
+        "term": "dukes"
+      },
+      {
+        "count": 1,
+        "stem": "rochest",
+        "term": "rochester"
+      },
+      {
+        "count": 1,
+        "stem": "iraq",
+        "term": "iraq"
+      },
+      {
+        "term": "angeles",
+        "stem": "angel",
+        "count": 1
+      },
+      {
+        "term": "baghdad",
+        "stem": "baghdad",
+        "count": 1
+      },
+      {
+        "term": "middlesex",
+        "stem": "middlesex",
+        "count": 1
+      },
+      {
+        "term": "savannah",
+        "stem": "savannah",
+        "count": 1
+      },
+      {
+        "term": "lagos",
+        "count": 1,
+        "stem": "lago"
+      },
+      {
+        "term": "reno",
+        "stem": "reno",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "stem": "barnstabl",
+        "term": "barnstable"
+      },
+      {
+        "term": "chicago",
+        "count": 1,
+        "stem": "chicago"
+      },
+      {
+        "count": 1,
+        "stem": "nantucket",
+        "term": "nantucket"
+      },
+      {
+        "term": "los",
+        "stem": "los",
+        "count": 1
+      },
+      {
+        "stem": "columbus",
+        "count": 1,
+        "term": "columbus"
+      },
+      {
+        "term": "tucson",
+        "count": 1,
+        "stem": "tucson"
+      },
+      {
+        "term": "somerville",
+        "count": 1,
+        "stem": "somervill"
+      },
+      {
+        "term": "suffolk",
+        "count": 1,
+        "stem": "suffolk"
+      },
+      {
+        "count": 1,
+        "stem": "reykjavik",
+        "term": "reykjavik"
+      },
+      {
+        "stem": "ala",
+        "count": 1,
+        "term": "ala"
+      },
+      {
+        "stem": "nigeria",
+        "count": 1,
+        "term": "nigeria"
+      },
+      {
+        "stem": "uncov",
+        "count": 1,
+        "term": "uncovered"
+      },
+      {
+        "stem": "iceland",
+        "count": 1,
+        "term": "iceland"
+      },
+      {
+        "stem": "renter",
+        "count": 1,
+        "term": "renter"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 34,
+      "num_sentences_found": 2,
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 2
+    }
+  },
+  "Reporter": {
+    "count": 24.914561,
+    "frequency": [
+      {
+        "count": 38,
+        "stem": "trump",
+        "term": "trump"
+      },
+      {
+        "count": 28,
+        "stem": "campaign",
+        "term": "campaign"
+      },
+      {
+        "stem": "lewandowski",
+        "term": "lewandowski",
+        "count": 23
+      },
+      {
+        "term": "corey",
+        "stem": "corey",
+        "count": 18
+      },
+      {
+        "count": 18,
+        "stem": "trudeau",
+        "term": "trudeau"
+      },
+      {
+        "count": 17,
+        "term": "quantum",
+        "stem": "quantum"
+      },
+      {
+        "stem": "michell",
+        "term": "michelle",
+        "count": 13
+      },
+      {
+        "count": 12,
+        "term": "battery",
+        "stem": "batteri"
+      },
+      {
+        "count": 12,
+        "stem": "breitbart",
+        "term": "breitbart"
+      },
+      {
+        "count": 11,
+        "term": "florida",
+        "stem": "florida"
+      },
+      {
+        "stem": "minist",
+        "term": "minister",
+        "count": 11
+      },
+      {
+        "count": 10,
+        "term": "donald",
+        "stem": "donald"
+      },
+      {
+        "stem": "justin",
+        "term": "justin",
+        "count": 9
+      },
+      {
+        "stem": "canadian",
+        "term": "canadian",
+        "count": 9
+      },
+      {
+        "count": 8,
+        "stem": "los",
+        "term": "los"
+      },
+      {
+        "count": 8,
+        "term": "pope",
+        "stem": "pope"
+      },
+      {
+        "count": 7,
+        "term": "sanders",
+        "stem": "sander"
+      },
+      {
+        "count": 7,
+        "stem": "prosecutor",
+        "term": "prosecutors"
+      },
+      {
+        "term": "republican",
+        "stem": "republican",
+        "count": 7
+      },
+      {
+        "term": "angeles",
+        "stem": "angel",
+        "count": 7
+      },
+      {
+        "term": "presidential",
+        "stem": "presidenti",
+        "count": 6
+      },
+      {
+        "count": 6,
+        "stem": "clinton",
+        "term": "clinton"
+      },
+      {
+        "stem": "hufnagel",
+        "term": "hufnagel",
+        "count": 6
+      },
+      {
+        "stem": "crimin",
+        "term": "criminal",
+        "count": 6
+      },
+      {
+        "count": 6,
+        "stem": "canada",
+        "term": "canada"
+      },
+      {
+        "count": 6,
+        "stem": "prosecut",
+        "term": "prosecute"
+      },
+      {
+        "count": 6,
+        "stem": "alleg",
+        "term": "allegedly"
+      },
+      {
+        "count": 5,
+        "term": "washington",
+        "stem": "washington"
+      },
+      {
+        "term": "praise",
+        "stem": "prais",
+        "count": 5
+      },
+      {
+        "term": "arm",
+        "stem": "arm",
+        "count": 5
+      },
+      {
+        "term": "actress",
+        "stem": "actress",
+        "count": 5
+      },
+      {
+        "count": 5,
+        "term": "journal",
+        "stem": "journal"
+      },
+      {
+        "stem": "fox",
+        "term": "fox",
+        "count": 5
+      },
+      {
+        "count": 4,
+        "stem": "cal",
+        "term": "cal"
+      },
+      {
+        "term": "tara",
+        "stem": "tara",
+        "count": 4
+      },
+      {
+        "count": 4,
+        "term": "reuters",
+        "stem": "reuter"
+      },
+      {
+        "count": 4,
+        "term": "smith",
+        "stem": "smith"
+      },
+      {
+        "term": "documentary",
+        "stem": "documentari",
+        "count": 4
+      },
+      {
+        "stem": "reno",
+        "term": "reno",
+        "count": 4
+      },
+      {
+        "count": 4,
+        "stem": "harass",
+        "term": "harassing"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_sentences_found": 259,
+      "num_sentences_returned": 259,
+      "num_words_param": 500
+    }
+  },
+  "OFFICER": {
+    "count": 4.244445000000001,
+    "frequency": [
+      {
+        "count": 48,
+        "term": "san",
+        "stem": "san"
+      },
+      {
+        "term": "francisco",
+        "stem": "francisco",
+        "count": 45
+      },
+      {
+        "term": "gongora",
+        "stem": "gongora",
+        "count": 19
+      },
+      {
+        "term": "luis",
+        "count": 19,
+        "stem": "lui"
+      },
+      {
+        "stem": "chicago",
+        "term": "chicago",
+        "count": 18
+      },
+      {
+        "term": "army",
+        "count": 18,
+        "stem": "armi"
+      },
+      {
+        "term": "california",
+        "count": 18,
+        "stem": "california"
+      },
+      {
+        "stem": "assault",
+        "term": "assault",
+        "count": 14
+      },
+      {
+        "count": 14,
+        "term": "seattle",
+        "stem": "seattl"
+      },
+      {
+        "term": "student",
+        "stem": "student",
+        "count": 14
+      },
+      {
+        "term": "axe",
+        "count": 13,
+        "stem": "axe"
+      },
+      {
+        "term": "corps",
+        "count": 12,
+        "stem": "corp"
+      },
+      {
+        "term": "fatally",
+        "count": 12,
+        "stem": "fatal"
+      },
+      {
+        "term": "prosecutors",
+        "count": 11,
+        "stem": "prosecutor"
+      },
+      {
+        "count": 11,
+        "term": "sprayed",
+        "stem": "spray"
+      },
+      {
+        "term": "john",
+        "stem": "john",
+        "count": 11
+      },
+      {
+        "term": "marine",
+        "stem": "marin",
+        "count": 11
+      },
+      {
+        "term": "war",
+        "count": 11,
+        "stem": "war"
+      },
+      {
+        "term": "torres",
+        "stem": "torr",
+        "count": 11
+      },
+      {
+        "stem": "angel",
+        "term": "angeles",
+        "count": 10
+      },
+      {
+        "stem": "china",
+        "term": "china",
+        "count": 10
+      },
+      {
+        "count": 10,
+        "term": "soldiers",
+        "stem": "soldier"
+      },
+      {
+        "term": "los",
+        "count": 10,
+        "stem": "los"
+      },
+      {
+        "term": "chinese",
+        "stem": "chines",
+        "count": 10
+      },
+      {
+        "count": 9,
+        "term": "homeless",
+        "stem": "homeless"
+      },
+      {
+        "term": "texas",
+        "stem": "texa",
+        "count": 9
+      },
+      {
+        "count": 9,
+        "term": "hospital",
+        "stem": "hospit"
+      },
+      {
+        "term": "baltimore",
+        "stem": "baltimor",
+        "count": 9
+      },
+      {
+        "count": 9,
+        "term": "davis",
+        "stem": "davi"
+      },
+      {
+        "stem": "british",
+        "term": "british",
+        "count": 9
+      },
+      {
+        "term": "michael",
+        "count": 9,
+        "stem": "michael"
+      },
+      {
+        "count": 9,
+        "term": "victims",
+        "stem": "victim"
+      },
+      {
+        "count": 8,
+        "term": "jury",
+        "stem": "juri"
+      },
+      {
+        "stem": "petti",
+        "term": "petty",
+        "count": 8
+      },
+      {
+        "count": 8,
+        "term": "suhr",
+        "stem": "suhr"
+      },
+      {
+        "count": 8,
+        "term": "academy",
+        "stem": "academi"
+      },
+      {
+        "term": "greg",
+        "stem": "greg",
+        "count": 8
+      },
+      {
+        "count": 8,
+        "term": "intelligence",
+        "stem": "intellig"
+      },
+      {
+        "term": "reich",
+        "count": 8,
+        "stem": "reich"
+      },
+      {
+        "count": 8,
+        "term": "cammarn",
+        "stem": "cammarn"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_found": 790,
+      "num_sentences_returned": 790
+    }
+  },
+  "JAPAN": {
+    "count": 2.6951930000000006,
+    "frequency": [
+      {
+        "term": "japan",
+        "count": 784,
+        "stem": "japan"
+      },
+      {
+        "term": "earthquake",
+        "count": 309,
+        "stem": "earthquak"
+      },
+      {
+        "stem": "southern",
+        "term": "southern",
+        "count": 165
+      },
+      {
+        "count": 128,
+        "term": "quake",
+        "stem": "quak"
+      },
+      {
+        "stem": "kumamoto",
+        "term": "kumamoto",
+        "count": 90
+      },
+      {
+        "stem": "mashiki",
+        "count": 65,
+        "term": "mashiki"
+      },
+      {
+        "term": "prefecture",
+        "count": 56,
+        "stem": "prefectur"
+      },
+      {
+        "count": 53,
+        "term": "tokyo",
+        "stem": "tokyo"
+      },
+      {
+        "count": 46,
+        "term": "southwestern",
+        "stem": "southwestern"
+      },
+      {
+        "count": 43,
+        "term": "rescue",
+        "stem": "rescu"
+      },
+      {
+        "stem": "japanes",
+        "count": 35,
+        "term": "japanese"
+      },
+      {
+        "stem": "aftershock",
+        "count": 35,
+        "term": "aftershocks"
+      },
+      {
+        "stem": "meteorolog",
+        "term": "meteorological",
+        "count": 35
+      },
+      {
+        "count": 33,
+        "term": "yen",
+        "stem": "yen"
+      },
+      {
+        "count": 33,
+        "term": "collapsed",
+        "stem": "collaps"
+      },
+      {
+        "stem": "kyodo",
+        "term": "kyodo",
+        "count": 24
+      },
+      {
+        "stem": "korea",
+        "count": 23,
+        "term": "korea"
+      },
+      {
+        "stem": "kyushu",
+        "count": 22,
+        "term": "kyushu"
+      },
+      {
+        "term": "china",
+        "count": 21,
+        "stem": "china"
+      },
+      {
+        "stem": "aso",
+        "term": "aso",
+        "count": 19
+      },
+      {
+        "count": 19,
+        "term": "mandatory",
+        "stem": "mandatori"
+      },
+      {
+        "count": 17,
+        "term": "rubble",
+        "stem": "rubbl"
+      },
+      {
+        "term": "minister",
+        "count": 17,
+        "stem": "minist"
+      },
+      {
+        "stem": "reuter",
+        "term": "reuters",
+        "count": 15
+      },
+      {
+        "term": "zoo",
+        "count": 15,
+        "stem": "zoo"
+      },
+      {
+        "term": "landslide",
+        "count": 15,
+        "stem": "landslid"
+      },
+      {
+        "stem": "flatten",
+        "count": 14,
+        "term": "flattened"
+      },
+      {
+        "stem": "advisori",
+        "term": "advisory",
+        "count": 14
+      },
+      {
+        "stem": "rescuer",
+        "term": "rescuers",
+        "count": 14
+      },
+      {
+        "term": "triggering",
+        "count": 13,
+        "stem": "trigger"
+      },
+      {
+        "term": "photo",
+        "count": 13,
+        "stem": "photo"
+      },
+      {
+        "stem": "rattl",
+        "count": 13,
+        "term": "rattled"
+      },
+      {
+        "stem": "nuclear",
+        "count": 13,
+        "term": "nuclear"
+      },
+      {
+        "stem": "russia",
+        "count": 13,
+        "term": "russia"
+      },
+      {
+        "term": "chimpanzee",
+        "count": 12,
+        "stem": "chimpanze"
+      },
+      {
+        "stem": "toppl",
+        "count": 12,
+        "term": "toppled"
+      },
+      {
+        "count": 12,
+        "term": "sport",
+        "stem": "sport"
+      },
+      {
+        "count": 11,
+        "term": "volcano",
+        "stem": "volcano"
+      },
+      {
+        "count": 11,
+        "term": "sony",
+        "stem": "soni"
+      },
+      {
+        "count": 11,
+        "term": "economies",
+        "stem": "economi"
+      }
+    ],
+    "stats": {
+      "num_sentences_returned": 894,
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_words_returned": 500,
+      "num_sentences_found": 894
+    }
+  },
+  "DORCHESTER": {
+    "count": 3.353756,
+    "frequency": [
+      {
+        "term": "dorchester",
+        "stem": "dorchest",
+        "count": 11
+      },
+      {
+        "count": 8,
+        "stem": "famili",
+        "term": "family"
+      },
+      {
+        "count": 7,
+        "term": "richard",
+        "stem": "richard"
+      },
+      {
+        "count": 5,
+        "stem": "martin",
+        "term": "martin"
+      },
+      {
+        "count": 3,
+        "stem": "boston",
+        "term": "boston"
+      },
+      {
+        "stem": "peabodi",
+        "term": "peabody",
+        "count": 3
+      },
+      {
+        "count": 3,
+        "stem": "cleanup",
+        "term": "cleanup"
+      },
+      {
+        "count": 2,
+        "stem": "avenu",
+        "term": "avenue"
+      },
+      {
+        "count": 2,
+        "stem": "victim",
+        "term": "victim"
+      },
+      {
+        "term": "athletic",
+        "stem": "athlet",
+        "count": 2
+      },
+      {
+        "stem": "webber",
+        "term": "webber",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "term": "donation",
+        "stem": "donat"
+      },
+      {
+        "count": 2,
+        "stem": "revers",
+        "term": "reversing"
+      },
+      {
+        "term": "cullen",
+        "stem": "cullen",
+        "count": 2
+      },
+      {
+        "stem": "leagu",
+        "term": "league",
+        "count": 2
+      },
+      {
+        "stem": "nurs",
+        "term": "nurse",
+        "count": 1
+      },
+      {
+        "stem": "jane",
+        "term": "jane",
+        "count": 1
+      },
+      {
+        "stem": "plead",
+        "term": "pleaded",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "stem": "sheila",
+        "term": "sheila"
+      },
+      {
+        "count": 1,
+        "stem": "rage",
+        "term": "rage"
+      },
+      {
+        "term": "mrs",
+        "stem": "mrs",
+        "count": 1
+      },
+      {
+        "term": "mccarthy",
+        "stem": "mccarthi",
+        "count": 1
+      },
+      {
+        "term": "dorset",
+        "stem": "dorset",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "stem": "weymouth",
+        "term": "weymouth"
+      },
+      {
+        "count": 1,
+        "term": "mary",
+        "stem": "mari"
+      },
+      {
+        "count": 1,
+        "stem": "trash",
+        "term": "trash"
+      },
+      {
+        "stem": "duke",
+        "term": "dukes",
+        "count": 1
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 11,
+      "num_words_returned": 27,
+      "num_words_param": 500,
+      "num_sentences_returned": 11,
+      "sample_size_param": 1000
+    }
+  },
+  "PRESIDENT": {
+    "count": 3.0290099999999995,
+    "frequency": [
+      {
+        "count": 159,
+        "stem": "obama",
+        "term": "obama"
+      },
+      {
+        "count": 102,
+        "term": "clinton",
+        "stem": "clinton"
+      },
+      {
+        "term": "brazil",
+        "stem": "brazil",
+        "count": 61
+      },
+      {
+        "stem": "barack",
+        "term": "barack",
+        "count": 57
+      },
+      {
+        "term": "rousseff",
+        "stem": "rousseff",
+        "count": 56
+      },
+      {
+        "count": 53,
+        "stem": "sander",
+        "term": "sanders"
+      },
+      {
+        "count": 48,
+        "term": "impeachment",
+        "stem": "impeach"
+      },
+      {
+        "stem": "dilma",
+        "term": "dilma",
+        "count": 42
+      },
+      {
+        "count": 39,
+        "stem": "american",
+        "term": "american"
+      },
+      {
+        "count": 34,
+        "term": "trump",
+        "stem": "trump"
+      },
+      {
+        "stem": "congress",
+        "term": "congress",
+        "count": 31
+      },
+      {
+        "term": "washington",
+        "stem": "washington",
+        "count": 30
+      },
+      {
+        "count": 30,
+        "stem": "german",
+        "term": "german"
+      },
+      {
+        "term": "democratic",
+        "stem": "democrat",
+        "count": 28
+      },
+      {
+        "term": "reuters",
+        "stem": "reuter",
+        "count": 26
+      },
+      {
+        "term": "campaign",
+        "stem": "campaign",
+        "count": 26
+      },
+      {
+        "term": "putin",
+        "stem": "putin",
+        "count": 25
+      },
+      {
+        "stem": "tax",
+        "term": "tax",
+        "count": 24
+      },
+      {
+        "stem": "republican",
+        "term": "republican",
+        "count": 24
+      },
+      {
+        "count": 24,
+        "term": "hillary",
+        "stem": "hillari"
+      },
+      {
+        "count": 23,
+        "stem": "suprem",
+        "term": "supreme"
+      },
+      {
+        "term": "minister",
+        "stem": "minist",
+        "count": 23
+      },
+      {
+        "count": 23,
+        "term": "poland",
+        "stem": "poland"
+      },
+      {
+        "stem": "turkish",
+        "term": "turkish",
+        "count": 22
+      },
+      {
+        "count": 21,
+        "term": "vladimir",
+        "stem": "vladimir"
+      },
+      {
+        "count": 21,
+        "stem": "turkey",
+        "term": "turkey"
+      },
+      {
+        "stem": "erdogan",
+        "term": "erdogan",
+        "count": 20
+      },
+      {
+        "count": 20,
+        "term": "brasilia",
+        "stem": "brasilia"
+      },
+      {
+        "stem": "biden",
+        "term": "biden",
+        "count": 20
+      },
+      {
+        "count": 20,
+        "stem": "nomin",
+        "term": "nomination"
+      },
+      {
+        "term": "donald",
+        "stem": "donald",
+        "count": 18
+      },
+      {
+        "count": 17,
+        "term": "russian",
+        "stem": "russian"
+      },
+      {
+        "count": 17,
+        "stem": "comedian",
+        "term": "comedian"
+      },
+      {
+        "term": "john",
+        "stem": "john",
+        "count": 17
+      },
+      {
+        "term": "tayyip",
+        "stem": "tayyip",
+        "count": 17
+      },
+      {
+        "stem": "corrupt",
+        "term": "corruption",
+        "count": 17
+      },
+      {
+        "count": 16,
+        "stem": "anti",
+        "term": "anti"
+      },
+      {
+        "count": 15,
+        "term": "assad",
+        "stem": "assad"
+      },
+      {
+        "stem": "saudi",
+        "term": "saudi",
+        "count": 15
+      },
+      {
+        "term": "america",
+        "stem": "america",
+        "count": 15
+      }
+    ],
+    "stats": {
+      "sample_size_param": 1000,
+      "num_words_returned": 500,
+      "num_words_param": 500,
+      "num_sentences_returned": 1000,
+      "num_sentences_found": 2948
+    }
+  },
+  "WRITER": {
+    "count": 0.743145,
+    "frequency": [
+      {
+        "term": "sports",
+        "stem": "sport",
+        "count": 15
+      },
+      {
+        "count": 10,
+        "term": "freelance",
+        "stem": "freelanc"
+      },
+      {
+        "stem": "john",
+        "term": "john",
+        "count": 8
+      },
+      {
+        "count": 8,
+        "term": "comic",
+        "stem": "comic"
+      },
+      {
+        "term": "stephen",
+        "stem": "stephen",
+        "count": 8
+      },
+      {
+        "stem": "love",
+        "term": "love",
+        "count": 7
+      },
+      {
+        "stem": "david",
+        "term": "david",
+        "count": 7
+      },
+      {
+        "count": 7,
+        "stem": "famili",
+        "term": "family"
+      },
+      {
+        "count": 6,
+        "stem": "flaherti",
+        "term": "flaherty"
+      },
+      {
+        "term": "william",
+        "stem": "william",
+        "count": 6
+      },
+      {
+        "term": "reunite",
+        "stem": "reunit",
+        "count": 6
+      },
+      {
+        "count": 6,
+        "term": "terrence",
+        "stem": "terrenc"
+      },
+      {
+        "stem": "washington",
+        "term": "washington",
+        "count": 6
+      },
+      {
+        "count": 6,
+        "term": "ragtime",
+        "stem": "ragtim"
+      },
+      {
+        "stem": "lyricist",
+        "term": "lyricist",
+        "count": 6
+      },
+      {
+        "term": "lynn",
+        "stem": "lynn",
+        "count": 6
+      },
+      {
+        "term": "mcnally",
+        "stem": "mcnalli",
+        "count": 6
+      },
+      {
+        "stem": "topic",
+        "term": "topics",
+        "count": 5
+      },
+      {
+        "count": 5,
+        "term": "shakespeare",
+        "stem": "shakespear"
+      },
+      {
+        "stem": "francisco",
+        "term": "francisco",
+        "count": 5
+      },
+      {
+        "term": "english",
+        "stem": "english",
+        "count": 5
+      },
+      {
+        "term": "robert",
+        "stem": "robert",
+        "count": 5
+      },
+      {
+        "term": "chronicle",
+        "stem": "chronicl",
+        "count": 5
+      },
+      {
+        "count": 5,
+        "term": "san",
+        "stem": "san"
+      },
+      {
+        "count": 4,
+        "term": "twitter",
+        "stem": "twitter"
+      },
+      {
+        "count": 4,
+        "stem": "educ",
+        "term": "education"
+      },
+      {
+        "stem": "michael",
+        "term": "michael",
+        "count": 4
+      },
+      {
+        "count": 4,
+        "term": "crime",
+        "stem": "crime"
+      },
+      {
+        "stem": "chef",
+        "term": "chef",
+        "count": 4
+      },
+      {
+        "count": 4,
+        "term": "ahrens",
+        "stem": "ahren"
+      },
+      {
+        "count": 4,
+        "term": "johnson",
+        "stem": "johnson"
+      },
+      {
+        "stem": "london",
+        "term": "london",
+        "count": 4
+      },
+      {
+        "count": 4,
+        "term": "jersey",
+        "stem": "jersey"
+      },
+      {
+        "count": 4,
+        "stem": "mike",
+        "term": "mike"
+      },
+      {
+        "count": 4,
+        "term": "war",
+        "stem": "war"
+      },
+      {
+        "stem": "adapt",
+        "term": "adaptation",
+        "count": 4
+      },
+      {
+        "count": 4,
+        "stem": "filmmak",
+        "term": "filmmaker"
+      },
+      {
+        "term": "script",
+        "stem": "script",
+        "count": 3
+      },
+      {
+        "stem": "jewish",
+        "term": "jewish",
+        "count": 3
+      },
+      {
+        "term": "katie",
+        "stem": "kati",
+        "count": 3
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "num_sentences_returned": 342,
+      "num_sentences_found": 342,
+      "sample_size_param": 1000,
+      "num_words_returned": 500
+    }
+  },
+  "US.": {
+    "count": 1.0769929999999999,
+    "frequency": [
+      {
+        "term": "china",
+        "count": 23,
+        "stem": "china"
+      },
+      {
+        "term": "american",
+        "count": 22,
+        "stem": "american"
+      },
+      {
+        "stem": "famili",
+        "count": 19,
+        "term": "family"
+      },
+      {
+        "term": "tax",
+        "stem": "tax",
+        "count": 18
+      },
+      {
+        "stem": "trump",
+        "count": 15,
+        "term": "trump"
+      },
+      {
+        "stem": "love",
+        "count": 15,
+        "term": "love"
+      },
+      {
+        "term": "sanders",
+        "count": 14,
+        "stem": "sander"
+      },
+      {
+        "term": "war",
+        "count": 13,
+        "stem": "war"
+      },
+      {
+        "term": "clinton",
+        "stem": "clinton",
+        "count": 13
+      },
+      {
+        "term": "global",
+        "stem": "global",
+        "count": 12
+      },
+      {
+        "stem": "presidenti",
+        "count": 12,
+        "term": "presidential"
+      },
+      {
+        "count": 11,
+        "stem": "free",
+        "term": "free"
+      },
+      {
+        "stem": "european",
+        "count": 10,
+        "term": "european"
+      },
+      {
+        "stem": "econom",
+        "count": 10,
+        "term": "economic"
+      },
+      {
+        "term": "economy",
+        "stem": "economi",
+        "count": 10
+      },
+      {
+        "count": 10,
+        "stem": "pope",
+        "term": "pope"
+      },
+      {
+        "count": 9,
+        "stem": "saudi",
+        "term": "saudi"
+      },
+      {
+        "term": "british",
+        "count": 9,
+        "stem": "british"
+      },
+      {
+        "term": "children",
+        "count": 9,
+        "stem": "children"
+      },
+      {
+        "count": 9,
+        "stem": "carter",
+        "term": "carter"
+      },
+      {
+        "stem": "campaign",
+        "count": 9,
+        "term": "campaign"
+      },
+      {
+        "stem": "debt",
+        "count": 8,
+        "term": "debt"
+      },
+      {
+        "term": "wealth",
+        "count": 8,
+        "stem": "wealth"
+      },
+      {
+        "term": "polls",
+        "count": 8,
+        "stem": "poll"
+      },
+      {
+        "term": "syria",
+        "stem": "syria",
+        "count": 8
+      },
+      {
+        "term": "fact",
+        "count": 8,
+        "stem": "fact"
+      },
+      {
+        "stem": "berni",
+        "count": 8,
+        "term": "bernie"
+      },
+      {
+        "term": "democratic",
+        "count": 8,
+        "stem": "democrat"
+      },
+      {
+        "stem": "independ",
+        "count": 7,
+        "term": "independence"
+      },
+      {
+        "stem": "john",
+        "count": 7,
+        "term": "john"
+      },
+      {
+        "count": 7,
+        "stem": "paul",
+        "term": "paul"
+      },
+      {
+        "count": 7,
+        "stem": "britain",
+        "term": "britain"
+      },
+      {
+        "term": "media",
+        "stem": "media",
+        "count": 7
+      },
+      {
+        "count": 7,
+        "stem": "obama",
+        "term": "obama"
+      },
+      {
+        "count": 7,
+        "stem": "leagu",
+        "term": "league"
+      },
+      {
+        "term": "america",
+        "stem": "america",
+        "count": 6
+      },
+      {
+        "term": "internet",
+        "count": 6,
+        "stem": "internet"
+      },
+      {
+        "count": 6,
+        "stem": "europ",
+        "term": "europe"
+      },
+      {
+        "term": "supreme",
+        "stem": "suprem",
+        "count": 6
+      },
+      {
+        "term": "space",
+        "count": 6,
+        "stem": "space"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_words_param": 500,
+      "num_sentences_found": 3056,
+      "num_sentences_returned": 1000
+    }
+  },
+  "JEREMIAH WOODEN": {
+    "count": 1.1942249999999999,
+    "frequency": [
+      {
+        "stem": "jeremiah",
+        "term": "jeremiah",
+        "count": 12
+      },
+      {
+        "count": 6,
+        "term": "castle",
+        "stem": "castl"
+      },
+      {
+        "stem": "paddl",
+        "count": 6,
+        "term": "paddle"
+      },
+      {
+        "stem": "nhk",
+        "count": 6,
+        "term": "nhk"
+      },
+      {
+        "count": 6,
+        "term": "tumbled",
+        "stem": "tumbl"
+      },
+      {
+        "term": "kumamoto",
+        "count": 6,
+        "stem": "kumamoto"
+      },
+      {
+        "term": "smashed",
+        "count": 6,
+        "stem": "smash"
+      },
+      {
+        "stem": "mathi",
+        "count": 4,
+        "term": "mathis"
+      },
+      {
+        "stem": "decor",
+        "term": "decorated",
+        "count": 4
+      },
+      {
+        "stem": "stove",
+        "count": 4,
+        "term": "stove"
+      },
+      {
+        "count": 4,
+        "term": "thede",
+        "stem": "thede"
+      },
+      {
+        "stem": "aircraft",
+        "count": 3,
+        "term": "aircraft"
+      },
+      {
+        "term": "coasters",
+        "count": 3,
+        "stem": "coaster"
+      },
+      {
+        "stem": "terrac",
+        "count": 3,
+        "term": "terrace"
+      },
+      {
+        "count": 3,
+        "term": "cabin",
+        "stem": "cabin"
+      },
+      {
+        "count": 3,
+        "term": "buried",
+        "stem": "buri"
+      },
+      {
+        "term": "snowboarder",
+        "count": 3,
+        "stem": "snowboard"
+      },
+      {
+        "count": 3,
+        "term": "endangering",
+        "stem": "endang"
+      },
+      {
+        "stem": "meadow",
+        "count": 3,
+        "term": "meadow"
+      },
+      {
+        "count": 2,
+        "term": "catholic",
+        "stem": "cathol"
+      },
+      {
+        "count": 2,
+        "term": "christian",
+        "stem": "christian"
+      },
+      {
+        "count": 2,
+        "term": "striker",
+        "stem": "striker"
+      },
+      {
+        "stem": "jewish",
+        "count": 2,
+        "term": "jewish"
+      },
+      {
+        "stem": "accommod",
+        "count": 2,
+        "term": "accommodate"
+      },
+      {
+        "stem": "acr",
+        "count": 2,
+        "term": "acre"
+      },
+      {
+        "stem": "pcs",
+        "count": 2,
+        "term": "pcs"
+      },
+      {
+        "count": 2,
+        "term": "clergy",
+        "stem": "clergi"
+      },
+      {
+        "term": "fragments",
+        "count": 2,
+        "stem": "fragment"
+      },
+      {
+        "stem": "magistr",
+        "term": "magistrates",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "term": "sculpts",
+        "stem": "sculpt"
+      },
+      {
+        "stem": "coffin",
+        "count": 2,
+        "term": "coffin"
+      },
+      {
+        "stem": "streak",
+        "count": 2,
+        "term": "streak"
+      },
+      {
+        "term": "carts",
+        "count": 2,
+        "stem": "cart"
+      },
+      {
+        "stem": "slam",
+        "term": "slam",
+        "count": 2
+      },
+      {
+        "term": "campaigner",
+        "count": 2,
+        "stem": "campaign"
+      },
+      {
+        "stem": "stripe",
+        "term": "striped",
+        "count": 2
+      },
+      {
+        "stem": "quak",
+        "term": "quake",
+        "count": 2
+      },
+      {
+        "term": "showers",
+        "count": 2,
+        "stem": "shower"
+      },
+      {
+        "count": 2,
+        "term": "bulls",
+        "stem": "bull"
+      },
+      {
+        "stem": "ceremoni",
+        "term": "ceremony",
+        "count": 2
+      }
+    ],
+    "stats": {
+      "num_sentences_returned": 113,
+      "sample_size_param": 1000,
+      "num_sentences_found": 113,
+      "num_words_returned": 399,
+      "num_words_param": 500
+    }
+  },
+  "MARTIN RICHARD": {
+    "count": 15.650109,
+    "frequency": [
+      {
+        "stem": "martin",
+        "count": 390,
+        "term": "martin"
+      },
+      {
+        "term": "richard",
+        "count": 387,
+        "stem": "richard"
+      },
+      {
+        "stem": "iii",
+        "count": 39,
+        "term": "iii"
+      },
+      {
+        "term": "family",
+        "count": 27,
+        "stem": "famili"
+      },
+      {
+        "stem": "san",
+        "count": 20,
+        "term": "san"
+      },
+      {
+        "stem": "david",
+        "term": "david",
+        "count": 18
+      },
+      {
+        "term": "walsh",
+        "count": 18,
+        "stem": "walsh"
+      },
+      {
+        "term": "jones",
+        "count": 17,
+        "stem": "jone"
+      },
+      {
+        "stem": "photo",
+        "term": "photo",
+        "count": 16
+      },
+      {
+        "count": 16,
+        "term": "nixon",
+        "stem": "nixon"
+      },
+      {
+        "stem": "mccullough",
+        "count": 15,
+        "term": "mccullough"
+      },
+      {
+        "stem": "john",
+        "term": "john",
+        "count": 15
+      },
+      {
+        "stem": "charl",
+        "count": 15,
+        "term": "charles"
+      },
+      {
+        "count": 15,
+        "term": "victim",
+        "stem": "victim"
+      },
+      {
+        "stem": "mayor",
+        "term": "mayor",
+        "count": 14
+      },
+      {
+        "stem": "american",
+        "count": 14,
+        "term": "american"
+      },
+      {
+        "term": "james",
+        "count": 13,
+        "stem": "jame"
+      },
+      {
+        "stem": "hugh",
+        "term": "hugh",
+        "count": 13
+      },
+      {
+        "count": 13,
+        "term": "george",
+        "stem": "georg"
+      },
+      {
+        "count": 13,
+        "term": "boston",
+        "stem": "boston"
+      },
+      {
+        "stem": "dekalb",
+        "count": 12,
+        "term": "dekalb"
+      },
+      {
+        "count": 12,
+        "term": "henry",
+        "stem": "henri"
+      },
+      {
+        "term": "luther",
+        "count": 12,
+        "stem": "luther"
+      },
+      {
+        "term": "sports",
+        "count": 12,
+        "stem": "sport"
+      },
+      {
+        "count": 12,
+        "term": "schmack",
+        "stem": "schmack"
+      },
+      {
+        "stem": "russel",
+        "count": 12,
+        "term": "russell"
+      },
+      {
+        "count": 12,
+        "term": "republican",
+        "stem": "republican"
+      },
+      {
+        "stem": "aston",
+        "count": 12,
+        "term": "aston"
+      },
+      {
+        "term": "wilson",
+        "count": 11,
+        "stem": "wilson"
+      },
+      {
+        "term": "british",
+        "count": 11,
+        "stem": "british"
+      },
+      {
+        "term": "balmforth",
+        "count": 11,
+        "stem": "balmforth"
+      },
+      {
+        "stem": "michael",
+        "term": "michael",
+        "count": 11
+      },
+      {
+        "count": 11,
+        "term": "london",
+        "stem": "london"
+      },
+      {
+        "term": "steven",
+        "count": 11,
+        "stem": "steven"
+      },
+      {
+        "term": "caption",
+        "count": 11,
+        "stem": "caption"
+      },
+      {
+        "count": 11,
+        "term": "wreath",
+        "stem": "wreath"
+      },
+      {
+        "count": 10,
+        "term": "brisbane",
+        "stem": "brisban"
+      },
+      {
+        "count": 10,
+        "term": "weale",
+        "stem": "weal"
+      },
+      {
+        "stem": "paul",
+        "count": 10,
+        "term": "paul"
+      },
+      {
+        "count": 10,
+        "term": "steve",
+        "stem": "steve"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "num_sentences_returned": 774,
+      "num_sentences_found": 774,
+      "sample_size_param": 1000,
+      "num_words_param": 500
+    }
+  },
+  "COLORADO": {
+    "count": 1.16679,
+    "frequency": [
+      {
+        "stem": "colorado",
+        "count": 269,
+        "term": "colorado"
+      },
+      {
+        "stem": "trump",
+        "count": 60,
+        "term": "trump"
+      },
+      {
+        "count": 54,
+        "stem": "deleg",
+        "term": "delegates"
+      },
+      {
+        "stem": "republican",
+        "count": 36,
+        "term": "republican"
+      },
+      {
+        "count": 27,
+        "stem": "cruz",
+        "term": "cruz"
+      },
+      {
+        "stem": "denver",
+        "count": 25,
+        "term": "denver"
+      },
+      {
+        "count": 17,
+        "stem": "donald",
+        "term": "donald"
+      },
+      {
+        "term": "rockies",
+        "count": 16,
+        "stem": "rocki"
+      },
+      {
+        "term": "wyoming",
+        "count": 16,
+        "stem": "wyom"
+      },
+      {
+        "term": "gop",
+        "count": 15,
+        "stem": "gop"
+      },
+      {
+        "term": "caucus",
+        "count": 15,
+        "stem": "caucus"
+      },
+      {
+        "term": "presidential",
+        "count": 13,
+        "stem": "presidenti"
+      },
+      {
+        "term": "chicago",
+        "count": 12,
+        "stem": "chicago"
+      },
+      {
+        "count": 11,
+        "stem": "cancel",
+        "term": "cancellation"
+      },
+      {
+        "term": "texas",
+        "stem": "texa",
+        "count": 10
+      },
+      {
+        "term": "innings",
+        "count": 9,
+        "stem": "inning"
+      },
+      {
+        "term": "ted",
+        "stem": "ted",
+        "count": 9
+      },
+      {
+        "stem": "san",
+        "count": 8,
+        "term": "san"
+      },
+      {
+        "term": "cubs",
+        "count": 8,
+        "stem": "cub"
+      },
+      {
+        "count": 7,
+        "stem": "sidelin",
+        "term": "sidelined"
+      },
+      {
+        "count": 7,
+        "stem": "journal",
+        "term": "journal"
+      },
+      {
+        "count": 7,
+        "stem": "kansa",
+        "term": "kansas"
+      },
+      {
+        "term": "nominee",
+        "count": 6,
+        "stem": "nomine"
+      },
+      {
+        "count": 6,
+        "stem": "eastern",
+        "term": "eastern"
+      },
+      {
+        "term": "victory",
+        "stem": "victori",
+        "count": 6
+      },
+      {
+        "term": "airport",
+        "stem": "airport",
+        "count": 6
+      },
+      {
+        "term": "dumping",
+        "stem": "dump",
+        "count": 6
+      },
+      {
+        "term": "campaign",
+        "count": 6,
+        "stem": "campaign"
+      },
+      {
+        "count": 6,
+        "stem": "marijuana",
+        "term": "marijuana"
+      },
+      {
+        "stem": "scienc",
+        "count": 6,
+        "term": "science"
+      },
+      {
+        "count": 5,
+        "stem": "spill",
+        "term": "spill"
+      },
+      {
+        "count": 5,
+        "stem": "runner",
+        "term": "runner"
+      },
+      {
+        "count": 5,
+        "stem": "space",
+        "term": "space"
+      },
+      {
+        "stem": "behren",
+        "count": 5,
+        "term": "behrens"
+      },
+      {
+        "term": "raids",
+        "count": 5,
+        "stem": "raid"
+      },
+      {
+        "count": 5,
+        "stem": "utah",
+        "term": "utah"
+      },
+      {
+        "term": "ballots",
+        "stem": "ballot",
+        "count": 5
+      },
+      {
+        "term": "poll",
+        "count": 5,
+        "stem": "poll"
+      },
+      {
+        "term": "sports",
+        "stem": "sport",
+        "count": 5
+      },
+      {
+        "count": 5,
+        "stem": "carolina",
+        "term": "carolina"
+      }
+    ],
+    "stats": {
+      "sample_size_param": 1000,
+      "num_words_param": 500,
+      "num_words_returned": 500,
+      "num_sentences_found": 280,
+      "num_sentences_returned": 280
+    }
+  },
+  "DIRECTOR": {
+    "count": 0.8171729999999999,
+    "frequency": [
+      {
+        "term": "campaign",
+        "count": 28,
+        "stem": "campaign"
+      },
+      {
+        "term": "james",
+        "stem": "jame",
+        "count": 25
+      },
+      {
+        "term": "imf",
+        "stem": "imf",
+        "count": 24
+      },
+      {
+        "term": "athletic",
+        "stem": "athlet",
+        "count": 22
+      },
+      {
+        "term": "john",
+        "stem": "john",
+        "count": 21
+      },
+      {
+        "stem": "sander",
+        "count": 20,
+        "term": "sanders"
+      },
+      {
+        "term": "american",
+        "count": 18,
+        "stem": "american"
+      },
+      {
+        "stem": "famili",
+        "count": 17,
+        "term": "family"
+      },
+      {
+        "term": "washington",
+        "stem": "washington",
+        "count": 17
+      },
+      {
+        "term": "democratic",
+        "stem": "democrat",
+        "count": 16
+      },
+      {
+        "term": "lagarde",
+        "count": 16,
+        "stem": "lagard"
+      },
+      {
+        "stem": "deputi",
+        "count": 16,
+        "term": "deputy"
+      },
+      {
+        "count": 16,
+        "stem": "christin",
+        "term": "christine"
+      },
+      {
+        "term": "media",
+        "count": 15,
+        "stem": "media"
+      },
+      {
+        "stem": "museum",
+        "count": 15,
+        "term": "museum"
+      },
+      {
+        "stem": "jon",
+        "count": 14,
+        "term": "jon"
+      },
+      {
+        "count": 14,
+        "stem": "david",
+        "term": "david"
+      },
+      {
+        "stem": "levin",
+        "count": 14,
+        "term": "levine"
+      },
+      {
+        "term": "sports",
+        "count": 14,
+        "stem": "sport"
+      },
+      {
+        "count": 14,
+        "stem": "california",
+        "term": "california"
+      },
+      {
+        "count": 13,
+        "stem": "lee",
+        "term": "lee"
+      },
+      {
+        "count": 13,
+        "stem": "tim",
+        "term": "tim"
+      },
+      {
+        "term": "children",
+        "count": 13,
+        "stem": "children"
+      },
+      {
+        "stem": "econom",
+        "count": 13,
+        "term": "economic"
+      },
+      {
+        "count": 13,
+        "stem": "tate",
+        "term": "tate"
+      },
+      {
+        "count": 12,
+        "stem": "michael",
+        "term": "michael"
+      },
+      {
+        "term": "brand",
+        "count": 12,
+        "stem": "brand"
+      },
+      {
+        "term": "los",
+        "stem": "los",
+        "count": 12
+      },
+      {
+        "term": "rugby",
+        "count": 12,
+        "stem": "rugbi"
+      },
+      {
+        "term": "professor",
+        "stem": "professor",
+        "count": 12
+      },
+      {
+        "term": "minister",
+        "count": 12,
+        "stem": "minist"
+      },
+      {
+        "term": "opera",
+        "count": 12,
+        "stem": "opera"
+      },
+      {
+        "count": 12,
+        "stem": "sean",
+        "term": "sean"
+      },
+      {
+        "stem": "fox",
+        "count": 11,
+        "term": "fox"
+      },
+      {
+        "stem": "favreau",
+        "count": 11,
+        "term": "favreau"
+      },
+      {
+        "term": "policía",
+        "count": 11,
+        "stem": "policía"
+      },
+      {
+        "stem": "peter",
+        "count": 11,
+        "term": "peter"
+      },
+      {
+        "count": 11,
+        "stem": "scienc",
+        "term": "science"
+      },
+      {
+        "term": "commission",
+        "count": 11,
+        "stem": "commiss"
+      },
+      {
+        "term": "wars",
+        "count": 11,
+        "stem": "war"
+      }
+    ],
+    "stats": {
+      "num_sentences_returned": 1000,
+      "sample_size_param": 1000,
+      "num_words_param": 500,
+      "num_words_returned": 500,
+      "num_sentences_found": 1051
+    }
+  },
+  "YORK": {
+    "count": 0.897342,
+    "frequency": [
+      {
+        "stem": "clinton",
+        "term": "clinton",
+        "count": 132
+      },
+      {
+        "count": 118,
+        "term": "sanders",
+        "stem": "sander"
+      },
+      {
+        "count": 83,
+        "term": "democratic",
+        "stem": "democrat"
+      },
+      {
+        "count": 76,
+        "term": "trump",
+        "stem": "trump"
+      },
+      {
+        "count": 62,
+        "term": "presidential",
+        "stem": "presidenti"
+      },
+      {
+        "count": 57,
+        "stem": "republican",
+        "term": "republican"
+      },
+      {
+        "stem": "hillari",
+        "term": "hillary",
+        "count": 53
+      },
+      {
+        "count": 52,
+        "stem": "valu",
+        "term": "values"
+      },
+      {
+        "stem": "campaign",
+        "term": "campaign",
+        "count": 48
+      },
+      {
+        "stem": "brooklyn",
+        "term": "brooklyn",
+        "count": 42
+      },
+      {
+        "stem": "cruz",
+        "term": "cruz",
+        "count": 41
+      },
+      {
+        "stem": "berni",
+        "term": "bernie",
+        "count": 39
+      },
+      {
+        "stem": "donald",
+        "term": "donald",
+        "count": 31
+      },
+      {
+        "stem": "poll",
+        "term": "polls",
+        "count": 27
+      },
+      {
+        "term": "gala",
+        "stem": "gala",
+        "count": 27
+      },
+      {
+        "count": 26,
+        "term": "american",
+        "stem": "american"
+      },
+      {
+        "term": "vermont",
+        "stem": "vermont",
+        "count": 24
+      },
+      {
+        "count": 21,
+        "term": "california",
+        "stem": "california"
+      },
+      {
+        "term": "john",
+        "stem": "john",
+        "count": 21
+      },
+      {
+        "count": 21,
+        "term": "ted",
+        "stem": "ted"
+      },
+      {
+        "count": 20,
+        "stem": "photo",
+        "term": "photo"
+      },
+      {
+        "count": 19,
+        "term": "gop",
+        "stem": "gop"
+      },
+      {
+        "count": 19,
+        "term": "sen",
+        "stem": "sen"
+      },
+      {
+        "count": 18,
+        "term": "cnn",
+        "stem": "cnn"
+      },
+      {
+        "stem": "rival",
+        "term": "rival",
+        "count": 17
+      },
+      {
+        "count": 16,
+        "term": "rome",
+        "stem": "rome"
+      },
+      {
+        "term": "headline",
+        "stem": "headlin",
+        "count": 16
+      },
+      {
+        "term": "kasich",
+        "stem": "kasich",
+        "count": 16
+      },
+      {
+        "term": "delegates",
+        "stem": "deleg",
+        "count": 14
+      },
+      {
+        "count": 13,
+        "stem": "ohio",
+        "term": "ohio"
+      },
+      {
+        "term": "rally",
+        "stem": "ralli",
+        "count": 13
+      },
+      {
+        "term": "league",
+        "stem": "leagu",
+        "count": 13
+      },
+      {
+        "stem": "endors",
+        "term": "endorsement",
+        "count": 13
+      },
+      {
+        "count": 12,
+        "term": "nomination",
+        "stem": "nomin"
+      },
+      {
+        "stem": "navi",
+        "term": "navy",
+        "count": 12
+      },
+      {
+        "term": "mayor",
+        "stem": "mayor",
+        "count": 12
+      },
+      {
+        "count": 11,
+        "stem": "florida",
+        "term": "florida"
+      },
+      {
+        "stem": "jewish",
+        "term": "jewish",
+        "count": 11
+      },
+      {
+        "count": 11,
+        "term": "sports",
+        "stem": "sport"
+      },
+      {
+        "term": "washington",
+        "stem": "washington",
+        "count": 11
+      }
+    ],
+    "stats": {
+      "sample_size_param": 1000,
+      "num_words_param": 500,
+      "num_sentences_returned": 1000,
+      "num_words_returned": 500,
+      "num_sentences_found": 3530
+    }
+  },
+  "HILLARY CLINTON": {
+    "count": 11.343071,
+    "frequency": [
+      {
+        "count": 960,
+        "term": "clinton",
+        "stem": "clinton"
+      },
+      {
+        "count": 397,
+        "stem": "sander",
+        "term": "sanders"
+      },
+      {
+        "term": "hillary",
+        "stem": "hillari",
+        "count": 265
+      },
+      {
+        "count": 133,
+        "term": "democratic",
+        "stem": "democrat"
+      },
+      {
+        "count": 112,
+        "stem": "berni",
+        "term": "bernie"
+      },
+      {
+        "stem": "campaign",
+        "term": "campaign",
+        "count": 73
+      },
+      {
+        "term": "presidential",
+        "stem": "presidenti",
+        "count": 62
+      },
+      {
+        "stem": "brooklyn",
+        "term": "brooklyn",
+        "count": 53
+      },
+      {
+        "count": 40,
+        "stem": "mrs",
+        "term": "mrs"
+      },
+      {
+        "term": "obama",
+        "stem": "obama",
+        "count": 40
+      },
+      {
+        "count": 36,
+        "stem": "deleg",
+        "term": "delegates"
+      },
+      {
+        "count": 33,
+        "term": "nomination",
+        "stem": "nomin"
+      },
+      {
+        "stem": "vermont",
+        "term": "vermont",
+        "count": 32
+      },
+      {
+        "term": "poll",
+        "stem": "poll",
+        "count": 27
+      },
+      {
+        "term": "tax",
+        "stem": "tax",
+        "count": 27
+      },
+      {
+        "stem": "rival",
+        "term": "rival",
+        "count": 25
+      },
+      {
+        "count": 24,
+        "stem": "cnn",
+        "term": "cnn"
+      },
+      {
+        "count": 23,
+        "term": "trump",
+        "stem": "trump"
+      },
+      {
+        "term": "sen",
+        "stem": "sen",
+        "count": 22
+      },
+      {
+        "count": 21,
+        "term": "transcripts",
+        "stem": "transcript"
+      },
+      {
+        "stem": "crime",
+        "term": "crime",
+        "count": 20
+      },
+      {
+        "stem": "fact",
+        "term": "fact",
+        "count": 19
+      },
+      {
+        "term": "fundraiser",
+        "stem": "fundrais",
+        "count": 18
+      },
+      {
+        "term": "israel",
+        "stem": "israel",
+        "count": 18
+      },
+      {
+        "term": "super",
+        "stem": "super",
+        "count": 18
+      },
+      {
+        "stem": "republican",
+        "term": "republican",
+        "count": 16
+      },
+      {
+        "count": 15,
+        "term": "goldman",
+        "stem": "goldman"
+      },
+      {
+        "count": 14,
+        "term": "sachs",
+        "stem": "sach"
+      },
+      {
+        "count": 14,
+        "term": "fuel",
+        "stem": "fuel"
+      },
+      {
+        "stem": "american",
+        "term": "americans",
+        "count": 14
+      },
+      {
+        "term": "fossil",
+        "stem": "fossil",
+        "count": 13
+      },
+      {
+        "count": 13,
+        "term": "blitzer",
+        "stem": "blitzer"
+      },
+      {
+        "term": "cruz",
+        "stem": "cruz",
+        "count": 12
+      },
+      {
+        "stem": "washington",
+        "term": "washington",
+        "count": 11
+      },
+      {
+        "count": 11,
+        "term": "pledged",
+        "stem": "pledg"
+      },
+      {
+        "stem": "california",
+        "term": "california",
+        "count": 11
+      },
+      {
+        "stem": "runner",
+        "term": "runner",
+        "count": 11
+      },
+      {
+        "term": "angeles",
+        "stem": "angel",
+        "count": 10
+      },
+      {
+        "stem": "los",
+        "term": "los",
+        "count": 10
+      },
+      {
+        "stem": "barack",
+        "term": "barack",
+        "count": 10
+      }
+    ],
+    "stats": {
+      "num_sentences_returned": 1000,
+      "num_words_returned": 500,
+      "num_words_param": 500,
+      "num_sentences_found": 3698,
+      "sample_size_param": 1000
+    }
+  },
+  "8-YEAR": {
+    "count": 0.8911960000000001,
+    "frequency": [
+      {
+        "count": 17,
+        "stem": "china",
+        "term": "china"
+      },
+      {
+        "stem": "economi",
+        "count": 16,
+        "term": "economy"
+      },
+      {
+        "count": 13,
+        "stem": "campaign",
+        "term": "campaign"
+      },
+      {
+        "term": "london",
+        "count": 13,
+        "stem": "london"
+      },
+      {
+        "count": 12,
+        "stem": "clinton",
+        "term": "clinton"
+      },
+      {
+        "stem": "children",
+        "count": 12,
+        "term": "children"
+      },
+      {
+        "stem": "tax",
+        "count": 11,
+        "term": "tax"
+      },
+      {
+        "term": "league",
+        "stem": "leagu",
+        "count": 11
+      },
+      {
+        "count": 11,
+        "stem": "arm",
+        "term": "arm"
+      },
+      {
+        "stem": "love",
+        "count": 11,
+        "term": "love"
+      },
+      {
+        "term": "american",
+        "stem": "american",
+        "count": 10
+      },
+      {
+        "count": 10,
+        "stem": "washington",
+        "term": "washington"
+      },
+      {
+        "term": "college",
+        "count": 9,
+        "stem": "colleg"
+      },
+      {
+        "term": "family",
+        "count": 9,
+        "stem": "famili"
+      },
+      {
+        "term": "california",
+        "stem": "california",
+        "count": 9
+      },
+      {
+        "count": 9,
+        "stem": "democrat",
+        "term": "democratic"
+      },
+      {
+        "count": 9,
+        "stem": "san",
+        "term": "san"
+      },
+      {
+        "term": "championship",
+        "count": 9,
+        "stem": "championship"
+      },
+      {
+        "stem": "photo",
+        "count": 9,
+        "term": "photo"
+      },
+      {
+        "stem": "media",
+        "count": 9,
+        "term": "media"
+      },
+      {
+        "count": 9,
+        "stem": "japan",
+        "term": "japan"
+      },
+      {
+        "count": 9,
+        "stem": "sport",
+        "term": "sports"
+      },
+      {
+        "stem": "john",
+        "count": 8,
+        "term": "john"
+      },
+      {
+        "term": "sanders",
+        "stem": "sander",
+        "count": 8
+      },
+      {
+        "term": "los",
+        "stem": "los",
+        "count": 8
+      },
+      {
+        "term": "david",
+        "stem": "david",
+        "count": 8
+      },
+      {
+        "stem": "yen",
+        "count": 8,
+        "term": "yen"
+      },
+      {
+        "count": 8,
+        "stem": "prosecutor",
+        "term": "prosecutors"
+      },
+      {
+        "term": "british",
+        "stem": "british",
+        "count": 8
+      },
+      {
+        "term": "angeles",
+        "stem": "angel",
+        "count": 8
+      },
+      {
+        "count": 7,
+        "stem": "olymp",
+        "term": "olympic"
+      },
+      {
+        "term": "instagram",
+        "count": 7,
+        "stem": "instagram"
+      },
+      {
+        "term": "european",
+        "count": 7,
+        "stem": "european"
+      },
+      {
+        "term": "reuters",
+        "stem": "reuter",
+        "count": 7
+      },
+      {
+        "stem": "assault",
+        "count": 7,
+        "term": "assault"
+      },
+      {
+        "count": 7,
+        "stem": "stadium",
+        "term": "stadium"
+      },
+      {
+        "term": "francisco",
+        "count": 7,
+        "stem": "francisco"
+      },
+      {
+        "term": "hospital",
+        "count": 7,
+        "stem": "hospit"
+      },
+      {
+        "count": 7,
+        "stem": "victim",
+        "term": "victims"
+      },
+      {
+        "term": "richard",
+        "stem": "richard",
+        "count": 7
+      }
+    ],
+    "stats": {
+      "sample_size_param": 1000,
+      "num_words_returned": 500,
+      "num_sentences_found": 10069,
+      "num_words_param": 500,
+      "num_sentences_returned": 1000
+    }
+  },
+  "AMERICA": {
+    "count": 1.1395229999999998,
+    "frequency": [
+      {
+        "stem": "america",
+        "count": 686,
+        "term": "america"
+      },
+      {
+        "term": "trump",
+        "stem": "trump",
+        "count": 50
+      },
+      {
+        "stem": "sander",
+        "count": 33,
+        "term": "sanders"
+      },
+      {
+        "count": 28,
+        "stem": "latin",
+        "term": "latin"
+      },
+      {
+        "term": "american",
+        "count": 26,
+        "stem": "american"
+      },
+      {
+        "stem": "europ",
+        "count": 18,
+        "term": "europe"
+      },
+      {
+        "term": "war",
+        "count": 18,
+        "stem": "war"
+      },
+      {
+        "count": 17,
+        "stem": "famili",
+        "term": "family"
+      },
+      {
+        "term": "corporate",
+        "stem": "corpor",
+        "count": 17
+      },
+      {
+        "term": "entity",
+        "stem": "entiti",
+        "count": 15
+      },
+      {
+        "term": "clinton",
+        "count": 14,
+        "stem": "clinton"
+      },
+      {
+        "stem": "donald",
+        "count": 14,
+        "term": "donald"
+      },
+      {
+        "count": 12,
+        "stem": "campaign",
+        "term": "campaign"
+      },
+      {
+        "term": "fastest",
+        "count": 12,
+        "stem": "fastest"
+      },
+      {
+        "term": "africa",
+        "count": 12,
+        "stem": "africa"
+      },
+      {
+        "stem": "reckless",
+        "count": 11,
+        "term": "recklessness"
+      },
+      {
+        "term": "values",
+        "stem": "valu",
+        "count": 11
+      },
+      {
+        "stem": "china",
+        "count": 11,
+        "term": "china"
+      },
+      {
+        "count": 11,
+        "stem": "economi",
+        "term": "economy"
+      },
+      {
+        "term": "asia",
+        "stem": "asia",
+        "count": 11
+      },
+      {
+        "count": 10,
+        "stem": "jpmorgan",
+        "term": "jpmorgan"
+      },
+      {
+        "term": "greed",
+        "stem": "greed",
+        "count": 10
+      },
+      {
+        "term": "biden",
+        "stem": "biden",
+        "count": 10
+      },
+      {
+        "term": "chase",
+        "stem": "chase",
+        "count": 10
+      },
+      {
+        "term": "flyover",
+        "count": 9,
+        "stem": "flyover"
+      },
+      {
+        "stem": "angel",
+        "count": 9,
+        "term": "angeles"
+      },
+      {
+        "term": "saudi",
+        "stem": "saudi",
+        "count": 9
+      },
+      {
+        "stem": "lynch",
+        "count": 9,
+        "term": "lynch"
+      },
+      {
+        "term": "muslims",
+        "stem": "muslim",
+        "count": 9
+      },
+      {
+        "stem": "disney",
+        "count": 8,
+        "term": "disney"
+      },
+      {
+        "stem": "washington",
+        "count": 8,
+        "term": "washington"
+      },
+      {
+        "count": 8,
+        "stem": "arabia",
+        "term": "arabia"
+      },
+      {
+        "term": "media",
+        "count": 8,
+        "stem": "media"
+      },
+      {
+        "term": "verizon",
+        "count": 8,
+        "stem": "verizon"
+      },
+      {
+        "term": "merrill",
+        "count": 8,
+        "stem": "merril"
+      },
+      {
+        "term": "immigrants",
+        "stem": "immigr",
+        "count": 8
+      },
+      {
+        "term": "fargo",
+        "count": 8,
+        "stem": "fargo"
+      },
+      {
+        "term": "volkswagen",
+        "count": 8,
+        "stem": "volkswagen"
+      },
+      {
+        "stem": "sport",
+        "count": 7,
+        "term": "sports"
+      },
+      {
+        "term": "bernie",
+        "stem": "berni",
+        "count": 7
+      }
+    ],
+    "stats": {
+      "num_sentences_returned": 755,
+      "num_words_param": 500,
+      "num_sentences_found": 755,
+      "sample_size_param": 1000,
+      "num_words_returned": 500
+    }
+  },
+  "SALEM": {
+    "count": 3.075062,
+    "frequency": [
+      {
+        "stem": "salem",
+        "count": 31,
+        "term": "salem"
+      },
+      {
+        "stem": "winston",
+        "term": "winston",
+        "count": 11
+      },
+      {
+        "count": 4,
+        "term": "spokesman",
+        "stem": "spokesman"
+      },
+      {
+        "count": 4,
+        "term": "hnc",
+        "stem": "hnc"
+      },
+      {
+        "term": "assad",
+        "count": 4,
+        "stem": "assad"
+      },
+      {
+        "stem": "meslet",
+        "term": "meslet",
+        "count": 4
+      },
+      {
+        "stem": "journal",
+        "term": "journal",
+        "count": 4
+      },
+      {
+        "term": "clr",
+        "count": 4,
+        "stem": "clr"
+      },
+      {
+        "term": "geneva",
+        "count": 3,
+        "stem": "geneva"
+      },
+      {
+        "stem": "youtub",
+        "term": "youtube",
+        "count": 2
+      },
+      {
+        "stem": "discriminatori",
+        "count": 2,
+        "term": "discriminatory"
+      },
+      {
+        "stem": "neglect",
+        "count": 2,
+        "term": "neglect"
+      },
+      {
+        "stem": "carolina",
+        "count": 2,
+        "term": "carolina"
+      },
+      {
+        "term": "miller",
+        "count": 2,
+        "stem": "miller"
+      },
+      {
+        "count": 2,
+        "term": "baskins",
+        "stem": "baskin"
+      },
+      {
+        "stem": "stanc",
+        "term": "stance",
+        "count": 2
+      },
+      {
+        "stem": "cancel",
+        "term": "canceling",
+        "count": 2
+      },
+      {
+        "stem": "isaiah",
+        "count": 2,
+        "term": "isaiah"
+      },
+      {
+        "stem": "cirqu",
+        "count": 2,
+        "term": "cirque"
+      },
+      {
+        "count": 2,
+        "term": "otlk",
+        "stem": "otlk"
+      },
+      {
+        "term": "soleil",
+        "count": 2,
+        "stem": "soleil"
+      },
+      {
+        "count": 2,
+        "term": "sims",
+        "stem": "sim"
+      },
+      {
+        "count": 1,
+        "term": "pup",
+        "stem": "pup"
+      },
+      {
+        "stem": "southwest",
+        "term": "southwest",
+        "count": 1
+      },
+      {
+        "stem": "elizabeth",
+        "term": "elizabeth",
+        "count": 1
+      },
+      {
+        "term": "btb",
+        "count": 1,
+        "stem": "btb"
+      },
+      {
+        "term": "massachusetts",
+        "count": 1,
+        "stem": "massachusett"
+      },
+      {
+        "term": "councilwoman",
+        "count": 1,
+        "stem": "councilwoman"
+      },
+      {
+        "stem": "purebr",
+        "term": "purebred",
+        "count": 1
+      },
+      {
+        "term": "antonio",
+        "count": 1,
+        "stem": "antonio"
+      },
+      {
+        "stem": "immigr",
+        "term": "immigrants",
+        "count": 1
+      },
+      {
+        "stem": "san",
+        "count": 1,
+        "term": "san"
+      },
+      {
+        "term": "suburb",
+        "count": 1,
+        "stem": "suburb"
+      },
+      {
+        "count": 1,
+        "term": "ancestor",
+        "stem": "ancestor"
+      },
+      {
+        "stem": "abbi",
+        "count": 1,
+        "term": "abby"
+      },
+      {
+        "stem": "choke",
+        "term": "choked",
+        "count": 1
+      },
+      {
+        "stem": "mea",
+        "count": 1,
+        "term": "meas"
+      },
+      {
+        "stem": "witch",
+        "term": "witch",
+        "count": 1
+      },
+      {
+        "term": "sports",
+        "count": 1,
+        "stem": "sport"
+      },
+      {
+        "term": "reuters",
+        "count": 1,
+        "stem": "reuter"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 98,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 31,
+      "num_words_param": 500,
+      "num_sentences_found": 31
+    }
+  },
+  "EIGHT MONTHS": {
+    "count": 0.5401549999999999,
+    "frequency": [
+      {
+        "term": "clinton",
+        "count": 24,
+        "stem": "clinton"
+      },
+      {
+        "count": 22,
+        "stem": "china",
+        "term": "china"
+      },
+      {
+        "term": "sanders",
+        "stem": "sander",
+        "count": 19
+      },
+      {
+        "stem": "tax",
+        "count": 16,
+        "term": "tax"
+      },
+      {
+        "count": 16,
+        "stem": "campaign",
+        "term": "campaign"
+      },
+      {
+        "term": "family",
+        "count": 15,
+        "stem": "famili"
+      },
+      {
+        "count": 14,
+        "stem": "cruz",
+        "term": "cruz"
+      },
+      {
+        "stem": "republican",
+        "count": 14,
+        "term": "republican"
+      },
+      {
+        "stem": "trump",
+        "count": 14,
+        "term": "trump"
+      },
+      {
+        "count": 13,
+        "stem": "london",
+        "term": "london"
+      },
+      {
+        "term": "investors",
+        "stem": "investor",
+        "count": 13
+      },
+      {
+        "term": "democratic",
+        "count": 13,
+        "stem": "democrat"
+      },
+      {
+        "term": "economy",
+        "count": 13,
+        "stem": "economi"
+      },
+      {
+        "count": 13,
+        "stem": "children",
+        "term": "children"
+      },
+      {
+        "term": "free",
+        "count": 12,
+        "stem": "free"
+      },
+      {
+        "count": 10,
+        "stem": "washington",
+        "term": "washington"
+      },
+      {
+        "term": "episode",
+        "count": 10,
+        "stem": "episod"
+      },
+      {
+        "term": "rescue",
+        "stem": "rescu",
+        "count": 10
+      },
+      {
+        "count": 9,
+        "stem": "alleg",
+        "term": "allegations"
+      },
+      {
+        "term": "values",
+        "count": 9,
+        "stem": "valu"
+      },
+      {
+        "term": "playoffs",
+        "count": 9,
+        "stem": "playoff"
+      },
+      {
+        "stem": "crisi",
+        "count": 9,
+        "term": "crisis"
+      },
+      {
+        "term": "earthquake",
+        "stem": "earthquak",
+        "count": 9
+      },
+      {
+        "term": "child",
+        "stem": "child",
+        "count": 9
+      },
+      {
+        "count": 9,
+        "stem": "minist",
+        "term": "minister"
+      },
+      {
+        "count": 8,
+        "stem": "consecut",
+        "term": "consecutive"
+      },
+      {
+        "term": "corruption",
+        "count": 8,
+        "stem": "corrupt"
+      },
+      {
+        "term": "american",
+        "count": 8,
+        "stem": "american"
+      },
+      {
+        "term": "commission",
+        "count": 8,
+        "stem": "commiss"
+      },
+      {
+        "count": 8,
+        "stem": "econom",
+        "term": "economic"
+      },
+      {
+        "count": 8,
+        "stem": "pregnant",
+        "term": "pregnant"
+      },
+      {
+        "term": "global",
+        "count": 8,
+        "stem": "global"
+      },
+      {
+        "count": 8,
+        "stem": "europ",
+        "term": "europe"
+      },
+      {
+        "count": 8,
+        "stem": "mashiki",
+        "term": "mashiki"
+      },
+      {
+        "stem": "student",
+        "count": 8,
+        "term": "students"
+      },
+      {
+        "stem": "obama",
+        "count": 7,
+        "term": "obama"
+      },
+      {
+        "stem": "rubbl",
+        "count": 7,
+        "term": "rubble"
+      },
+      {
+        "count": 7,
+        "stem": "reuter",
+        "term": "reuters"
+      },
+      {
+        "stem": "england",
+        "count": 7,
+        "term": "england"
+      },
+      {
+        "count": 7,
+        "stem": "john",
+        "term": "john"
+      }
+    ],
+    "stats": {
+      "sample_size_param": 1000,
+      "num_sentences_returned": 1000,
+      "num_words_returned": 500,
+      "num_sentences_found": 2639,
+      "num_words_param": 500
+    }
+  },
+  "ELLEN": {
+    "count": 14.35635,
+    "frequency": [
+      {
+        "count": 39,
+        "stem": "ellen",
+        "term": "ellen"
+      },
+      {
+        "count": 7,
+        "term": "degeneres",
+        "stem": "degener"
+      },
+      {
+        "count": 4,
+        "term": "blazers",
+        "stem": "blazer"
+      },
+      {
+        "count": 4,
+        "stem": "portia",
+        "term": "portia"
+      },
+      {
+        "count": 3,
+        "stem": "rossi",
+        "term": "rossi"
+      },
+      {
+        "count": 2,
+        "stem": "johnson",
+        "term": "johnson"
+      },
+      {
+        "count": 2,
+        "stem": "liberia",
+        "term": "liberia"
+      },
+      {
+        "count": 2,
+        "stem": "nakashima",
+        "term": "nakashima"
+      },
+      {
+        "count": 2,
+        "term": "washington",
+        "stem": "washington"
+      },
+      {
+        "count": 2,
+        "stem": "outbreak",
+        "term": "outbreak"
+      },
+      {
+        "stem": "counterpart",
+        "term": "counterpart",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "stem": "african",
+        "term": "african"
+      },
+      {
+        "stem": "minist",
+        "term": "minister",
+        "count": 2
+      },
+      {
+        "term": "cambridge",
+        "stem": "cambridg",
+        "count": 2
+      },
+      {
+        "term": "recover",
+        "stem": "recov",
+        "count": 2
+      },
+      {
+        "term": "ebola",
+        "stem": "ebola",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "term": "greaves",
+        "stem": "greav"
+      },
+      {
+        "stem": "polk",
+        "term": "polk",
+        "count": 2
+      },
+      {
+        "stem": "somervill",
+        "term": "somerville",
+        "count": 2
+      },
+      {
+        "stem": "california",
+        "term": "california",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "term": "sirleaf",
+        "stem": "sirleaf"
+      },
+      {
+        "stem": "europ",
+        "term": "europe",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "stem": "sexiest",
+        "term": "sexiest"
+      },
+      {
+        "count": 2,
+        "term": "monrovia",
+        "stem": "monrovia"
+      },
+      {
+        "stem": "cute",
+        "term": "cute",
+        "count": 2
+      },
+      {
+        "stem": "gamerman",
+        "term": "gamerman",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "stem": "esquir",
+        "term": "esquire"
+      },
+      {
+        "count": 2,
+        "term": "raskin",
+        "stem": "raskin"
+      },
+      {
+        "term": "jewish",
+        "stem": "jewish",
+        "count": 2
+      },
+      {
+        "term": "chat",
+        "stem": "chat",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "stem": "pima",
+        "term": "pima"
+      },
+      {
+        "count": 1,
+        "stem": "ordin",
+        "term": "ordinate"
+      },
+      {
+        "term": "photographed",
+        "stem": "photograph",
+        "count": 1
+      },
+      {
+        "term": "arlington",
+        "stem": "arlington",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "term": "signature",
+        "stem": "signatur"
+      },
+      {
+        "term": "giddy",
+        "stem": "giddi",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "stem": "jackson",
+        "term": "jackson"
+      },
+      {
+        "count": 1,
+        "term": "science",
+        "stem": "scienc"
+      },
+      {
+        "count": 1,
+        "stem": "canadian",
+        "term": "canadian"
+      },
+      {
+        "count": 1,
+        "term": "clarke",
+        "stem": "clark"
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 41,
+      "num_words_returned": 128,
+      "num_words_param": 500,
+      "num_sentences_returned": 41,
+      "sample_size_param": 1000
+    }
+  },
+  "AIME CESAIRE": {
+    "count": 0.544096,
+    "frequency": [
+      {
+        "stem": "inflat",
+        "term": "inflation",
+        "count": 1
+      },
+      {
+        "stem": "fra",
+        "term": "fra",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "stem": "pia",
+        "term": "pia"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "num_sentences_returned": 5,
+      "num_sentences_found": 5,
+      "num_words_returned": 3,
+      "sample_size_param": 1000
+    }
+  },
+  "MARTIN": {
+    "count": 0.83812,
+    "frequency": [
+      {
+        "term": "martin",
+        "stem": "martin",
+        "count": 389
+      },
+      {
+        "stem": "richard",
+        "term": "richard",
+        "count": 27
+      },
+      {
+        "count": 19,
+        "term": "family",
+        "stem": "famili"
+      },
+      {
+        "count": 17,
+        "stem": "san",
+        "term": "san"
+      },
+      {
+        "count": 15,
+        "stem": "walsh",
+        "term": "walsh"
+      },
+      {
+        "count": 14,
+        "term": "jones",
+        "stem": "jone"
+      },
+      {
+        "term": "victim",
+        "stem": "victim",
+        "count": 13
+      },
+      {
+        "count": 12,
+        "term": "luther",
+        "stem": "luther"
+      },
+      {
+        "term": "sports",
+        "stem": "sport",
+        "count": 12
+      },
+      {
+        "term": "aston",
+        "stem": "aston",
+        "count": 12
+      },
+      {
+        "term": "steven",
+        "stem": "steven",
+        "count": 11
+      },
+      {
+        "stem": "georg",
+        "term": "george",
+        "count": 11
+      },
+      {
+        "count": 11,
+        "stem": "mayor",
+        "term": "mayor"
+      },
+      {
+        "stem": "boston",
+        "term": "boston",
+        "count": 11
+      },
+      {
+        "term": "michael",
+        "stem": "michael",
+        "count": 10
+      },
+      {
+        "stem": "wreath",
+        "term": "wreath",
+        "count": 10
+      },
+      {
+        "count": 10,
+        "stem": "john",
+        "term": "john"
+      },
+      {
+        "term": "joshua",
+        "stem": "joshua",
+        "count": 10
+      },
+      {
+        "count": 10,
+        "term": "brisbane",
+        "stem": "brisban"
+      },
+      {
+        "count": 10,
+        "stem": "weal",
+        "term": "weale"
+      },
+      {
+        "stem": "charl",
+        "term": "charles",
+        "count": 10
+      },
+      {
+        "term": "paul",
+        "stem": "paul",
+        "count": 10
+      },
+      {
+        "term": "david",
+        "stem": "david",
+        "count": 9
+      },
+      {
+        "term": "stefan",
+        "stem": "stefan",
+        "count": 9
+      },
+      {
+        "term": "saunders",
+        "stem": "saunder",
+        "count": 9
+      },
+      {
+        "count": 9,
+        "stem": "lion",
+        "term": "lions"
+      },
+      {
+        "count": 8,
+        "stem": "jame",
+        "term": "james"
+      },
+      {
+        "term": "britain",
+        "stem": "britain",
+        "count": 8
+      },
+      {
+        "term": "japanese",
+        "stem": "japanes",
+        "count": 8
+      },
+      {
+        "stem": "american",
+        "term": "american",
+        "count": 8
+      },
+      {
+        "term": "chris",
+        "stem": "chris",
+        "count": 8
+      },
+      {
+        "stem": "lockhe",
+        "term": "lockheed",
+        "count": 8
+      },
+      {
+        "term": "lingzi",
+        "stem": "lingzi",
+        "count": 8
+      },
+      {
+        "stem": "russel",
+        "term": "russell",
+        "count": 8
+      },
+      {
+        "term": "jose",
+        "stem": "jose",
+        "count": 7
+      },
+      {
+        "count": 7,
+        "term": "monetary",
+        "stem": "monetari"
+      },
+      {
+        "count": 7,
+        "stem": "ricki",
+        "term": "ricky"
+      },
+      {
+        "count": 7,
+        "stem": "leagu",
+        "term": "league"
+      },
+      {
+        "stem": "infostrada",
+        "term": "infostrada",
+        "count": 7
+      },
+      {
+        "stem": "london",
+        "term": "london",
+        "count": 7
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 404,
+      "num_words_returned": 500,
+      "sample_size_param": 1000,
+      "num_words_param": 500,
+      "num_sentences_returned": 404
+    }
+  },
+  "GEORGE W. BUSH": {
+    "count": 0.557638,
+    "frequency": [
+      {
+        "term": "george",
+        "count": 542,
+        "stem": "georg"
+      },
+      {
+        "stem": "bush",
+        "term": "bush",
+        "count": 153
+      },
+      {
+        "count": 78,
+        "term": "sports",
+        "stem": "sport"
+      },
+      {
+        "stem": "infostrada",
+        "term": "infostrada",
+        "count": 68
+      },
+      {
+        "term": "osborne",
+        "count": 64,
+        "stem": "osborn"
+      },
+      {
+        "count": 60,
+        "term": "pts",
+        "stem": "pts"
+      },
+      {
+        "stem": "championship",
+        "term": "championship",
+        "count": 54
+      },
+      {
+        "count": 43,
+        "term": "washington",
+        "stem": "washington"
+      },
+      {
+        "term": "free",
+        "stem": "free",
+        "count": 42
+      },
+      {
+        "stem": "pacer",
+        "term": "pacers",
+        "count": 38
+      },
+      {
+        "term": "clooney",
+        "stem": "clooney",
+        "count": 38
+      },
+      {
+        "count": 33,
+        "term": "paul",
+        "stem": "paul"
+      },
+      {
+        "term": "republican",
+        "stem": "republican",
+        "count": 29
+      },
+      {
+        "stem": "toronto",
+        "term": "toronto",
+        "count": 28
+      },
+      {
+        "count": 27,
+        "term": "tax",
+        "stem": "tax"
+      },
+      {
+        "stem": "clinton",
+        "term": "clinton",
+        "count": 26
+      },
+      {
+        "count": 26,
+        "term": "raptors",
+        "stem": "raptor"
+      },
+      {
+        "count": 25,
+        "term": "jeb",
+        "stem": "jeb"
+      },
+      {
+        "term": "chancellor",
+        "count": 22,
+        "stem": "chancellor"
+      },
+      {
+        "term": "presidential",
+        "stem": "presidenti",
+        "count": 22
+      },
+      {
+        "count": 20,
+        "term": "british",
+        "stem": "british"
+      },
+      {
+        "term": "trump",
+        "count": 19,
+        "stem": "trump"
+      },
+      {
+        "term": "playoffs",
+        "stem": "playoff",
+        "count": 19
+      },
+      {
+        "count": 18,
+        "term": "endorsement",
+        "stem": "endors"
+      },
+      {
+        "term": "john",
+        "count": 18,
+        "stem": "john"
+      },
+      {
+        "term": "campaign",
+        "stem": "campaign",
+        "count": 18
+      },
+      {
+        "stem": "democrat",
+        "term": "democratic",
+        "count": 17
+      },
+      {
+        "term": "photo",
+        "stem": "photo",
+        "count": 17
+      },
+      {
+        "term": "thomas",
+        "stem": "thoma",
+        "count": 17
+      },
+      {
+        "count": 17,
+        "term": "sanders",
+        "stem": "sander"
+      },
+      {
+        "term": "pataki",
+        "count": 17,
+        "stem": "pataki"
+      },
+      {
+        "term": "martin",
+        "stem": "martin",
+        "count": 16
+      },
+      {
+        "stem": "gov",
+        "term": "gov",
+        "count": 16
+      },
+      {
+        "term": "war",
+        "stem": "war",
+        "count": 16
+      },
+      {
+        "term": "children",
+        "count": 16,
+        "stem": "children"
+      },
+      {
+        "term": "amal",
+        "stem": "amal",
+        "count": 16
+      },
+      {
+        "term": "indiana",
+        "count": 15,
+        "stem": "indiana"
+      },
+      {
+        "stem": "famili",
+        "term": "family",
+        "count": 15
+      },
+      {
+        "term": "michael",
+        "count": 15,
+        "stem": "michael"
+      },
+      {
+        "count": 14,
+        "term": "fundraiser",
+        "stem": "fundrais"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "num_sentences_returned": 961,
+      "num_words_returned": 500,
+      "num_sentences_found": 961,
+      "sample_size_param": 1000
+    }
+  },
+  "RHODE ISLAND": {
+    "count": 0.58202,
+    "frequency": [
+      {
+        "term": "lesbos",
+        "stem": "lesbo",
+        "count": 141
+      },
+      {
+        "count": 130,
+        "stem": "greek",
+        "term": "greek"
+      },
+      {
+        "stem": "franci",
+        "count": 115,
+        "term": "francis"
+      },
+      {
+        "term": "pope",
+        "stem": "pope",
+        "count": 109
+      },
+      {
+        "count": 95,
+        "stem": "refuge",
+        "term": "refugees"
+      },
+      {
+        "count": 72,
+        "stem": "kyushu",
+        "term": "kyushu"
+      },
+      {
+        "stem": "migrant",
+        "count": 62,
+        "term": "migrants"
+      },
+      {
+        "term": "greece",
+        "count": 40,
+        "stem": "greec"
+      },
+      {
+        "stem": "southern",
+        "count": 40,
+        "term": "southern"
+      },
+      {
+        "term": "europe",
+        "count": 38,
+        "stem": "europ"
+      },
+      {
+        "term": "earthquake",
+        "count": 38,
+        "stem": "earthquak"
+      },
+      {
+        "term": "kumamoto",
+        "count": 37,
+        "stem": "kumamoto"
+      },
+      {
+        "term": "quake",
+        "stem": "quak",
+        "count": 36
+      },
+      {
+        "term": "seal",
+        "stem": "seal",
+        "count": 35
+      },
+      {
+        "term": "japan",
+        "stem": "japan",
+        "count": 30
+      },
+      {
+        "term": "hawaii",
+        "stem": "hawaii",
+        "count": 28
+      },
+      {
+        "term": "staten",
+        "stem": "staten",
+        "count": 27
+      },
+      {
+        "term": "moria",
+        "stem": "moria",
+        "count": 24
+      },
+      {
+        "count": 23,
+        "stem": "syrian",
+        "term": "syrian"
+      },
+      {
+        "count": 22,
+        "stem": "highlight",
+        "term": "highlight"
+      },
+      {
+        "term": "monk",
+        "count": 22,
+        "stem": "monk"
+      },
+      {
+        "stem": "plight",
+        "count": 22,
+        "term": "plight"
+      },
+      {
+        "count": 21,
+        "stem": "famili",
+        "term": "family"
+      },
+      {
+        "term": "rescued",
+        "count": 20,
+        "stem": "rescu"
+      },
+      {
+        "term": "airport",
+        "stem": "airport",
+        "count": 20
+      },
+      {
+        "stem": "hawaiian",
+        "count": 20,
+        "term": "hawaiian"
+      },
+      {
+        "term": "rome",
+        "stem": "rome",
+        "count": 19
+      },
+      {
+        "stem": "marin",
+        "count": 19,
+        "term": "marine"
+      },
+      {
+        "term": "crisis",
+        "count": 19,
+        "stem": "crisi"
+      },
+      {
+        "term": "mammal",
+        "count": 18,
+        "stem": "mammal"
+      },
+      {
+        "term": "japanese",
+        "count": 18,
+        "stem": "japanes"
+      },
+      {
+        "count": 18,
+        "stem": "china",
+        "term": "china"
+      },
+      {
+        "term": "rhode",
+        "count": 17,
+        "stem": "rhode"
+      },
+      {
+        "term": "endangered",
+        "count": 16,
+        "stem": "endang"
+      },
+      {
+        "term": "orthodox",
+        "stem": "orthodox",
+        "count": 16
+      },
+      {
+        "term": "vatican",
+        "count": 16,
+        "stem": "vatican"
+      },
+      {
+        "term": "pontiff",
+        "stem": "pontiff",
+        "count": 16
+      },
+      {
+        "term": "children",
+        "stem": "children",
+        "count": 15
+      },
+      {
+        "stem": "southwestern",
+        "count": 14,
+        "term": "southwestern"
+      },
+      {
+        "term": "christians",
+        "stem": "christian",
+        "count": 14
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 855,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 855,
+      "num_words_param": 500,
+      "num_words_returned": 500
+    }
+  },
+  "EMILY": {
+    "count": 0.55463,
+    "frequency": [
+      {
+        "stem": "emili",
+        "count": 119,
+        "term": "emily"
+      },
+      {
+        "stem": "ratajkowski",
+        "count": 17,
+        "term": "ratajkowski"
+      },
+      {
+        "stem": "instagram",
+        "count": 7,
+        "term": "instagram"
+      },
+      {
+        "count": 6,
+        "term": "willingham",
+        "stem": "willingham"
+      },
+      {
+        "stem": "jean",
+        "count": 6,
+        "term": "jeans"
+      },
+      {
+        "term": "skimpy",
+        "count": 6,
+        "stem": "skimpi"
+      },
+      {
+        "stem": "palm",
+        "term": "palm",
+        "count": 6
+      },
+      {
+        "term": "poolside",
+        "count": 5,
+        "stem": "poolsid"
+      },
+      {
+        "stem": "ampl",
+        "count": 5,
+        "term": "ample"
+      },
+      {
+        "stem": "asset",
+        "count": 5,
+        "term": "assets"
+      },
+      {
+        "stem": "coachella",
+        "count": 5,
+        "term": "coachella"
+      },
+      {
+        "count": 5,
+        "term": "blunt",
+        "stem": "blunt"
+      },
+      {
+        "stem": "andra",
+        "term": "andras",
+        "count": 5
+      },
+      {
+        "term": "photo",
+        "count": 4,
+        "stem": "photo"
+      },
+      {
+        "term": "topless",
+        "count": 4,
+        "stem": "topless"
+      },
+      {
+        "stem": "john",
+        "count": 4,
+        "term": "john"
+      },
+      {
+        "stem": "selfi",
+        "term": "selfie",
+        "count": 4
+      },
+      {
+        "term": "kim",
+        "count": 4,
+        "stem": "kim"
+      },
+      {
+        "stem": "actress",
+        "count": 4,
+        "term": "actress"
+      },
+      {
+        "stem": "peter",
+        "term": "peter",
+        "count": 4
+      },
+      {
+        "stem": "kerr",
+        "count": 3,
+        "term": "kerr"
+      },
+      {
+        "term": "kardashian",
+        "count": 3,
+        "stem": "kardashian"
+      },
+      {
+        "stem": "smith",
+        "term": "smith",
+        "count": 3
+      },
+      {
+        "term": "simms",
+        "count": 3,
+        "stem": "simm"
+      },
+      {
+        "stem": "macdonagh",
+        "term": "macdonagh",
+        "count": 3
+      },
+      {
+        "count": 3,
+        "term": "alongside",
+        "stem": "alongsid"
+      },
+      {
+        "count": 3,
+        "term": "ben",
+        "stem": "ben"
+      },
+      {
+        "stem": "ann",
+        "term": "anne",
+        "count": 3
+      },
+      {
+        "term": "monica",
+        "count": 3,
+        "stem": "monica"
+      },
+      {
+        "stem": "santa",
+        "count": 3,
+        "term": "santa"
+      },
+      {
+        "stem": "sexi",
+        "count": 3,
+        "term": "sexy"
+      },
+      {
+        "stem": "celeb",
+        "term": "celeb",
+        "count": 3
+      },
+      {
+        "stem": "wang",
+        "term": "wang",
+        "count": 3
+      },
+      {
+        "term": "bachelor",
+        "count": 3,
+        "stem": "bachelor"
+      },
+      {
+        "term": "media",
+        "count": 3,
+        "stem": "media"
+      },
+      {
+        "stem": "beau",
+        "term": "beau",
+        "count": 3
+      },
+      {
+        "stem": "mari",
+        "count": 3,
+        "term": "mari"
+      },
+      {
+        "count": 3,
+        "term": "premiered",
+        "stem": "premier"
+      },
+      {
+        "term": "outfits",
+        "count": 2,
+        "stem": "outfit"
+      },
+      {
+        "stem": "wynonna",
+        "count": 2,
+        "term": "wynonna"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 442,
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_found": 123,
+      "num_sentences_returned": 123
+    }
+  },
+  "THREE-YEAR": {
+    "count": 0.536486,
+    "frequency": [
+      {
+        "term": "league",
+        "count": 17,
+        "stem": "leagu"
+      },
+      {
+        "count": 17,
+        "stem": "children",
+        "term": "children"
+      },
+      {
+        "term": "economy",
+        "count": 16,
+        "stem": "economi"
+      },
+      {
+        "term": "china",
+        "stem": "china",
+        "count": 15
+      },
+      {
+        "term": "clinton",
+        "stem": "clinton",
+        "count": 14
+      },
+      {
+        "count": 13,
+        "stem": "london",
+        "term": "london"
+      },
+      {
+        "stem": "campaign",
+        "count": 11,
+        "term": "campaign"
+      },
+      {
+        "term": "british",
+        "count": 11,
+        "stem": "british"
+      },
+      {
+        "term": "arm",
+        "stem": "arm",
+        "count": 11
+      },
+      {
+        "term": "family",
+        "stem": "famili",
+        "count": 11
+      },
+      {
+        "count": 10,
+        "stem": "san",
+        "term": "san"
+      },
+      {
+        "term": "victory",
+        "stem": "victori",
+        "count": 10
+      },
+      {
+        "term": "tax",
+        "stem": "tax",
+        "count": 10
+      },
+      {
+        "stem": "love",
+        "count": 10,
+        "term": "love"
+      },
+      {
+        "term": "global",
+        "stem": "global",
+        "count": 10
+      },
+      {
+        "stem": "washington",
+        "count": 10,
+        "term": "washington"
+      },
+      {
+        "stem": "victim",
+        "count": 10,
+        "term": "victim"
+      },
+      {
+        "term": "winner",
+        "count": 10,
+        "stem": "winner"
+      },
+      {
+        "term": "consecutive",
+        "stem": "consecut",
+        "count": 9
+      },
+      {
+        "count": 9,
+        "stem": "media",
+        "term": "media"
+      },
+      {
+        "term": "california",
+        "count": 9,
+        "stem": "california"
+      },
+      {
+        "term": "francisco",
+        "stem": "francisco",
+        "count": 9
+      },
+      {
+        "count": 8,
+        "stem": "ban",
+        "term": "ban"
+      },
+      {
+        "term": "democratic",
+        "count": 8,
+        "stem": "democrat"
+      },
+      {
+        "term": "free",
+        "count": 8,
+        "stem": "free"
+      },
+      {
+        "term": "assault",
+        "stem": "assault",
+        "count": 8
+      },
+      {
+        "term": "david",
+        "stem": "david",
+        "count": 8
+      },
+      {
+        "term": "yen",
+        "stem": "yen",
+        "count": 8
+      },
+      {
+        "stem": "prosecutor",
+        "count": 8,
+        "term": "prosecutors"
+      },
+      {
+        "count": 8,
+        "stem": "reuter",
+        "term": "reuters"
+      },
+      {
+        "term": "photo",
+        "stem": "photo",
+        "count": 7
+      },
+      {
+        "count": 7,
+        "stem": "crime",
+        "term": "crime"
+      },
+      {
+        "term": "college",
+        "count": 7,
+        "stem": "colleg"
+      },
+      {
+        "count": 7,
+        "stem": "republican",
+        "term": "republican"
+      },
+      {
+        "term": "asset",
+        "count": 7,
+        "stem": "asset"
+      },
+      {
+        "term": "boston",
+        "stem": "boston",
+        "count": 7
+      },
+      {
+        "term": "angeles",
+        "count": 7,
+        "stem": "angel"
+      },
+      {
+        "count": 7,
+        "stem": "john",
+        "term": "john"
+      },
+      {
+        "stem": "stadium",
+        "count": 7,
+        "term": "stadium"
+      },
+      {
+        "count": 7,
+        "stem": "carolina",
+        "term": "carolina"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "num_sentences_found": 12874,
+      "num_sentences_returned": 1000,
+      "num_words_returned": 500,
+      "sample_size_param": 1000
+    }
+  },
+  "EDGAR KLEINER": {
+    "count": 3.510944,
+    "frequency": [
+      {
+        "term": "edgar",
+        "stem": "edgar",
+        "count": 9
+      },
+      {
+        "stem": "featherweight",
+        "count": 2,
+        "term": "featherweight"
+      },
+      {
+        "term": "mcgregor",
+        "count": 2,
+        "stem": "mcgregor"
+      },
+      {
+        "term": "belt",
+        "stem": "belt",
+        "count": 1
+      },
+      {
+        "term": "allen",
+        "stem": "allen",
+        "count": 1
+      },
+      {
+        "term": "hoover",
+        "stem": "hoover",
+        "count": 1
+      },
+      {
+        "term": "lungu",
+        "stem": "lungu",
+        "count": 1
+      },
+      {
+        "stem": "rice",
+        "count": 1,
+        "term": "rice"
+      },
+      {
+        "term": "love",
+        "count": 1,
+        "stem": "love"
+      },
+      {
+        "term": "gloucester",
+        "stem": "gloucest",
+        "count": 1
+      },
+      {
+        "term": "baked",
+        "count": 1,
+        "stem": "bake"
+      },
+      {
+        "stem": "jose",
+        "count": 1,
+        "term": "jose"
+      },
+      {
+        "term": "pip",
+        "stem": "pip",
+        "count": 1
+      },
+      {
+        "term": "interim",
+        "count": 1,
+        "stem": "interim"
+      },
+      {
+        "count": 1,
+        "stem": "fowler",
+        "term": "fowler"
+      },
+      {
+        "stem": "contend",
+        "count": 1,
+        "term": "contenders"
+      },
+      {
+        "term": "winner",
+        "stem": "winner",
+        "count": 1
+      },
+      {
+        "stem": "gavin",
+        "count": 1,
+        "term": "gavin"
+      },
+      {
+        "stem": "aldo",
+        "count": 1,
+        "term": "aldo"
+      },
+      {
+        "stem": "budd",
+        "count": 1,
+        "term": "budde"
+      },
+      {
+        "term": "bout",
+        "stem": "bout",
+        "count": 1
+      },
+      {
+        "term": "eric",
+        "count": 1,
+        "stem": "eric"
+      },
+      {
+        "term": "hitchcock",
+        "count": 1,
+        "stem": "hitchcock"
+      },
+      {
+        "stem": "penanc",
+        "count": 1,
+        "term": "penance"
+      },
+      {
+        "term": "jersey",
+        "stem": "jersey",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "stem": "bana",
+        "term": "bana"
+      },
+      {
+        "count": 1,
+        "stem": "ufc",
+        "term": "ufc"
+      },
+      {
+        "stem": "rev",
+        "count": 1,
+        "term": "rev"
+      },
+      {
+        "term": "protestors",
+        "stem": "protestor",
+        "count": 1
+      },
+      {
+        "term": "poe",
+        "count": 1,
+        "stem": "poe"
+      },
+      {
+        "stem": "retreat",
+        "count": 1,
+        "term": "retreat"
+      },
+      {
+        "count": 1,
+        "stem": "tarzan",
+        "term": "tarzan"
+      },
+      {
+        "term": "mariann",
+        "count": 1,
+        "stem": "mariann"
+      },
+      {
+        "stem": "clever",
+        "count": 1,
+        "term": "clever"
+      },
+      {
+        "term": "burroughs",
+        "stem": "burrough",
+        "count": 1
+      },
+      {
+        "term": "zambian",
+        "stem": "zambian",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "stem": "franki",
+        "term": "frankie"
+      },
+      {
+        "term": "league",
+        "count": 1,
+        "stem": "leagu"
+      },
+      {
+        "stem": "hereford",
+        "count": 1,
+        "term": "hereford"
+      },
+      {
+        "term": "ramirez",
+        "stem": "ramirez",
+        "count": 1
+      }
+    ],
+    "stats": {
+      "num_words_returned": 42,
+      "num_sentences_returned": 9,
+      "num_sentences_found": 9,
+      "num_words_param": 500,
+      "sample_size_param": 1000
+    }
+  },
+  "KOREA": {
+    "count": 0.576298,
+    "frequency": [
+      {
+        "term": "korea",
+        "count": 285,
+        "stem": "korea"
+      },
+      {
+        "term": "nuclear",
+        "stem": "nuclear",
+        "count": 55
+      },
+      {
+        "term": "korean",
+        "count": 45,
+        "stem": "korean"
+      },
+      {
+        "count": 36,
+        "stem": "kim",
+        "term": "kim"
+      },
+      {
+        "term": "seoul",
+        "stem": "seoul",
+        "count": 36
+      },
+      {
+        "count": 26,
+        "stem": "weapon",
+        "term": "weapons"
+      },
+      {
+        "stem": "ballist",
+        "count": 22,
+        "term": "ballistic"
+      },
+      {
+        "term": "japan",
+        "stem": "japan",
+        "count": 20
+      },
+      {
+        "stem": "ferri",
+        "count": 18,
+        "term": "ferry"
+      },
+      {
+        "stem": "plutonium",
+        "count": 17,
+        "term": "plutonium"
+      },
+      {
+        "term": "birthday",
+        "stem": "birthday",
+        "count": 16
+      },
+      {
+        "count": 15,
+        "stem": "pyongyang",
+        "term": "pyongyang"
+      },
+      {
+        "term": "satellite",
+        "stem": "satellit",
+        "count": 14
+      },
+      {
+        "term": "embarrassing",
+        "stem": "embarrass",
+        "count": 14
+      },
+      {
+        "count": 14,
+        "stem": "websit",
+        "term": "website"
+      },
+      {
+        "term": "jong",
+        "count": 14,
+        "stem": "jong"
+      },
+      {
+        "count": 13,
+        "stem": "china",
+        "term": "china"
+      },
+      {
+        "term": "setback",
+        "stem": "setback",
+        "count": 13
+      },
+      {
+        "term": "sung",
+        "stem": "sung",
+        "count": 12
+      },
+      {
+        "term": "musudan",
+        "stem": "musudan",
+        "count": 12
+      },
+      {
+        "term": "provocations",
+        "stem": "provoc",
+        "count": 11
+      },
+      {
+        "term": "imagery",
+        "count": 11,
+        "stem": "imageri"
+      },
+      {
+        "stem": "graham",
+        "count": 10,
+        "term": "graham"
+      },
+      {
+        "term": "mid",
+        "count": 10,
+        "stem": "mid"
+      },
+      {
+        "term": "celebrate",
+        "count": 9,
+        "stem": "celebr"
+      },
+      {
+        "count": 9,
+        "stem": "intermedi",
+        "term": "intermediate"
+      },
+      {
+        "stem": "washington",
+        "count": 8,
+        "term": "washington"
+      },
+      {
+        "term": "sanctions",
+        "stem": "sanction",
+        "count": 8
+      },
+      {
+        "term": "monitors",
+        "count": 8,
+        "stem": "monitor"
+      },
+      {
+        "term": "amid",
+        "count": 8,
+        "stem": "amid"
+      },
+      {
+        "term": "founder",
+        "count": 8,
+        "stem": "founder"
+      },
+      {
+        "count": 8,
+        "stem": "sewol",
+        "term": "sewol"
+      },
+      {
+        "term": "rattling",
+        "count": 7,
+        "stem": "rattl"
+      },
+      {
+        "stem": "paju",
+        "count": 7,
+        "term": "paju"
+      },
+      {
+        "stem": "student",
+        "count": 7,
+        "term": "student"
+      },
+      {
+        "term": "flatcar",
+        "stem": "flatcar",
+        "count": 7
+      },
+      {
+        "count": 6,
+        "stem": "imjingak",
+        "term": "imjingak"
+      },
+      {
+        "term": "pavilion",
+        "stem": "pavilion",
+        "count": 6
+      },
+      {
+        "term": "john",
+        "stem": "john",
+        "count": 6
+      },
+      {
+        "stem": "sunken",
+        "count": 6,
+        "term": "sunken"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "num_words_returned": 499,
+      "num_sentences_found": 331,
+      "num_sentences_returned": 331,
+      "sample_size_param": 1000
+    }
+  },
+  "ANTHONY": {
+    "count": 0.55302,
+    "frequency": [
+      {
+        "count": 222,
+        "stem": "anthoni",
+        "term": "anthony"
+      },
+      {
+        "count": 20,
+        "stem": "joshua",
+        "term": "joshua"
+      },
+      {
+        "count": 14,
+        "stem": "jame",
+        "term": "james"
+      },
+      {
+        "term": "carmelo",
+        "count": 13,
+        "stem": "carmelo"
+      },
+      {
+        "term": "fury",
+        "stem": "furi",
+        "count": 10
+      },
+      {
+        "term": "caption",
+        "count": 9,
+        "stem": "caption"
+      },
+      {
+        "count": 9,
+        "stem": "tyson",
+        "term": "tyson"
+      },
+      {
+        "count": 8,
+        "stem": "heavyweight",
+        "term": "heavyweight"
+      },
+      {
+        "term": "knockaert",
+        "count": 7,
+        "stem": "knockaert"
+      },
+      {
+        "stem": "imogen",
+        "count": 7,
+        "term": "imogen"
+      },
+      {
+        "term": "boadle",
+        "stem": "boadl",
+        "count": 7
+      },
+      {
+        "term": "fauci",
+        "count": 7,
+        "stem": "fauci"
+      },
+      {
+        "term": "klitschko",
+        "count": 6,
+        "stem": "klitschko"
+      },
+      {
+        "stem": "martial",
+        "count": 6,
+        "term": "martial"
+      },
+      {
+        "stem": "client",
+        "count": 6,
+        "term": "client"
+      },
+      {
+        "stem": "martin",
+        "count": 6,
+        "term": "martin"
+      },
+      {
+        "term": "wladimir",
+        "count": 6,
+        "stem": "wladimir"
+      },
+      {
+        "count": 6,
+        "stem": "charl",
+        "term": "charles"
+      },
+      {
+        "count": 5,
+        "stem": "horowitz",
+        "term": "horowitz"
+      },
+      {
+        "term": "michael",
+        "stem": "michael",
+        "count": 5
+      },
+      {
+        "term": "dalgleish",
+        "count": 5,
+        "stem": "dalgleish"
+      },
+      {
+        "count": 5,
+        "stem": "heme",
+        "term": "hemed"
+      },
+      {
+        "term": "tony",
+        "stem": "toni",
+        "count": 5
+      },
+      {
+        "term": "infectious",
+        "count": 5,
+        "stem": "infecti"
+      },
+      {
+        "term": "karcz",
+        "stem": "karcz",
+        "count": 5
+      },
+      {
+        "count": 5,
+        "stem": "rashford",
+        "term": "rashford"
+      },
+      {
+        "stem": "allergi",
+        "count": 5,
+        "term": "allergy"
+      },
+      {
+        "term": "chris",
+        "count": 5,
+        "stem": "chris"
+      },
+      {
+        "term": "johnson",
+        "stem": "johnson",
+        "count": 5
+      },
+      {
+        "stem": "knick",
+        "count": 5,
+        "term": "knicks"
+      },
+      {
+        "count": 5,
+        "stem": "tom",
+        "term": "tom"
+      },
+      {
+        "stem": "rooney",
+        "count": 4,
+        "term": "rooney"
+      },
+      {
+        "term": "davis",
+        "count": 4,
+        "stem": "davi"
+      },
+      {
+        "count": 4,
+        "stem": "wade",
+        "term": "wade"
+      },
+      {
+        "stem": "flynn",
+        "count": 4,
+        "term": "flynn"
+      },
+      {
+        "term": "clash",
+        "count": 4,
+        "stem": "clash"
+      },
+      {
+        "count": 4,
+        "stem": "belt",
+        "term": "belt"
+      },
+      {
+        "term": "evans",
+        "count": 4,
+        "stem": "evan"
+      },
+      {
+        "count": 4,
+        "stem": "robert",
+        "term": "robert"
+      },
+      {
+        "count": 4,
+        "stem": "munich",
+        "term": "munich"
+      }
+    ],
+    "stats": {
+      "num_words_returned": 500,
+      "num_sentences_found": 235,
+      "sample_size_param": 1000,
+      "num_words_param": 500,
+      "num_sentences_returned": 235
+    }
+  },
+  "50 YEARS": {
+    "count": 0.536486,
+    "frequency": [
+      {
+        "count": 21,
+        "term": "economy",
+        "stem": "economi"
+      },
+      {
+        "term": "american",
+        "count": 15,
+        "stem": "american"
+      },
+      {
+        "term": "family",
+        "stem": "famili",
+        "count": 13
+      },
+      {
+        "count": 13,
+        "term": "league",
+        "stem": "leagu"
+      },
+      {
+        "term": "poland",
+        "count": 13,
+        "stem": "poland"
+      },
+      {
+        "stem": "children",
+        "term": "children",
+        "count": 11
+      },
+      {
+        "term": "china",
+        "count": 11,
+        "stem": "china"
+      },
+      {
+        "term": "tax",
+        "stem": "tax",
+        "count": 11
+      },
+      {
+        "count": 11,
+        "term": "celebration",
+        "stem": "celebr"
+      },
+      {
+        "term": "educated",
+        "count": 10,
+        "stem": "educ"
+      },
+      {
+        "stem": "european",
+        "term": "european",
+        "count": 10
+      },
+      {
+        "stem": "war",
+        "term": "war",
+        "count": 10
+      },
+      {
+        "stem": "washington",
+        "term": "washington",
+        "count": 10
+      },
+      {
+        "term": "san",
+        "count": 10,
+        "stem": "san"
+      },
+      {
+        "term": "campaign",
+        "stem": "campaign",
+        "count": 10
+      },
+      {
+        "term": "free",
+        "count": 9,
+        "stem": "free"
+      },
+      {
+        "stem": "crimin",
+        "term": "criminal",
+        "count": 9
+      },
+      {
+        "term": "john",
+        "stem": "john",
+        "count": 9
+      },
+      {
+        "stem": "democrat",
+        "term": "democrats",
+        "count": 9
+      },
+      {
+        "stem": "slowest",
+        "term": "slowest",
+        "count": 9
+      },
+      {
+        "term": "love",
+        "count": 8,
+        "stem": "love"
+      },
+      {
+        "count": 8,
+        "term": "super",
+        "stem": "super"
+      },
+      {
+        "term": "athletes",
+        "stem": "athlet",
+        "count": 8
+      },
+      {
+        "stem": "clinton",
+        "term": "clinton",
+        "count": 8
+      },
+      {
+        "stem": "bowl",
+        "term": "bowl",
+        "count": 7
+      },
+      {
+        "term": "fact",
+        "count": 7,
+        "stem": "fact"
+      },
+      {
+        "term": "zoo",
+        "count": 7,
+        "stem": "zoo"
+      },
+      {
+        "term": "francisco",
+        "count": 7,
+        "stem": "francisco"
+      },
+      {
+        "term": "western",
+        "stem": "western",
+        "count": 7
+      },
+      {
+        "stem": "europ",
+        "term": "europe",
+        "count": 6
+      },
+      {
+        "count": 6,
+        "term": "california",
+        "stem": "california"
+      },
+      {
+        "stem": "victim",
+        "term": "victims",
+        "count": 6
+      },
+      {
+        "count": 6,
+        "term": "sports",
+        "stem": "sport"
+      },
+      {
+        "count": 6,
+        "term": "pro",
+        "stem": "pro"
+      },
+      {
+        "stem": "paul",
+        "term": "paul",
+        "count": 6
+      },
+      {
+        "stem": "los",
+        "term": "los",
+        "count": 6
+      },
+      {
+        "term": "nevada",
+        "count": 6,
+        "stem": "nevada"
+      },
+      {
+        "term": "duda",
+        "count": 6,
+        "stem": "duda"
+      },
+      {
+        "stem": "congress",
+        "term": "congress",
+        "count": 6
+      },
+      {
+        "term": "obama",
+        "stem": "obama",
+        "count": 6
+      }
+    ],
+    "stats": {
+      "sample_size_param": 1000,
+      "num_sentences_found": 6174,
+      "num_sentences_returned": 1000,
+      "num_words_returned": 500,
+      "num_words_param": 500
+    }
+  },
+  "GERTRUDE STEIN": {
+    "count": 0.53811,
+    "frequency": [
+      {
+        "count": 52,
+        "stem": "stein",
+        "term": "stein"
+      },
+      {
+        "term": "democratic",
+        "stem": "democrat",
+        "count": 13
+      },
+      {
+        "count": 7,
+        "stem": "sander",
+        "term": "sanders"
+      },
+      {
+        "count": 7,
+        "stem": "clinton",
+        "term": "clinton"
+      },
+      {
+        "term": "letitia",
+        "count": 5,
+        "stem": "letitia"
+      },
+      {
+        "term": "gertrude",
+        "count": 4,
+        "stem": "gertrud"
+      },
+      {
+        "stem": "campaign",
+        "count": 4,
+        "term": "campaign"
+      },
+      {
+        "term": "fraud",
+        "stem": "fraud",
+        "count": 3
+      },
+      {
+        "term": "dreyfuss",
+        "count": 3,
+        "stem": "dreyfuss"
+      },
+      {
+        "term": "bernie",
+        "count": 3,
+        "stem": "berni"
+      },
+      {
+        "term": "jill",
+        "stem": "jill",
+        "count": 3
+      },
+      {
+        "term": "immigration",
+        "count": 3,
+        "stem": "immigr"
+      },
+      {
+        "term": "exemption",
+        "stem": "exempt",
+        "count": 3
+      },
+      {
+        "term": "gault",
+        "stem": "gault",
+        "count": 3
+      },
+      {
+        "count": 3,
+        "stem": "dan",
+        "term": "dan"
+      },
+      {
+        "count": 3,
+        "stem": "chavez",
+        "term": "chavez"
+      },
+      {
+        "term": "splitting",
+        "stem": "split",
+        "count": 2
+      },
+      {
+        "stem": "ceo",
+        "count": 2,
+        "term": "ceo"
+      },
+      {
+        "stem": "mitchel",
+        "count": 2,
+        "term": "mitchell"
+      },
+      {
+        "stem": "cnn",
+        "count": 2,
+        "term": "cnn"
+      },
+      {
+        "count": 2,
+        "stem": "onlin",
+        "term": "online"
+      },
+      {
+        "term": "tax",
+        "stem": "tax",
+        "count": 2
+      },
+      {
+        "stem": "fake",
+        "count": 2,
+        "term": "fakes"
+      },
+      {
+        "stem": "cnet",
+        "count": 2,
+        "term": "cnet"
+      },
+      {
+        "stem": "kiss",
+        "count": 2,
+        "term": "kissing"
+      },
+      {
+        "term": "grebler",
+        "stem": "grebler",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "stem": "nomine",
+        "term": "nominee"
+      },
+      {
+        "stem": "herbert",
+        "count": 2,
+        "term": "herbert"
+      },
+      {
+        "term": "climate",
+        "count": 2,
+        "stem": "climat"
+      },
+      {
+        "stem": "econom",
+        "count": 2,
+        "term": "economics"
+      },
+      {
+        "term": "presidential",
+        "count": 2,
+        "stem": "presidenti"
+      },
+      {
+        "count": 2,
+        "stem": "tronic",
+        "term": "tronics"
+      },
+      {
+        "stem": "nixon",
+        "count": 2,
+        "term": "nixon"
+      },
+      {
+        "stem": "tout",
+        "count": 2,
+        "term": "tout"
+      },
+      {
+        "term": "republican",
+        "count": 2,
+        "stem": "republican"
+      },
+      {
+        "term": "sec",
+        "stem": "sec",
+        "count": 2
+      },
+      {
+        "term": "jessica",
+        "stem": "jessica",
+        "count": 2
+      },
+      {
+        "stem": "economist",
+        "count": 2,
+        "term": "economist"
+      },
+      {
+        "term": "scott",
+        "count": 2,
+        "stem": "scott"
+      },
+      {
+        "term": "drum",
+        "count": 2,
+        "stem": "drum"
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 63,
+      "num_words_param": 500,
+      "num_sentences_returned": 63,
+      "num_words_returned": 169,
+      "sample_size_param": 1000
+    }
+  },
+  "CARLOS ARREDONDO": {
+    "count": 0.683,
+    "frequency": [
+      {
+        "stem": "carlo",
+        "term": "carlos",
+        "count": 109
+      },
+      {
+        "stem": "santana",
+        "count": 14,
+        "term": "santana"
+      },
+      {
+        "count": 13,
+        "term": "sainz",
+        "stem": "sainz"
+      },
+      {
+        "stem": "rosso",
+        "term": "rosso",
+        "count": 13
+      },
+      {
+        "count": 13,
+        "term": "toro",
+        "stem": "toro"
+      },
+      {
+        "count": 12,
+        "term": "juan",
+        "stem": "juan"
+      },
+      {
+        "count": 12,
+        "term": "spain",
+        "stem": "spain"
+      },
+      {
+        "stem": "beltran",
+        "term": "beltran",
+        "count": 9
+      },
+      {
+        "stem": "ferrari",
+        "term": "ferrari",
+        "count": 8
+      },
+      {
+        "count": 7,
+        "term": "homer",
+        "stem": "homer"
+      },
+      {
+        "term": "inning",
+        "count": 7,
+        "stem": "inning"
+      },
+      {
+        "count": 7,
+        "term": "roberto",
+        "stem": "roberto"
+      },
+      {
+        "term": "correa",
+        "count": 7,
+        "stem": "correa"
+      },
+      {
+        "stem": "britain",
+        "count": 5,
+        "term": "britain"
+      },
+      {
+        "stem": "reed",
+        "count": 5,
+        "term": "reed"
+      },
+      {
+        "stem": "student",
+        "term": "students",
+        "count": 4
+      },
+      {
+        "stem": "batteri",
+        "count": 4,
+        "term": "battery"
+      },
+      {
+        "term": "getafe",
+        "count": 4,
+        "stem": "getaf"
+      },
+      {
+        "term": "photo",
+        "count": 4,
+        "stem": "photo"
+      },
+      {
+        "count": 4,
+        "term": "colombian",
+        "stem": "colombian"
+      },
+      {
+        "stem": "ramón",
+        "term": "ramón",
+        "count": 4
+      },
+      {
+        "stem": "hain",
+        "term": "haines",
+        "count": 4
+      },
+      {
+        "count": 4,
+        "term": "ojeda",
+        "stem": "ojeda"
+      },
+      {
+        "count": 4,
+        "term": "berl",
+        "stem": "berl"
+      },
+      {
+        "term": "varela",
+        "count": 4,
+        "stem": "varela"
+      },
+      {
+        "term": "madrid",
+        "count": 4,
+        "stem": "madrid"
+      },
+      {
+        "term": "fonseca",
+        "count": 4,
+        "stem": "fonseca"
+      },
+      {
+        "count": 4,
+        "term": "osorio",
+        "stem": "osorio"
+      },
+      {
+        "count": 3,
+        "term": "alleges",
+        "stem": "alleg"
+      },
+      {
+        "count": 3,
+        "term": "perez",
+        "stem": "perez"
+      },
+      {
+        "count": 3,
+        "term": "los",
+        "stem": "los"
+      },
+      {
+        "stem": "milan",
+        "count": 3,
+        "term": "milan"
+      },
+      {
+        "stem": "astro",
+        "term": "astros",
+        "count": 3
+      },
+      {
+        "stem": "sixth",
+        "term": "sixth",
+        "count": 3
+      },
+      {
+        "term": "addison",
+        "count": 3,
+        "stem": "addison"
+      },
+      {
+        "term": "mexican",
+        "count": 3,
+        "stem": "mexican"
+      },
+      {
+        "count": 3,
+        "term": "collins",
+        "stem": "collin"
+      },
+      {
+        "count": 3,
+        "term": "asesinato",
+        "stem": "asesinato"
+      },
+      {
+        "stem": "polk",
+        "term": "polk",
+        "count": 3
+      },
+      {
+        "term": "policía",
+        "count": 3,
+        "stem": "policía"
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 118,
+      "num_words_returned": 482,
+      "num_words_param": 500,
+      "sample_size_param": 1000,
+      "num_sentences_returned": 118
+    }
+  },
+  "MELVILLE": {
+    "count": 0.508868,
+    "frequency": [
+      {
+        "term": "melville",
+        "stem": "melvill",
+        "count": 11
+      },
+      {
+        "count": 2,
+        "stem": "tim",
+        "term": "tim"
+      },
+      {
+        "stem": "loui",
+        "term": "louis",
+        "count": 2
+      },
+      {
+        "stem": "leagu",
+        "term": "league",
+        "count": 2
+      },
+      {
+        "term": "pirates",
+        "stem": "pirat",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "term": "reuters",
+        "stem": "reuter"
+      },
+      {
+        "term": "victory",
+        "stem": "victori",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "term": "cardinals",
+        "stem": "cardin"
+      },
+      {
+        "term": "robinson",
+        "stem": "robinson",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "term": "stadium",
+        "stem": "stadium"
+      },
+      {
+        "count": 1,
+        "term": "spaghetti",
+        "stem": "spaghetti"
+      },
+      {
+        "term": "outfit",
+        "stem": "outfit",
+        "count": 1
+      },
+      {
+        "stem": "monster",
+        "term": "monster",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "term": "martyn",
+        "stem": "martyn"
+      },
+      {
+        "count": 1,
+        "stem": "media",
+        "term": "media"
+      },
+      {
+        "term": "family",
+        "stem": "famili",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "term": "marty",
+        "stem": "marti"
+      },
+      {
+        "count": 1,
+        "term": "pittsburgh",
+        "stem": "pittsburgh"
+      },
+      {
+        "term": "rugby",
+        "stem": "rugbi",
+        "count": 1
+      },
+      {
+        "stem": "inning",
+        "term": "innings",
+        "count": 1
+      },
+      {
+        "term": "jackie",
+        "stem": "jacki",
+        "count": 1
+      },
+      {
+        "term": "afp",
+        "stem": "afp",
+        "count": 1
+      },
+      {
+        "stem": "nigel",
+        "term": "nigel",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "term": "karen",
+        "stem": "karen"
+      },
+      {
+        "stem": "recognis",
+        "term": "recognised",
+        "count": 1
+      },
+      {
+        "term": "wentzville",
+        "stem": "wentzvill",
+        "count": 1
+      },
+      {
+        "term": "amber",
+        "stem": "amber",
+        "count": 1
+      },
+      {
+        "stem": "busch",
+        "term": "busch",
+        "count": 1
+      },
+      {
+        "term": "debut",
+        "stem": "debut",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "term": "pitcher",
+        "stem": "pitcher"
+      },
+      {
+        "count": 1,
+        "term": "toby",
+        "stem": "tobi"
+      },
+      {
+        "count": 1,
+        "stem": "usa",
+        "term": "usa"
+      },
+      {
+        "count": 1,
+        "term": "wellington",
+        "stem": "wellington"
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 11,
+      "num_sentences_returned": 11,
+      "num_words_param": 500,
+      "num_words_returned": 33,
+      "sample_size_param": 1000
+    }
+  },
+  "RICHARD FAMILY": {
+    "count": 2.111862,
+    "frequency": [
+      {
+        "count": 865,
+        "stem": "famili",
+        "term": "family"
+      },
+      {
+        "count": 143,
+        "term": "richard",
+        "stem": "richard"
+      },
+      {
+        "stem": "love",
+        "term": "loved",
+        "count": 33
+      },
+      {
+        "stem": "royal",
+        "term": "royal",
+        "count": 28
+      },
+      {
+        "stem": "children",
+        "term": "children",
+        "count": 25
+      },
+      {
+        "count": 22,
+        "term": "manson",
+        "stem": "manson"
+      },
+      {
+        "term": "tax",
+        "stem": "tax",
+        "count": 20
+      },
+      {
+        "term": "sanders",
+        "stem": "sander",
+        "count": 19
+      },
+      {
+        "term": "photo",
+        "stem": "photo",
+        "count": 16
+      },
+      {
+        "count": 15,
+        "stem": "american",
+        "term": "american"
+      },
+      {
+        "count": 15,
+        "stem": "victim",
+        "term": "victim"
+      },
+      {
+        "stem": "martin",
+        "term": "martin",
+        "count": 14
+      },
+      {
+        "count": 13,
+        "term": "iii",
+        "stem": "iii"
+      },
+      {
+        "count": 13,
+        "stem": "campaign",
+        "term": "campaign"
+      },
+      {
+        "stem": "jane",
+        "term": "jane",
+        "count": 12
+      },
+      {
+        "count": 12,
+        "term": "saudi",
+        "stem": "saudi"
+      },
+      {
+        "stem": "van",
+        "term": "van",
+        "count": 11
+      },
+      {
+        "term": "texas",
+        "stem": "texa",
+        "count": 11
+      },
+      {
+        "term": "london",
+        "stem": "london",
+        "count": 11
+      },
+      {
+        "count": 11,
+        "term": "degrom",
+        "stem": "degrom"
+      },
+      {
+        "count": 10,
+        "term": "parole",
+        "stem": "parol"
+      },
+      {
+        "stem": "houten",
+        "term": "houten",
+        "count": 10
+      },
+      {
+        "count": 10,
+        "stem": "kardashian",
+        "term": "kardashian"
+      },
+      {
+        "term": "nixon",
+        "stem": "nixon",
+        "count": 10
+      },
+      {
+        "term": "mccullough",
+        "stem": "mccullough",
+        "count": 9
+      },
+      {
+        "term": "republican",
+        "stem": "republican",
+        "count": 9
+      },
+      {
+        "count": 9,
+        "stem": "free",
+        "term": "free"
+      },
+      {
+        "count": 9,
+        "term": "donation",
+        "stem": "donat"
+      },
+      {
+        "term": "grandchildren",
+        "stem": "grandchildren",
+        "count": 9
+      },
+      {
+        "term": "child",
+        "stem": "child",
+        "count": 9
+      },
+      {
+        "stem": "celebr",
+        "term": "celebrate",
+        "count": 8
+      },
+      {
+        "term": "caption",
+        "stem": "caption",
+        "count": 8
+      },
+      {
+        "count": 8,
+        "term": "joe",
+        "stem": "joe"
+      },
+      {
+        "count": 8,
+        "stem": "democrat",
+        "term": "democratic"
+      },
+      {
+        "term": "smith",
+        "stem": "smith",
+        "count": 8
+      },
+      {
+        "stem": "america",
+        "term": "america",
+        "count": 8
+      },
+      {
+        "stem": "california",
+        "term": "california",
+        "count": 8
+      },
+      {
+        "count": 7,
+        "stem": "georg",
+        "term": "george"
+      },
+      {
+        "stem": "holiday",
+        "term": "holiday",
+        "count": 7
+      },
+      {
+        "count": 7,
+        "stem": "david",
+        "term": "david"
+      }
+    ],
+    "stats": {
+      "num_words_param": 500,
+      "num_sentences_returned": 1000,
+      "num_sentences_found": 2515,
+      "sample_size_param": 1000,
+      "num_words_returned": 500
+    }
+  },
+  "FENWAY": {
+    "count": 0.785444,
+    "frequency": [
+      {
+        "term": "fenway",
+        "stem": "fenway",
+        "count": 22
+      },
+      {
+        "count": 8,
+        "stem": "sox",
+        "term": "sox"
+      },
+      {
+        "term": "boston",
+        "stem": "boston",
+        "count": 8
+      },
+      {
+        "term": "patriot",
+        "count": 3,
+        "stem": "patriot"
+      },
+      {
+        "term": "mellor",
+        "stem": "mellor",
+        "count": 2
+      },
+      {
+        "term": "innings",
+        "count": 2,
+        "stem": "inning"
+      },
+      {
+        "term": "mow",
+        "count": 2,
+        "stem": "mow"
+      },
+      {
+        "term": "brooklyn",
+        "stem": "brooklyn",
+        "count": 2
+      },
+      {
+        "stem": "nagi",
+        "count": 2,
+        "term": "nagy"
+      },
+      {
+        "term": "jean",
+        "count": 2,
+        "stem": "jean"
+      },
+      {
+        "stem": "yanke",
+        "count": 2,
+        "term": "yankees"
+      },
+      {
+        "term": "gyllenhaal",
+        "count": 1,
+        "stem": "gyllenha"
+      },
+      {
+        "count": 1,
+        "stem": "poland",
+        "term": "poland"
+      },
+      {
+        "count": 1,
+        "stem": "homeown",
+        "term": "homeowners"
+      },
+      {
+        "count": 1,
+        "stem": "weed",
+        "term": "weed"
+      },
+      {
+        "count": 1,
+        "stem": "dent",
+        "term": "dent"
+      },
+      {
+        "stem": "roush",
+        "count": 1,
+        "term": "roush"
+      },
+      {
+        "term": "playability",
+        "stem": "playabl",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "stem": "bauman",
+        "term": "bauman"
+      },
+      {
+        "stem": "worrisom",
+        "count": 1,
+        "term": "worrisome"
+      },
+      {
+        "term": "conjures",
+        "stem": "conjur",
+        "count": 1
+      },
+      {
+        "stem": "brand",
+        "count": 1,
+        "term": "brand"
+      },
+      {
+        "count": 1,
+        "stem": "pinstrip",
+        "term": "pinstriper"
+      },
+      {
+        "term": "ceremonial",
+        "count": 1,
+        "stem": "ceremoni"
+      },
+      {
+        "term": "breaker",
+        "count": 1,
+        "stem": "breaker"
+      },
+      {
+        "stem": "explet",
+        "count": 1,
+        "term": "expletive"
+      },
+      {
+        "count": 1,
+        "stem": "media",
+        "term": "media"
+      },
+      {
+        "term": "monster",
+        "count": 1,
+        "stem": "monster"
+      },
+      {
+        "count": 1,
+        "stem": "highland",
+        "term": "highlanders"
+      },
+      {
+        "count": 1,
+        "stem": "lefti",
+        "term": "lefty"
+      },
+      {
+        "stem": "royal",
+        "count": 1,
+        "term": "royals"
+      },
+      {
+        "term": "swisher",
+        "count": 1,
+        "stem": "swisher"
+      },
+      {
+        "term": "antics",
+        "count": 1,
+        "stem": "antic"
+      },
+      {
+        "stem": "tonya",
+        "count": 1,
+        "term": "tonya"
+      },
+      {
+        "term": "erase",
+        "count": 1,
+        "stem": "eras"
+      },
+      {
+        "term": "sandoval",
+        "count": 1,
+        "stem": "sandov"
+      },
+      {
+        "term": "pittsburgh",
+        "count": 1,
+        "stem": "pittsburgh"
+      },
+      {
+        "count": 1,
+        "stem": "bush",
+        "term": "bush"
+      },
+      {
+        "term": "rob",
+        "stem": "rob",
+        "count": 1
+      },
+      {
+        "term": "tommy",
+        "stem": "tommi",
+        "count": 1
+      }
+    ],
+    "stats": {
+      "num_sentences_found": 22,
+      "num_words_param": 500,
+      "num_words_returned": 83,
+      "num_sentences_returned": 22,
+      "sample_size_param": 1000
+    }
+  },
+  "PAIN": {
+    "count": 0.512188,
+    "frequency": [
+      {
+        "count": 10,
+        "stem": "symptom",
+        "term": "symptoms"
+      },
+      {
+        "count": 10,
+        "stem": "hospit",
+        "term": "hospitals"
+      },
+      {
+        "term": "excruciating",
+        "count": 9,
+        "stem": "excruci"
+      },
+      {
+        "term": "headaches",
+        "count": 9,
+        "stem": "headach"
+      },
+      {
+        "count": 8,
+        "stem": "fever",
+        "term": "fever"
+      },
+      {
+        "term": "child",
+        "stem": "child",
+        "count": 7
+      },
+      {
+        "stem": "famili",
+        "count": 7,
+        "term": "family"
+      },
+      {
+        "term": "decrease",
+        "count": 6,
+        "stem": "decreas"
+      },
+      {
+        "count": 5,
+        "stem": "stool",
+        "term": "stools"
+      },
+      {
+        "count": 5,
+        "stem": "alonso",
+        "term": "alonso"
+      },
+      {
+        "term": "chronic",
+        "count": 5,
+        "stem": "chronic"
+      },
+      {
+        "term": "rib",
+        "stem": "rib",
+        "count": 5
+      },
+      {
+        "term": "bahrain",
+        "stem": "bahrain",
+        "count": 4
+      },
+      {
+        "count": 4,
+        "stem": "abdomin",
+        "term": "abdominal"
+      },
+      {
+        "term": "commission",
+        "stem": "commiss",
+        "count": 4
+      },
+      {
+        "count": 4,
+        "stem": "inflict",
+        "term": "inflicting"
+      },
+      {
+        "count": 4,
+        "stem": "studi",
+        "term": "studies"
+      },
+      {
+        "term": "love",
+        "stem": "love",
+        "count": 4
+      },
+      {
+        "stem": "acupunctur",
+        "count": 4,
+        "term": "acupuncture"
+      },
+      {
+        "term": "vomiting",
+        "count": 4,
+        "stem": "vomit"
+      },
+      {
+        "stem": "nausea",
+        "count": 4,
+        "term": "nausea"
+      },
+      {
+        "term": "arm",
+        "stem": "arm",
+        "count": 3
+      },
+      {
+        "term": "american",
+        "stem": "american",
+        "count": 3
+      },
+      {
+        "term": "torture",
+        "count": 3,
+        "stem": "tortur"
+      },
+      {
+        "term": "bruises",
+        "stem": "bruis",
+        "count": 3
+      },
+      {
+        "stem": "assault",
+        "count": 3,
+        "term": "assaulted"
+      },
+      {
+        "term": "stabbed",
+        "count": 3,
+        "stem": "stab"
+      },
+      {
+        "count": 3,
+        "stem": "advoc",
+        "term": "advocates"
+      },
+      {
+        "term": "free",
+        "stem": "free",
+        "count": 3
+      },
+      {
+        "term": "surgery",
+        "stem": "surgeri",
+        "count": 3
+      },
+      {
+        "term": "nocturnal",
+        "stem": "nocturn",
+        "count": 3
+      },
+      {
+        "count": 3,
+        "stem": "lundqvist",
+        "term": "lundqvist"
+      },
+      {
+        "count": 3,
+        "stem": "sensat",
+        "term": "sensation"
+      },
+      {
+        "stem": "infect",
+        "count": 3,
+        "term": "infection"
+      },
+      {
+        "term": "endure",
+        "count": 3,
+        "stem": "endur"
+      },
+      {
+        "term": "optometrist",
+        "count": 3,
+        "stem": "optometrist"
+      },
+      {
+        "term": "catholic",
+        "stem": "cathol",
+        "count": 3
+      },
+      {
+        "term": "tax",
+        "stem": "tax",
+        "count": 3
+      },
+      {
+        "count": 3,
+        "stem": "lethargi",
+        "term": "lethargy"
+      },
+      {
+        "count": 3,
+        "stem": "fractur",
+        "term": "fractured"
+      }
+    ],
+    "stats": {
+      "num_sentences_returned": 304,
+      "num_words_returned": 500,
+      "num_sentences_found": 304,
+      "num_words_param": 500,
+      "sample_size_param": 1000
+    }
+  }
+}

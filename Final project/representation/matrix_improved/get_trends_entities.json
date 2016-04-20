@@ -1,0 +1,88 @@
+{
+  "args": {
+    "limit": 20,
+    "skip": 0,
+    "window": 1
+  },
+  "results": [
+    {
+      "_id": "NEW YORK",
+      "count": 10
+    },
+    {
+      "_id": "DONALD TRUMP",
+      "count": 10
+    },
+    {
+      "_id": "TRUMP",
+      "count": 9
+    },
+    {
+      "_id": "PRESIDENT",
+      "count": 9
+    },
+    {
+      "_id": "TED CRUZ",
+      "count": 9
+    },
+    {
+      "_id": "YORK",
+      "count": 8
+    },
+    {
+      "_id": "AMERICA",
+      "count": 8
+    },
+    {
+      "_id": "COLORADO",
+      "count": 8
+    },
+    {
+      "_id": "HILLARY CLINTON",
+      "count": 7
+    },
+    {
+      "_id": "JOHN KASICH",
+      "count": 6
+    },
+    {
+      "_id": "BERNIE SANDERS",
+      "count": 6
+    },
+    {
+      "_id": "US",
+      "count": 5
+    },
+    {
+      "_id": "BILL CLINTON",
+      "count": 4
+    },
+    {
+      "_id": "IRAQ",
+      "count": 4
+    },
+    {
+      "_id": "SECRETARY",
+      "count": 4
+    },
+    {
+      "_id": "OFFICIAL",
+      "count": 4
+    },
+    {
+      "_id": "BRUSSELS",
+      "count": 4
+    },
+    {
+      "_id": "RNC",
+      "count": 4
+    },
+    {
+      "_id": "CALIFORNIA",
+      "count": 4
+    },
+    {
+      "_id": "NBC",
+      "count": 4
+    }
+  ]
