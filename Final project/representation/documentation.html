@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h3 id="jasmin-rubinovitz">Jasmin Rubinovitz</h3>
+<p>4/21/2016<br />
+4s50 Information Design</p>
+<div style="margin: auto; width: 90%; text-align:center">
+<h1 id="final-project---representations">Final Project - Representations</h1>
+<h2 id="sketches">Sketches</h2>
+<p><img src="sketches/sketch3.jpg"  style="width:27%"> <img src="sketches/sketch2.jpg"  style="width:27%"> <img src="sketches/sketch1.jpg"  style="width:27%"></p>
+<h2 id="code">code</h2>
+<p>showing the top entities, text size mapped to number of mentions<br />
+<img src="screenshots/0_super_glue_data.png" /></p>
+<p>cross referencing 2 data sources in order to find connections. The matrix doesn't make much sense<br />
+<img src="screenshots/2_matrix.png" /> <img src="screenshots/4_matrix.png" /></p>
+<p>Using just super-glue data. a square is colored if 2 entities were mentioned in the same sentence in the closed captions<br />
+<img src="screenshots/5_matrix.png" /> <img src="screenshots/6_matrix.png" /> <img src="screenshots/7_matrix.png" /></p>
+<div class="figure">
+<img src="screenshots/14_matrix.png" />
+
+</div>
+<p>Plotting the network in another way<br />
+<img src="screenshots/12_text_network.png" /></p>
+<p>text size shows the number of mentions. color of the lines matched the number of mentions together.<br />
+<img src="screenshots/13_text_network.png" /></p>
+<p>Moving to circles. the location is determined using PCA on the adjacency matrix.<br />
+<img src="screenshots/14_bubbles.png" /></p>
+<div class="figure">
+<img src="screenshots/17_bubbles_svd.png" />
+
+</div>
+<div class="figure">
+<img src="screenshots/16_bubbles_svd.png" />
+
+</div>
+<p>Trying the d3.js circles packing algorithm for circles locations<br />
+<img src="screenshots/22_d3_circles.png" /></p>
+<h3 id="more-ideation">More Ideation:</h3>
+<p>For the final version. I want to show how the connections and sizes of entities change across time.<br />
+When hovering on a circle, the related circles will highlight. Then, clicking on any of the highlighted circles will show a relevant video bit that talks about these 2 entities</p>
+<div class="figure">
+<img src="sketches/VideoWordCloud.jpg" />
+
+</div>
+<div class="figure">
+<img src="sketches/VideoWordCloud_1.jpg" />
+
+</div>
+<div class="figure">
+<img src="sketches/VideoWordCloud_2.jpg" />
+
+</div>
+</div>
+</body>
+</html>
