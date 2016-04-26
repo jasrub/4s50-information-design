@@ -57,7 +57,7 @@ function preload() {
   if (!loadLocal) {
     getSuperGlueData();
   } else {
-    loadJSON('data/frequent_itemsets_300_3_days_replacement.json', superGlueloadCallback)
+    loadJSON('data/frequent_itemsets_25_4_200.json', superGlueloadCallback)
   }
 }
 
