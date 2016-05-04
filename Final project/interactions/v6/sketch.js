@@ -2,41 +2,43 @@
 // on hover, also those that are not in the circels on the screen.
 // clicking on each entitiy should show the relevant video bit.
 
+var robotoFont;
+var robotoFontBold;
 
-entitiesMatrix = {}
-entities = []
-numbersMatrix = []
-allEntities = []
-var dobj=[]
-var bubble
+var sMatrix;
+entitiesMatrix = {};
+entities = [];
+numbersMatrix = [];
+allEntities = [];
+var dobj=[];
+var bubble;
 
-var svdResult
+var svdResult;
 var maxPairCount = 0;
 var maxCount = 0;
-var min_0_U
-var max_0_U
-var min_1_U
-var max_1_U
+var min_0_U;
+var max_0_U;
+var min_1_U;
+var max_1_U;
 
-var minDim
+var minDim;
 
-var selected  = -1
+var selected  = -1;
+var offset = 0;
+var numOfEntitiesToShow = 30;
 
-var offset = 0
-var numOfEntitiesToShow = 30
+var currVid;
 
-var currVid
+var videoLink = "";
 
-var videoLink = ""
-
-var loadLocal = true
+var loadLocal = true;
 //hasSuperGlueData = false
 
-var videosMode = true
-var showTitle = true
+var videosMode = true;
+var showTitle = true;
 var dateString;
 
-var playing = false
+var playing = false;
 // plays or pauses the video depending on current state
 function toggleVid() {
   if (playing) {
@@ -57,55 +59,54 @@ function preload() {
   if (!loadLocal) {
     getSuperGlueData();
   } else {
-    loadJSON('data/frequent_itemsets_300_3_days_replacement.json', superGlueloadCallback)
+    loadJSON('data/frequent_itemsets-29-4.json', superGlueloadCallback)
   }
+  
+  robotoFont = loadFont('assets/Roboto-Regular.ttf');
+  robotoFontBold = loadFont('assets/Roboto-Bold.ttf');
 }
-
+var grid;
 function setup() {
   createCanvas(windowWidth, windowHeight)
   minDim = min([width, height])
   calculateSVD()
   currVid = createVideo("")
   currVid.size(minDim/2, minDim/2)
-  currVid.position(width/2-(currVid.width)/2, height/2-(currVid.height)/2)
+  currVid.position(width/4-(currVid.width)/2, height/2-(currVid.height)/2)
   //clipString = 'rect('+width/2-width/6+'px,'+width/2+width/6+'px,'+height/2+'px,'+width/2-width/6+'px)'
   //currVid.style('clip:'+clipString+';')
-  currVid.style('border-radius:100%;')
+  //currVid.style('border-radius:100%;')
   currVid.mousePressed(toggleVid)
   //currVid.style('opacity: 0.5;')
   
   dateString = getDateString()
+  grid = new Grid(36, // px, top margin
+    36, // px, bottom margin
+    36, // px, left margin
+    36, // px, right margin
+    3, // # columns
+    12, // px, gutter width
+    12 // # rows
+  );
 }
 
 function draw() {
   //background(150)
   //background('rgb(47, 55, 79)')
   //background('rgb(48, 52, 73)')
-  background('rgb(116, 120, 146)')
-  //background(255)
-    //drawEntitiesMatrix()
-    // stroke(1)
+  //background('rgb(116, 120, 146)')
+  background(255)
   if (showTitle){
-    push()
-    //fill(255)
-    fill(0)
-    noStroke()
-    textAlign(CENTER)
-    textSize(40)
-    textFont ("helvetica")
-    text("Top Entities in the News", width/2, 70)
-    textSize(25)
-    text (dateString, width/2, 110)
-    pop()
+    drawTitle()
   }
   push();
   fill(0)
   noStroke()
-  textFont('halvetica')
+  textFont(robotoFont)
   textSize(15)
   textAlign(LEFT)
-  text ("ENTER - toggle navigation / videos mode", 10, 40)
-  text ("SPACE - play / pause video", 10, 60)
+  text ("ENTER - toggle navigation / videos mode", 10, height-60)
+  text ("SPACE - play / pause video", 10, height-40)
   pop();
   noFill();
 
@@ -118,7 +119,7 @@ function draw() {
       if(selected==-1){
       entity.highlight()
       for (j = 0; j < entities.length; j++) {
-        if (numbersMatrix[j+offset][idx] > 0 || idx==j) {
+        if (numbersMatrix[j][idx] > 0 || idx==j) {
           //stroke(map(numbersMatrix[j+offset][idx], 0, maxPairCount, 255, 0))
           //line(entity.x, entity.y, entities[j].x, entities[j].y)
           entities[j].highlight()
@@ -142,6 +143,23 @@ function draw() {
   else {
     cursor(HAND);
   }
+  //grid.display()
+}
+
+function drawTitle() {
+  push()
+    //fill(255)
+    fill(0)
+    noStroke()
+    textAlign(LEFT, TOP)
+    textSize(40)
+    textFont (robotoFontBold)
+    textStyle(BOLD)
+    text("Top Entities in the News", 30, 30)
+    textSize(25)
+    textFont (robotoFont)
+    text (dateString, 30, 90)
+  pop()
 }
 
 function calculateSVD() {
@@ -158,7 +176,7 @@ function calculateSVD() {
       if (val>0) {
         entities[i].connections[allEntities[j][0]] = val
       }
-      if (i+offset == j) {
+      if (i == j) {
         val = 0
       }
       numbersMatrix[j].push(val)
@@ -171,7 +189,7 @@ function calculateSVD() {
   max_0_U = -100
   min_1_U = 100
   max_1_U = -100
-  for (i = 0; i < svdResult.U.length; i++) {
+  for (i = 0; i < numOfEntitiesToShow; i++){//svdResult.U.length; i++) {
     min_0_U = svdResult.U[i][0] < min_0_U ? svdResult.U[i][0] : min_0_U
     min_1_U = svdResult.U[i][1] < min_1_U ? svdResult.U[i][1] : min_1_U
     max_0_U = svdResult.U[i][0] > max_0_U ? svdResult.U[i][0] : max_0_U
@@ -181,16 +199,16 @@ function calculateSVD() {
   
   var bubble = d3.layout.pack()
     .sort(null)
-    .size([width, height-40])
+    .size([width, height])
     .padding(0);
   
   bubble_result = bubble.nodes({children:dobj.slice(offset, offset+numOfEntitiesToShow)})[0].children
   
   for (i = 0; i < entities.length; i++) {
-    //calculateXY(svdResult, i)
-    entities[i].x = i< offset || i>=offset+numOfEntitiesToShow? width*2 : bubble_result[i].x
-    entities[i].y = i< offset || i>=offset+numOfEntitiesToShow? height/2 :entities[i].y = bubble_result[i].y +80
-    entities[i].radius = i< offset || i>=offset+numOfEntitiesToShow? minDim/6 : bubble_result[i].r*1.8
+    calculateXY(svdResult, i)
+    // entities[i].x = i< offset || i>=offset+numOfEntitiesToShow? width*2 : bubble_result[i].x +width/4
+    // entities[i].y = i< offset || i>=offset+numOfEntitiesToShow? height/2 :entities[i].y = bubble_result[i].y
+    // entities[i].radius = i< offset || i>=offset+numOfEntitiesToShow? minDim/6 : bubble_result[i].r*1.8
   }
 }
 
@@ -201,12 +219,12 @@ function calculateXY(svdResult, i) {
     mappedY = height/2
   }
   else {
-  mappedX = map(svdResult.U[i][0], min_0_U, max_0_U, border, width - border)
-  mappedY = map(svdResult.U[i][1], min_1_U, max_1_U, border, height - border)
+  mappedX = map(svdResult.U[i][0], min_0_U, max_0_U, width/3, width - 2*border)
+  mappedY = map(svdResult.U[i][1], min_1_U, max_1_U, border, height - 2*border)
   startTime = millis();
   colliding = true
   while (colliding && millis()-startTime<1000) {
-    colliding = false
+    colliding = true
     for (j = 0; j < i; j++) {
       squaredDist = sq(mappedX - entities[j].x) + sq(mappedY - entities[j].y)
       squaredRadius = sq(entities[i].radius / 2 + entities[j].radius / 2)
@@ -215,6 +233,8 @@ function calculateXY(svdResult, i) {
         distToMove = sqrt(squaredRadius - squaredDist)
         mappedX = mappedX + distToMove < width - entities[i].radius  ? mappedX + distToMove : mappedX - distToMove > entities[i].radius  ? mappedX - distToMove : mappedX
         mappedY = mappedY + distToMove < height - entities[i].radius ? mappedY + distToMove : mappedY - distToMove > entities[i].radius  ? mappedY - distToMove : mappedY
+        //mappedX = width-mappedX
+        //mappedY = height-mappedY
         //print("colliding! " + entities[i].name + " " + entities[j].name)
         break
       }
@@ -239,7 +259,6 @@ function superGlueloadCallback(data) {
   //print (results)
   maxCount = results.scored_entities[offset][1]
   allEntities = results.scored_entities
-  //for (i = offset; i < offset+numOfEntitiesToShow; i++) {
   for (i = 0; i < allEntities.length ; i++) {
     entity = allEntities[i][0]
     // if (entity == "us" || entity == "us." || entity == "u.s." || entity == "reporter") {
@@ -260,10 +279,11 @@ function superGlueloadCallback(data) {
 }
 
 function mouseClicked() {
-  showTitle=false
+  //showTitle=false
   if (videosMode) {
     if (selected!=-1) {
-      entities[selected].setTarget(width/2, height/2, minDim/2)
+      //video relation: 16*9
+      entities[selected].setTarget(width/4, height/2, minDim/2)
       entities.forEach(function(entity, idx, array) {
       if (entity.containsCursor()) {
         selectedPair= idx
@@ -286,141 +306,66 @@ function mouseClicked() {
     if (entity.containsCursor()) {
       selected = idx
       foundSelected = true
-      entity.setTarget(width/2, height/2, minDim/3)
+      entity.setTarget(width/4, height/2, minDim/3)
       //return;
     }
   })
   if (foundSelected) {
-    angle = 0
-    angleMove = TWO_PI/(Object.keys(entities[selected].connections).length-1)
-    startLocation = createVector(width/2-minDim/2+80, height/2).sub(createVector(width/2, height/2))
+    currSMatrix = {}
+    indexs = []
     entities.forEach(function(entity, idx, array) {
       entity.isSelected = false
-    if (numbersMatrix[idx+offset][selected] > 0 && idx!=selected) {
-      entity.setTarget (width/2+startLocation.x, height/2+startLocation.y, minDim/10)
-      startLocation = startLocation.rotate(angleMove)
+      if (numbersMatrix[idx][selected] > 0 && idx!=selected) {
+        indexs.push(idx)
     }
     else {
       if (idx!=selected) {
-        //moveVector = createVector(entity.x, entity.y).sub(createVector(width/2, height/2))
-        moveX = (entity.x-width/2)*15;
-        moveY = (entity.y-height/2)*15;
-        entity.setTarget (entity.x+moveX,entity.y+moveY, entity.radius);
+        moveX = (entity.x-width/2)*40;
+        moveY = (entity.y-height/2)*40;
+        entity.setTarget (entity.x+moveX,entity.y+moveY, entity.origR);
       }
     }
     })
+    arr = indexs
+    indexInArr = function(index, array) { for (i=0; i<array.length; i++){ if (array[i]==index) return true;} return false;}
+    currSMatrix = sMatrix.filter(function(value, index){return indexInArr(index, arr)}).map(function(value, index){return value.filter(function(value, index){return indexInArr(index, arr)})})
+
+    currSvdResult = numeric.svd(currSMatrix);
+    curr_min_0_U = 100
+    curr_min_1_U = 100
+    curr_max_0_U = -100
+    curr_max_1_U = -100
+    for (i = 0; i < currSvdResult.U.length; i++) {
+    curr_min_0_U = currSvdResult .U[i][0] < curr_min_0_U ? currSvdResult .U[i][0] : curr_min_0_U
+    curr_min_1_U = currSvdResult .U[i][1] < curr_min_1_U ? currSvdResult .U[i][1] : curr_min_1_U
+    curr_max_0_U = currSvdResult .U[i][0] > curr_max_0_U ? currSvdResult .U[i][0] : curr_max_0_U
+    curr_max_1_U = currSvdResult .U[i][1] > curr_max_1_U ? currSvdResult .U[i][1] : curr_max_1_U
+    }
+    for (i=0; i<indexs.length; i++) {
+      mappedX = map(currSvdResult.U[i][0], curr_min_0_U, curr_max_0_U, width/3+80, width - 80)
+      mappedY = map(currSvdResult.U[i][1], curr_min_1_U, curr_max_1_U, 80, height - 80)
+      entities[indexs[i]].setTarget(mappedX, mappedY,entities[indexs[i]].origR)
+    }
+    
   }
   else {
     selected = -1
   }
 }
 
-function Entity(name, count) {
-  this.name = name;
-  this.count = count;
-  this.x = 0;
-  this.y = 0;
-  
-  this.connections = {};
-  this.radius = map(this.count, 0, maxCount, width/2, width*2)
-  this.connections = {}
-  
-  this.c = 0
-  this.isAnimating = false
-  this.targetX = 0;
-  this.targetY = 0;
-  this.sourceX = this.x
-  this.sourceY = this.y
-  this.targetSize = this.radius
-  this.sizeStep = 0
-  this.moveVector = createVector(0,0)
-  
-  this.steps = 60*1.0
-  this.currStep  = 0
-  this.percent  = 0
-  
-  
-  this.setTarget = function(targetX, targetY, targetSize) {
-    this.isAnimating = true
-    this.currStep  = 0
-    this.percent  = 0
-    this.sourceX = this.x
-    this.sourceY = this.y
-    this.targetX = targetX;
-    this.targetY = targetY;
-    this.targetSize = targetSize;
-    this.moveVector = createVector(targetX, targetY).sub(createVector(this.x, this.y)).div(this.steps)
-    this.sizeStep = (this.targetSize-this.radius)/this.steps
-  }
-  
-  this.update = function() {
-    if (this.isAnimating) {
-      if (this.currStep>this.steps) {
-        // this.x = this.targetX
-        // this.y = this.targetY
-        this.isAnimating = false
-        return
-      }
 
-      var p = this.percent;
-      p=(sqrt(p)+ p*p)/2;
-
-      newLocation = p5.Vector.lerp(createVector(this.sourceX, this.sourceY), createVector(this.targetX, this.targetY), p);
-      this.x = newLocation.x
-      this.y = newLocation.y
-      this.radius+=this.sizeStep
-      this.currStep++
-      this.percent = this.currStep/this.steps
-    }
-  }
-
-  this.highlight = function() {
-    this.c = color('rgb(182, 197, 201)')
-  }
-  
-  this.unhighlight = function() {
-    this.c = 0
-  }
-
-  this.display = function() {
-    push();
-    fill(this.c)
-    noStroke()
-    ellipseMode(CENTER);
-    ellipse(this.x, this.y, this.radius, this.radius);
-    pop();
-    this.displayText()
-  }
-  this.displayText = function() {
-    push();
-    textAlign(CENTER, CENTER)
-    //textStyle(BOLD)
-    noStroke();
-    fill(255)
-    //textSize(8)
-    text(trim(this.name.split(' ').join('\n').capitalizeFirstLetter()), this.x, this.y)
-    //text(trim(this.name.capitalizeFirstLetter()), this.x, this.y)
-    //text(trim(this.name).replace(/\s+/g, '\n').toLowerCase().capitalizeFirstLetter(), this.x, this.y);
-    pop();
-
-  }
-
-  this.containsCursor = function() {
-    return sq((mouseX - this.x) / this.radius) + sq((mouseY - this.y) / this.radius) < 0.25;
-  }
-}
 
 function Button (string, x, y) {
   this.x = x
   this.y = y
   this.string = string
-  this.font = 'halvetica'
+  this.font = robotoFont
   
   this.display = function() {
     push()
     textAlign(LEFT,TOP)
     fill(255)
-    textFont()
+    textFont(robotoFont)
     pop()
   }
 }
@@ -435,7 +380,8 @@ String.prototype.capitalizeFirstLetter = function() {
   //return this.charAt(0).toUpperCase() + this.slice(1);
   return this.toUpperCase()
 }
-  function keyPressed() {
+
+function keyPressed() {
     print (keyCode)
   if (keyCode === ENTER) {
     //print("space pressed")
