@@ -23,7 +23,7 @@ var minDim;
 
 var selected  = -1;
 var offset = 0;
-var numOfEntitiesToShow = 30;
+var numOfEntitiesToShow = 50;
 
 var loadLocal = true;
 //hasSuperGlueData = false
@@ -31,37 +31,14 @@ var loadLocal = true;
 var videosMode = true;
 var showTitle = true;
 var dateString;
-
-
-// // plays or pauses the video depending on current state
-// function toggleVid() {
-//   if (playing) {
-//     currVid.pause();
-//     //currVid.hide()
-//   } else {
-//     //currVid.show()
-//     currVid.play();
-//   }
-//   playing = !playing;
-// }
-
-function toggleVideosMode() {
-  videosMode = !videosMode
-  if (playing) {
-      toggleVid()
-      currVid.src = ""
-      currVid.hide()
-    }
-  else {
-      currVid.show()
-  }
-}
+var bgColor;
+var typesList = {};
 
 function preload() {
   if (!loadLocal) {
     getSuperGlueData();
   } else {
-    loadJSON('data/data-01-05-doubles.json', superGlueloadCallback)
+    loadJSON('data/data_with_types.json', superGlueloadCallback)
   }
   
   robotoFont = loadFont('assets/Roboto-Regular.ttf');
@@ -81,71 +58,82 @@ function setup() {
     12 // # rows
   );
   Node.setRadius();
+  Node.getColorMap(typesList);
   // Initialize the physics
   physics=new VerletPhysics2D();
-  // Set the world's bounding box
-  //physics.setWorldBounds(new Rect(0,0,width,height));
+
+  
+  
+  currVid = new Video()
   
   createNumbersMatrix()
-  currVid = new Video()
+  cluster = new Cluster(8, 200, allEntities, numbersMatrix);
 
   dateString = getDateString()
+  bgColor = color('rgb(21, 33, 64)')
 
 }
 
-// function initializeVideo() {
-//   currVid = createVideo("")
-//   currVid.size(minDim/2, minDim/2)
-//   currVid.position(width/4-(currVid.width)/2, height/2-(currVid.height)/2)
-//   currVid.mousePressed(toggleVid)
-// }
 
 function draw() {
-  
-  //background(255)
-  background('rgb(21, 33, 64)')
+
+  background(bgColor)
   drawTitle()
-  displayToggles()
-  
+
   // Update the physics world
   physics.update();
-  //cluster.showConnections();
-  cluster.display();
   
-  currVid.drawRect();
-  //grid.display()
+  cluster.showConnections();
+  currVid.display();
+  cluster.display();
 }
 
 function drawTitle() {
   if (showTitle){
+    // draw caps around title square
+  push();
+  noFill()
+  stroke(255)
+  strokeWeight(3)
+  rect (currVid.x-3, currVid.y-3, currVid.w+6, currVid.h+6)
+  noStroke()
+  fill(bgColor)
+  rect (currVid.x-5, currVid.y+10, currVid.w+15, currVid.h-20)
+  rect (currVid.x+10, currVid.y-5, currVid.w-20, currVid.h+15)
+  pop();
   push()
-    //fill(255)
     fill(255)
     noStroke()
-    textAlign(LEFT, TOP)
+    textAlign(CENTER)
     textSize(grid.rowheight()/2)
     textFont (robotoFontBold)
     textStyle(BOLD)
-    text("Top Entities in the News", grid.margin.left,grid.margin.top,grid.colwidth())
+    text("Visualizing the News", currVid.x+currVid.w/2, currVid.y+grid.rowheight())
     textSize(grid.rowheight()/3)
     textFont (robotoFont)
-    text (dateString, grid.margin.left,grid.margin.top + grid.rowheight(),grid.colwidth())
+    text (dateString,  currVid.x+currVid.w/2, currVid.y+grid.rowheight()*2)
   pop()
+
   }
 }
 
-function displayToggles() {
-  push();
-  fill(255)
-  noStroke()
-  textFont(robotoFont)
-  textSize(15)
-  textAlign(LEFT)
-  text ("ENTER - toggle navigation / videos mode", 10, height-60)
-  text ("SPACE - play / pause video", 10, height-40)
-  pop();
-  noFill();
 
+function drawExplenations() {
+  push()
+    fill(255)
+    noStroke()
+    textAlign(LEFT)
+    textSize(grid.rowheight()/3)
+    textFont (robotoFont)
+    string = "These are top moset mentioned entities in the news today.\n"+
+    "Hover on the circles to highlight the connections\n"+
+    "Click on a circle to show only the entities that relate to it.\n"
+    "Click on a related entity to see the relevant video bit"
+    text(string, currVid.x+currVid.w/2, currVid.y+grid.rowheight())
+    textSize(grid.rowheight()/3)
+    textFont (robotoFont)
+    text (dateString,  currVid.x+currVid.w/2, currVid.y+grid.rowheight()*2)
+  pop()
 }
 
 
@@ -156,8 +144,9 @@ function getSuperGlueData() {
 
 function superGlueloadCallback(data) {
   results = data.results;
-  maxCount = results.scored_entities[offset][1]
+  maxCount = results.scored_entities[offset][1].score
   allEntities = results.scored_entities
+  typesList = results.types
 
   entitiesMatrix = results.sets;
   // calcualte max pair count // needed??
@@ -184,7 +173,6 @@ function createNumbersMatrix() {
       sMatrix[j].push(val> 0.001 ? 1 : 0)
     }
   }
-  cluster = new Cluster(8, 200, allEntities, numbersMatrix);
   // sMatrix = numbersMatrix.map(function(value, index){ return value.map(function(value, index){r = value> 0.001 ? 1 : 0; return r;})})
 }
 
@@ -192,28 +180,7 @@ function createNumbersMatrix() {
 function mouseClicked() {
   //showTitle=false
   cluster.mouseClick(mouseX, mouseY);
-  
-  // if (videosMode) {
-  //   if (selected!=-1) {
-  //     //video relation: 16*9
-  //     entities[selected].setTarget(width/4, height/2, minDim/2)
-  //     entities.forEach(function(entity, idx, array) {
-  //     if (entity.containsCursor()) {
-  //       selectedPair= idx
-  //       keyPair = sort([entities[selected].name, entity.name]).join(',')
-  //       videoLink = entitiesMatrix[keyPair].matching_caps[0].link
-  //       if (!(selected==idx && playing)) {
-  //         currVid.src = videoLink
-  //         currVid.play()
-  //         playing = true
-  //       }
-  //       //return;
-  //     }
-  //   })
-  //   entities[selected].isSelected = true
-  //   return 
-  //   }
-  // }
+  currVid.click();
 }
 
 
@@ -240,16 +207,11 @@ function windowResized() {
 }
 
 String.prototype.capitalizeFirstLetter = function() {
-  //return this.charAt(0).toUpperCase() + this.slice(1);
-  return this.toUpperCase()
-}
-
-function keyPressed() {
-  if (keyCode === ENTER) {
-    toggleVideosMode()
+  if (this.length>4) {
+    return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
   }
-  else if (keyCode == 32) {
-    toggleVid()
+  else {
+    return this.toUpperCase()
   }
 }
 

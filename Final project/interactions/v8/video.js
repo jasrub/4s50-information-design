@@ -3,25 +3,37 @@ var playing = false;
 var videoLink = "";
 
 function Video() {
-  this.vid = createVideo("assets/blank-video.mp4")
+  
+  //this.vid = createVideo("assets/blank-video.mp4")
   this.w = grid.colwidth() 
   this.h = this.w*9/16
-  this.x = grid.margin.left
+  this.x = width-grid.margin.right-grid.colwidth()
   this.y = grid.margin.top+grid.rowheight()*4
-  //this.vid = createVideo("")
+  this.vid = createVideo("")
   this.vid.size(this.w, this.h)
   this.vid.position(this.x, this.y)
-  //this.vid.mousePressed(this.toggleVid)
+  this.vid.attribute("poster", "loading_spinner.gif")
+  //this.vid.mousePressed(this.toggleVid())
+  this.shown = false;
   
   this.toggleVid = function() {
   if (playing) {
-    currVid.pause();
-    //currVid.hide()
+    this.vid.pause();
   } else {
-    //currVid.show()
-    currVid.play();
+    this.vid.play();
   }
   playing = !playing;
+  }
+  
+  this.click = function() {
+    if (this.containsCursor()) {
+      this.toggleVid()
+    }
+  }
+  
+  this.containsCursor = function() {
+    return (mouseX > this.x && mouseX < this.x + this.w) &&
+          (mouseY > this.y && mouseY < this.y + this.h);
   }
   
   this.setLink = function(link){
@@ -30,6 +42,28 @@ function Video() {
   
   this.play = function(){
     this.vid.play()
+    playing = true;
+  }
+  
+  this.display = function() {
+    if (this.shown) {
+      this.drawRect();
+      this.vid.show();
+    }
+    else {
+      this.vid.hide();
+    }
+  }
+  
+  this.show = function() {
+    this.vid.play();
+    this.shown = true
+  }
+  
+  this.hide = function() {
+    this.vid.stop();
+    this.vid.hide();
+    this.shown = false;
   }
   
   this.drawRect = function(){
