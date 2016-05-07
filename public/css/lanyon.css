@@ -581,3 +581,25 @@ padding:10px;
   border-width: 1px;
   border-color: black;
 }
+
+.weather-image {
+  vertical-align: top;
+  display:inline;
+  width:46%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+@ media screen, print{
+.break{
+    display: block;
+    clear: both;
+    page-break-after: always;
+}
+}
+
