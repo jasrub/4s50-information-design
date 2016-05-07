@@ -3,8 +3,17 @@ layout: default
 title: Home
 ---
 
+
+<h1> Jasmin Rubinovitz </h1>
+
+<h2> MIT 4.s50 - Information design </h2>
+<h5> Spring 2016 </h5>
+<br/>
+<h6> MAS graduate student, 1st year </h6>
+
+
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts reversed%}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
@@ -12,7 +21,7 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <!-- <span class="post-date">{{ post.date | date_to_string }}</span> -->
 
     {{ post.content }}
   </div>

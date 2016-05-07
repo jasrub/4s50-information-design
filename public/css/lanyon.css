@@ -561,3 +561,23 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
+.contain {
+max-width:100%;
+text-align:center;
+}
+
+.category {
+position:relative;
+display: inline-block;
+float:left;
+padding:10px;
+}
+
+.clock-image {
+  display:inline-block;
+  width:30%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
