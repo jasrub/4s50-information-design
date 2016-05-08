@@ -17,6 +17,7 @@ title: Home
 <div class="posts">
   {% for post in site.posts reversed%}
   <div class="post">
+    <a name="{{ post.id }}"></a>
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}

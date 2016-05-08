@@ -579,7 +579,7 @@ padding:10px;
   width:30%;
   border-style: solid;
   border-width: 1px;
-  border-color: black;
+  border-color: #bec0c1;
 }
 
 .weather-image {
@@ -588,18 +588,23 @@ padding:10px;
   width:46%;
   border-style: solid;
   border-width: 1px;
-  border-color: black;
+  border-color: #bec0c1;
+}
+
+.contents-image {
+  vertical-align: middle;
+  display:inline;
+  width:25%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bec0c1;
 }
 
 .center {
     text-align: center;
 }
 
-@ media screen, print{
-.break{
-    display: block;
-    clear: both;
-    page-break-after: always;
-}
+@media print {
+     .break {page-break-after: always;}
 }
 
