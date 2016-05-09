@@ -87,6 +87,8 @@ function draw() {
   cluster.showConnections();
   currVid.display();
   cluster.display();
+  
+  //grid.display();
 }
 
 function drawTitle() {
@@ -96,7 +98,7 @@ function drawTitle() {
   noFill()
   stroke(255)
   strokeWeight(3)
-  rect (currVid.x-3, currVid.y-3, currVid.w+6, currVid.h+6)
+  rect (currVid.x, currVid.y, currVid.w, currVid.h)
   noStroke()
   fill(bgColor)
   rect (currVid.x-5, currVid.y+10, currVid.w+15, currVid.h-20)
@@ -123,8 +125,8 @@ function drawExplenations() {
   push()
     fill(255)
     noStroke()
-    textAlign(LEFT)
-    textSize(grid.rowheight()/4)
+    textAlign(LEFT, TOP)
+    textSize (min(grid.rowheight()/4, 16))
     textFont (robotoFont)
     // string = "This visualization allows you to get a glance at the news right now.\n"+
     // "Each circle represent an entity mentioned in the latest news videos.\n"+

@@ -612,6 +612,6 @@ padding:10px;
 
 @media print {
      .break {page-break-after: always;}
-     .masthead {display:none;}
+     .masthead-title {display:none;}
 }
 

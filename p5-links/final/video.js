@@ -5,13 +5,14 @@ var videoLink = "";
 function Video() {
   
   //this.vid = createVideo("assets/blank-video.mp4")
-  this.w = grid.colwidth() 
+  this.margins = 2
+  this.w = grid.colwidth()
   this.h = this.w*9/16
   this.x = width-grid.margin.right-grid.colwidth()
   this.y = grid.margin.top+grid.rowheight()*4
   this.vid = createVideo("")
-  this.vid.size(this.w, this.h)
-  this.vid.position(this.x, this.y)
+  this.vid.size(this.w-this.margins*2, this.h-this.margins*2)
+  this.vid.position(this.x+this.margins, this.y+this.margins)
   this.vid.attribute("poster", "loading_spinner.gif")
   //this.vid.mousePressed(this.toggleVid())
   this.shown = false;
@@ -71,7 +72,8 @@ function Video() {
     rectMode(CORNER)
     fill(0)
     noStroke()
-    rect(this.x, this.y, this.w, this.h)
+    rect(this.x+this.margins, this.y+this.margins, 
+    this.w-this.margins*2, this.h-this.margins*2)
     pop()
   }
 
