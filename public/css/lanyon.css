@@ -612,11 +612,11 @@ padding:10px;
 
 @media print {
      .break {page-break-after: always;}
-     .masthead-title {display:none;}
-     .container {
+     /*.masthead-title {display:none;}*/
+/*     .container {
       max-width:100%;
-        margin: 25mm 20mm 20mm 20mm;
-      }
+        margin: 3mm 20mm 20mm 20mm;
+      }*/
       img {
         max-height: 80mm;
       }

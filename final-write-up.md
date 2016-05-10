@@ -4,15 +4,15 @@ title: Final Project Reflection
 ---
 
 My starting point for the final project was the data.  
-I had this great data source called [Superglue](http://www.pubpub.org/pub/super-glue), which is data scrapped from news videos and their closed captions, recorded every day from 14 different channels.
+I had this great data source called [Superglue](http://www.pubpub.org/pub/super-glue), which is data scraped from news videos and their closed captions, recorded every day from 14 different channels.
 
 I had different ideas about what would be interesting to do with this data, to name a few:
 
- - revealing the stories behind all this metedata - Who is interesting right now? What are they saying about him/her? What are the most used words or colors? 
+ - Revealing the stories behind all this metedata - Who is interesting right now? What are they saying about him/her? What are the most used words or colors? 
 
  - Looking for different signals for things that happened in the past and are related to boiling stories (for example the story about Apple and the FBI that got a lot of headlines in march 2016 but actually started in June 2015 when big group of tech companies wrote a letter to president Obama)
 
- - finding a way to navigate between this enormous archive of videos, without using a search box. Showing how things relate to each other, what is similar, what is the same story.
+ - Finding a way to navigate between this enormous archive of videos, without using a search box. Showing how things relate to each other, what is similar, what is the same story.
 
 My final visualization shows, at a first glance, what are currently the most mentioned topics in the news.  
 Diving in, it also tells the story, what topics are related and why they are related.
