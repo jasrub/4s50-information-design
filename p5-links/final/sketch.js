@@ -38,7 +38,7 @@ function preload() {
   if (!loadLocal) {
     getSuperGlueData();
   } else {
-    loadJSON('data/data_with_types_2_days.json', superGlueloadCallback)
+    loadJSON('data/data-05-09-2-days.json', superGlueloadCallback)
   }
   
   robotoFont = loadFont('assets/Roboto-Regular.ttf');
@@ -128,21 +128,10 @@ function drawExplenations() {
     textAlign(LEFT, TOP)
     textSize (min(grid.rowheight()/4, 16))
     textFont (robotoFont)
-    // string = "This visualization allows you to get a glance at the news right now.\n"+
-    // "Each circle represent an entity mentioned in the latest news videos.\n"+
-    // "The size of the the circle correspondes to the number of mentions.\n"+
-    // "The color corrspondes to the type of entity (person / company / country, etc.)\n"+
-    // "A connection between two circles appears in the two entities were mentioned in the same sentence.\n"+
-    string = "Click on the different cicles to explore their\n"+
-    "connections and watch the different videos.\n"+
+    string = "Click on the different circles to explore their\n"+
+    "connections and watch the corrosponding video.\n"+
     "A second click on the selected circle will take you back to the main screen."
     
-    
-    //and navigate 
-    //"These are top moset mentioned entities in the news today.\n"+
-    // "Hover on the circles to highlight the connections\n"+
-    // "Click on a circle to show only the entities that relate to it.\n"
-    // "Click on a related entity to see the relevant video bit"
     text(string, grid.margin.left, grid.margin.top)
   pop()
 }
